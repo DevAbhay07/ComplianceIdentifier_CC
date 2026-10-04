@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_05",
+  "title": "Vim Dishwash Gel Lemon 750ml Bottle",
+  "category": "Household & Cleaning",
+  "brand": "Vim",
+  "retail_price": 180.0,
+  "discounted_price": 155.0,
+  "description": "Vim Lemon Dishwash Gel with the power of 100 lemons cleans tough grease effortlessly.",
+  "specifications": {
+    "Type": "Liquid Gel",
+    "Quantity": "750 ml",
+    "Fragrance": "Lemon"
+  },
+  "image_path": "real_product_validation/images/real_prod_05.png"
+}

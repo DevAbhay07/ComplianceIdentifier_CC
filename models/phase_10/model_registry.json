@@ -1,0 +1,49 @@
+{
+  "selected_direct_model": "RandomForest_SetB",
+  "model_family": "RandomForest",
+  "feature_set": "FEATURE_SET_B",
+  "validation_macro_f1": 0.9353991596638656,
+  "validation_accuracy": 0.991869918699187,
+  "class_mapping": {
+    "NON_COMPLIANT": 0,
+    "UNCERTAIN": 1
+  },
+  "experiments": {
+    "MajorityBaseline": {
+      "model_name": "MajorityBaseline",
+      "feature_set": "NONE",
+      "val_acc": 0.9634146341463414,
+      "val_macro_f1": 0.4906832298136646
+    },
+    "LogisticRegression_SetA": {
+      "model_name": "LogisticRegression",
+      "feature_set": "FEATURE_SET_A",
+      "val_acc": 0.8943089430894309,
+      "val_macro_f1": 0.6103801169590644
+    },
+    "LogisticRegression_SetB": {
+      "model_name": "LogisticRegression",
+      "feature_set": "FEATURE_SET_B",
+      "val_acc": 0.9634146341463414,
+      "val_macro_f1": 0.7947529433577454
+    },
+    "RandomForest_SetA": {
+      "model_name": "RandomForest",
+      "feature_set": "FEATURE_SET_A",
+      "val_acc": 0.9796747967479674,
+      "val_macro_f1": 0.8280922431865828
+    },
+    "RandomForest_SetB": {
+      "model_name": "RandomForest",
+      "feature_set": "FEATURE_SET_B",
+      "val_acc": 0.991869918699187,
+      "val_macro_f1": 0.9353991596638656
+    },
+    "XGBoost_SetA": {
+      "model_name": "XGBoost",
+      "feature_set": "FEATURE_SET_A",
+      "val_acc": 0.975609756097561,
+      "val_macro_f1": 0.74375
+    }
+  }
+}

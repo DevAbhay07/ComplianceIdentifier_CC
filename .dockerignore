@@ -1,0 +1,56 @@
+# .dockerignore
+# ──────────────────────────────────────────────────────────────────────────────
+# Exclude everything by default, then whitelist what Docker actually needs.
+# This keeps the build context small and avoids accidentally including
+# secrets, test data, or local virtualenvs.
+# ──────────────────────────────────────────────────────────────────────────────
+
+# ── Exclude everything ────────────────────────────────────────────────────────
+**
+
+# ── Whitelist: Python source ──────────────────────────────────────────────────
+!api/
+!api/**
+!src/
+!src/**
+
+# ── Whitelist: ML model artifact (only the best model, not all experiments) ───
+!models/
+!models/product_compliance/
+!models/product_compliance/best_product_compliance_model.joblib
+
+# ── Whitelist: Dependency manifest ───────────────────────────────────────────
+!requirements.txt
+
+# ── Re-exclude Python caches even within whitelisted dirs ────────────────────
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/*.egg-info/
+
+# ── Never include secrets ─────────────────────────────────────────────────────
+.env
+*.env
+*.pem
+*.key
+secrets/
+credentials/
+
+# ── Never include venv ────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Never include tests, notebooks, or raw data ──────────────────────────────
+tests/
+notebooks/
+data/
+experiments/
+reports/
+annotations/
+docs/
+scripts/
+app/
+real_product_validation/

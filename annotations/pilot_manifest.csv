@@ -1,0 +1,76 @@
+product_id,product_name,top_category,brand,retail_price,has_brand,spec_key_count,spec_rich,desc_length,pilot_index,annotation_status
+a11773bc4188f1c6226b941ec61c2024,Sivanna Baking Powder Rouge  Highlighter,Beauty and Personal Care,Sivanna,700.0,True,7,True,299,1,NOT_STARTED
+1835f47e943ce06311b96ce068dade0f,Khadi Herbal Trifala Hair Oil,Beauty and Personal Care,Khadi Herbal,300.0,True,12,True,502,2,NOT_STARTED
+031906a2ae750996deee2fd3bd070f16,Lip Rageous Blue Raspberry LipBalm 4.25g Blue Raspberry,Beauty and Personal Care,Lip Rageous,1140.0,True,5,True,221,3,NOT_STARTED
+4942e0a9c0527dc00319a39fc8f103e6,Giorgio Armani SMOOTH SILK LIP PENCIL 12,Beauty and Personal Care,Giorgio Armani,1800.0,True,5,True,327,4,NOT_STARTED
+0abe931bedd044ac2b60b6eff6425234,"Jovan Live It Combo's In Men's Deo The Musk Body Spray  -  For Boys, Men",Beauty and Personal Care,Jovan,680.0,True,5,True,437,5,NOT_STARTED
+e5d41d5a421fc663e810284a834b465d,"Adidas Lavish Life Combo's In Ice Dive EDT & Team Force Deo Body Spray  -  For Boys, Men",Beauty and Personal Care,Adidas,898.0,True,5,True,971,6,NOT_STARTED
+456ec612b30d4b091639843cdb66bf54,SSCP Pine Oil,Beauty and Personal Care,SSCP,349.0,True,10,True,1173,7,NOT_STARTED
+4e858b8df41d7e393dc413c7fcb690e6,Allin Exporters Vetiver Oil,Beauty and Personal Care,Allin Exporters,672.0,True,9,True,985,8,NOT_STARTED
+660e91db93e04b564565942f32a22244,Proganix Agave Nectar Plus Silica Curling Cream Plus Defrizzant Hair Styler,Beauty and Personal Care,Proganix,1550.0,True,1,False,124,9,NOT_STARTED
+aa98d4c65c5db0dca56fe42628762115,Aroma Care Intense Color Nail Polish Combo 175007 49.5 ml,Beauty and Personal Care,Aroma Care,600.0,True,3,False,893,10,NOT_STARTED
+86464d19b9e382c862811e5b35d5c55e,My DT Lifestyle STONE STUDD PARTYWEAR METAL CLUTCHER Hair Claw,Beauty and Personal Care,My DT Lifestyle,449.0,True,2,False,251,11,NOT_STARTED
+a61a2d3856de6ddbc96390a424fbb613,Kartique Hand Made Box in smooth Finish with Glass Lid Jewellery Box Vanity Jewellery,Beauty and Personal Care,Kartique,360.0,True,2,False,547,12,NOT_STARTED
+63319fdd48db082037bcbc0c2979c02e,LOTTIE LONDON ALL EYES ON YOU,Beauty and Personal Care,LOTTIE LONDON,550.0,True,3,False,416,13,NOT_STARTED
+b48218a94e220c20373ed50dc4254093,"LAWMAN PG3 Striker,, Winger , Contender Deodorant Spray  -  For Men",Beauty and Personal Care,LAWMAN PG3,597.0,True,3,False,454,14,NOT_STARTED
+ceb6a1b692cc0561fe791b33d74d52ea,Femme Couture Get Luminous Highlighting Face & Body Luminizer Pink Sparkle,Beauty and Personal Care,Femme Couture,2142.0,True,0,False,227,15,NOT_STARTED
+ed7c93d5a30b7191821cb9e8959091ac,"Merchbay Colorful Doodles Accessory Box | Artist : Pratyusha Subramaniam Jewellery, Make up, etc. Vanity Accessory Box",Beauty and Personal Care,,1599.0,False,7,True,1355,16,NOT_STARTED
+f2c5db8708d81561c3e0ed511fbf9bc9,Oxyglow Golden Glow Pearl Protein Shampoo & Fruit Massage Cream With Vitamin-E 200gm,Beauty and Personal Care,,600.0,False,6,True,299,17,NOT_STARTED
+99cf3ef15b984b7dd13943acb450117b,Mxofere Combo Sandal Turmeric Soap And Aloevera Lemon Facewash Kit,Beauty and Personal Care,,285.0,False,6,True,263,18,NOT_STARTED
+d410e8c218cf2892c8bf8fc222c5d597,Aveeno Baby Continuous Protection Lotion Sunscreen With Broad Spectrum - SPF 55 PA+,Beauty and Personal Care,,1099.0,False,10,True,236,19,NOT_STARTED
+95064299d29427bc593d471abf99744f,Mxofere Combo Rose Papaya Lemongrass Sandal Turmeric Jasmine Soap Kit,Beauty and Personal Care,,285.0,False,6,True,269,20,NOT_STARTED
+6d8e0cbf001b65ae6dcfbaa0a9460089,Engage Frost and Rush Combo Set,Beauty and Personal Care,,360.0,False,5,True,178,21,NOT_STARTED
+abb8f1593b7de6911d53e1c1488e05d4,Oxyglow Golden Glow Radiance Pearl Facial Kit & Fruit Massage Cream With Vitamin-E 200gm,Beauty and Personal Care,,1560.0,False,6,True,307,22,NOT_STARTED
+522c84a79fe5ff7fc0903cda2d6038e9,Yardley Equity and Original Combo Set,Beauty and Personal Care,,360.0,False,4,False,184,23,NOT_STARTED
+2f1dc051b009af444dfb1883bbbeda4f,Wild Stone Red And Hydra Energy Combo Set,Beauty and Personal Care,,375.0,False,4,False,188,24,NOT_STARTED
+f2fa99bfaa4aa65a2bd53337e140f949,Archies VJ-580 Combo Set,Beauty and Personal Care,,418.0,False,3,False,171,25,NOT_STARTED
+150f0154de8f25165c9b25db63f9ed11,"Denver Brave,Cool Combo Set",Beauty and Personal Care,,360.0,False,3,False,174,26,NOT_STARTED
+2484516ef4507dae38395aacba6f73e4,Angelfish Designer Jewellery & Bangle Box Vanity Case,Beauty and Personal Care,,3500.0,False,1,False,237,27,NOT_STARTED
+df11d370920e09a2985e574ffd9b0ff1,"Addiction Rio,Hawaii Combo Set",Beauty and Personal Care,,400.0,False,3,False,177,28,NOT_STARTED
+a898bd6978f9f2c6aa940b9fa3352c27,Archies VJ-552 Combo Set,Beauty and Personal Care,,418.0,False,3,False,171,29,NOT_STARTED
+679754023a73f7e8b1d5b42daf456e8a,Wingold Kadhai 3.75 L,Kitchen & Dining,Wingold,1510.0,True,11,True,174,30,NOT_STARTED
+ac11261834046e0c8d5e9dc953f281fb,StyleStuffs AMEYMUG200 Ceramic Mug,Kitchen & Dining,StyleStuffs,599.0,True,9,True,834,31,NOT_STARTED
+8ac3d7168080ad1c2a3fca6f7af2aa3a,SUNSHINE Sweety 4 Liter Plastic Dustbin,Kitchen & Dining,SUNSHINE,599.0,True,12,True,1327,32,NOT_STARTED
+86e3c9cf9a2c3917d88f6fccc40e5496,Mad(e) in India TAHGSG000023,Kitchen & Dining,Mad(e) in India,450.0,True,18,True,876,33,NOT_STARTED
+015d31ad501bf22af9526da45b2a30fe,BrandTrendz Wheel Pizza Cutter,Kitchen & Dining,BrandTrendz,999.0,True,10,True,191,34,NOT_STARTED
+8946a0e59993846b3d2b3439a6f8ffa9,Instapower 5 W LED Bulb,Kitchen & Dining,Instapower,1400.0,True,13,True,177,35,NOT_STARTED
+b5c9f8f189975feb22bbde982834565d,Frazzer 12 W LED Bulb,Kitchen & Dining,Frazzer,1550.0,True,16,True,173,36,NOT_STARTED
+9605afb4ccd2e28a685f35a93db13a59,Value Bay VBCMF05 Ceramic Mug,Kitchen & Dining,Value Bay,699.0,True,3,False,176,37,NOT_STARTED
+c1816b1812ae5f393f1c75a288f4112b,nayasa whip 1200 ml Bottle,Kitchen & Dining,nayasa,499.0,True,2,False,190,38,NOT_STARTED
+afc3ebd18df498dd87abb7ad7536b5c7,Garnet Traveller 1500 ml Bottle,Kitchen & Dining,Garnet,600.0,True,4,False,332,39,NOT_STARTED
+9ed8c3eeef76ac201ddebab9dbb5c04b,Aagam TM-RTTX4 Stainless Steel Mug,Kitchen & Dining,Aagam,699.0,True,4,False,226,40,NOT_STARTED
+3633dbc85fa1b8299dffd1d50e4b349a,Avenue AO-B83 150 ml Sipper,Kitchen & Dining,Avenue,1999.0,True,2,False,146,41,NOT_STARTED
+735820e1614052fde55659da9dc10ccc,arnavs Multi1 Bottle Opener Set,Kitchen & Dining,arnavs,500.0,True,4,False,225,42,NOT_STARTED
+545f9cd3365242c112089acb0b3a3b46,Blue Birds Usa Homeware Stainless Steel 1000 ml Bottle,Kitchen & Dining,Blue Birds Usa Homeware,1500.0,True,4,False,481,43,NOT_STARTED
+851013249efdea567111adb7c2da8030,Printland PMR1338 Ceramic Mug,Kitchen & Dining,,650.0,False,7,True,815,44,NOT_STARTED
+645e2ad7ae592af95b59140d72577a0a,Prithish Cartoon Design Double Color Ceramic Mug,Kitchen & Dining,,599.0,False,9,True,1459,45,NOT_STARTED
+1e740fc82cdf4a24d9de2f5b48591b22,Prithish Magis is Believing in Yourself Double Color Ceramic Mug,Kitchen & Dining,,599.0,False,9,True,259,46,NOT_STARTED
+1eb6de7bada34a415da97acba0309044,Prithish Drink In Moderation Ceramic Mug,Kitchen & Dining,,699.0,False,9,True,1451,47,NOT_STARTED
+3abb24db9bcc19031aee68ddd91497a1,Printland PMR1893 Ceramic Mug,Kitchen & Dining,,650.0,False,7,True,189,48,NOT_STARTED
+0e2994b62be9baf63a08135ec39967ab,Prithish Be Calm.Stay Chill. Good Vibes. Ceramic Mug,Kitchen & Dining,,499.0,False,9,True,1463,49,NOT_STARTED
+ffbf3794aa8cb6bb8d3f313d0a549a09,Returnfavors Cartoon shaped Coffee For Kids Ceramic Mug,Kitchen & Dining,,400.0,False,3,False,241,50,NOT_STARTED
+6446a0b5a862aa6fdc1058f1c585abcb,Milton School 1000 ml Water Bottle,Kitchen & Dining,,277.0,False,3,False,174,51,NOT_STARTED
+7cb1ea7b2257aeeeba701a8f6e3e0127,Milton Opaque Series 630 ml Water Bottle,Kitchen & Dining,,158.0,False,4,False,180,52,NOT_STARTED
+5c9bc04c97677c82d5c8f09fda77f175,Returnfavors Personalized Friends Forever sCosffee s Ceramic Mug,Kitchen & Dining,,350.0,False,3,False,259,53,NOT_STARTED
+3b0f02b3acf1825f8bbc1fb3b860dbb8,Milton School 750 ml Water Bottle,Kitchen & Dining,,184.0,False,3,False,173,54,NOT_STARTED
+5dbf978ab2cf9d2da6446d3e4595f690,Printland PMR1834 Ceramic Mug,Kitchen & Dining,,650.0,False,7,True,816,55,NOT_STARTED
+93643c9c4a543c209f3ace11e940a18d,Wallmantra Large Vinyl Stickers Sticker,Baby Care,Wallmantra,3299.0,True,14,True,210,56,NOT_STARTED
+9e822ea8a87e28225d5f814c11acdbbe,Wallmantra Extra Large Vinyl Stickers Sticker,Baby Care,Wallmantra,2058.0,True,15,True,222,57,NOT_STARTED
+e3ae62ed831fd8b4c20e1742c30d35b5,Wow! Baby Girl's Gathered Red Dress,Baby Care,Wow!,749.0,True,8,True,621,58,NOT_STARTED
+aa48cf6641bd07f96a17faa18379a351,Elite Collection Medium Acrylic Sticker,Baby Care,Elite Collection,999.0,True,12,True,209,59,NOT_STARTED
+95feec21a9d076cff084159d61bf9b8e,"Upside Down Sleeveless Applique Baby Girl's, Baby Boy's Jacket",Baby Care,Upside Down,2500.0,True,10,True,462,60,NOT_STARTED
+11f06dffebf7edf9e15351834a190c2c,SJ Tulip multi use cotton Balls,Baby Care,SJ,299.0,True,2,False,152,61,NOT_STARTED
+770b65aaef9e3180c9a27489acb97f59,Nature Gold Glue Board,Baby Care,Nature Gold,500.0,True,2,False,119,62,NOT_STARTED
+8f41c6931b5220c2bb34d1cab21cb220,kawal fashion Pyjama Baby Girl's  Combo,Baby Care,kawal fashion,1900.0,True,3,False,177,63,NOT_STARTED
+a8ea6fc2b3cd95f46bced80853ce8e0e,cherry crumble california Baby Boy's Dungaree,Baby Care,cherry crumble california,2499.0,True,4,False,278,64,NOT_STARTED
+6325bf868b9040a0599f257aba42e9e0,Doraemon Gift Family Ceramic Coffee Mug Multicolour Mug - 325 ml,Baby Care,Doraemon Gift Family Ceramic Coffee Mug,399.0,True,4,False,176,65,NOT_STARTED
+51b6809d527ea36798bddc2bb8557bc2,Munchkin Mighty Grip Trainer Cup,Baby Care,,449.0,False,5,True,195,66,NOT_STARTED
+fd10586bf7f01bc57e0c5364d4b2c3f7,Cocovey Metal Photo Frame,Baby Care,,749.0,False,14,True,1290,67,NOT_STARTED
+5c572e1ca891dc7cfe6dd5f59be770c8,My Little Joy Casual Short Sleeve Printed Baby Girl's Top,Baby Care,,599.0,False,8,True,246,68,NOT_STARTED
+22185e59a3e5e3c240fc9a9123f4e183,MH MDF Photo Frame,Baby Care,,999.0,False,19,True,170,69,NOT_STARTED
+5eec66ec172ce096cd4e5c947686b56a,RTD Baby Girl's Kurta and Pyjama Set,Baby Care,,1183.0,False,5,True,203,70,NOT_STARTED
+32cf0691248297655e2c1728b12e2262,Poppins Printed Baby Boy's Jumpsuit,Baby Care,,1099.0,False,4,False,671,71,NOT_STARTED
+be09f5a3a88ac10ae14c791fc8ac0dae,"Anthill Baby Boy's, Baby Girl's Bodysuit",Baby Care,,405.0,False,4,False,210,72,NOT_STARTED
+04c6e93b30f762e85905c26aba4589d8,Babeezworld Baby Boy's Romper,Baby Care,Babeezworld,999.0,True,7,True,828,73,NOT_STARTED
+c2efa8aa11898bdb5fc4e46201973a42,Baby Moshai Baby Girl's A-line Dress,Baby Care,Baby Moshai,2100.0,True,10,True,1071,74,NOT_STARTED
+4a5c06a0242ed4608acb8ce51587abeb,Babeezworld Baby Boy's Romper,Baby Care,Babeezworld,999.0,True,7,True,830,75,NOT_STARTED

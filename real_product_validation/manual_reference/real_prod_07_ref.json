@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_07",
+  "title": "Pampers All Round Protection Baby Diapers (Large, 64 Count)",
+  "category": "Baby Care",
+  "brand": "Pampers",
+  "observable_packaging_text": "Pampers All round Protection Pants\nSize: Large (9-14 kg)\nNet Quantity: 64 N (64 pieces)\nMkt by: Procter & Gamble Hygiene and Health Care Limited, P&G Plaza, Cardinal Gracias Road, Chakala, Andheri (E), Mumbai 400099\nMRP: Rs. 1099.00 (Rs. 17.17/unit) incl of all taxes\nPkd Date: 01/2026\nCall: 1800-202-1364 or pgconsumer@custhelp.com\nMade in India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Procter & Gamble, Andheri (E), Mumbai 400099",
+      "note": "Marketer corporate address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Protection Pants (Diapers)",
+      "note": "Generic product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "64 N (64 pieces)",
+      "note": "Unit count net quantity."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Pkd Date: 01/2026",
+      "note": "Packing date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 1099.00 (Rs. 17.17/unit)",
+      "note": "MRP and unit sale price."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-202-1364, pgconsumer@custhelp.com",
+      "note": "Consumer care channels."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in India",
+      "note": "Origin India."
+    }
+  }
+}

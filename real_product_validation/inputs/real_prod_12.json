@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_12",
+  "title": "Crafted Wooden Coaster Set of 6",
+  "category": "Household & Cleaning",
+  "brand": "ArtisanWood",
+  "retail_price": 299.0,
+  "discounted_price": 249.0,
+  "description": "Handcrafted mango wood tea and coffee coasters with stand.",
+  "specifications": {
+    "Pieces": "6",
+    "Wood": "Mango Wood"
+  },
+  "image_path": "real_product_validation/images/real_prod_12.png"
+}

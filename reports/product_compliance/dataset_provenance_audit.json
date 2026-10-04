@@ -1,0 +1,414 @@
+{
+  "timestamp": "2026-09-05T20:30:00Z",
+  "common_representation": {
+    "total_records": 1912,
+    "sources": {
+      "flipkart": 1663,
+      "yolo_physical_packaging": 249
+    },
+    "targets": {
+      "NON_COMPLIANT": 1906,
+      "COMPLIANT": 6
+    },
+    "provenances": {
+      "WEAKLY_DERIVED_SILVER": 1912
+    },
+    "source_target_matrix": {
+      "flipkart::NON_COMPLIANT": 1663,
+      "yolo_physical_packaging::NON_COMPLIANT": 243,
+      "yolo_physical_packaging::COMPLIANT": 6
+    },
+    "source_provenance_matrix": {
+      "flipkart::WEAKLY_DERIVED_SILVER": 1663,
+      "yolo_physical_packaging::WEAKLY_DERIVED_SILVER": 249
+    }
+  },
+  "yolo_raw_dataset": {
+    "total_images": 249,
+    "total_labels": 249
+  },
+  "yolo_compliant_audit": [
+    {
+      "index": 1,
+      "product_id": "YOLO_TRAIN_IMG-20250928-WA0",
+      "category": "Physical Packaging",
+      "brand": "IMG-20250928-WA0045_jpg",
+      "target_provenance": "WEAKLY_DERIVED_SILVER",
+      "overall_target": "COMPLIANT",
+      "packaging_features": {
+        "yolo_region_count": 6,
+        "yolo_detected_classes": [
+          "address",
+          "details",
+          "weight",
+          "mrp details",
+          "barcode",
+          "consumer"
+        ],
+        "yolo_class_counts": {
+          "address": 1,
+          "barcode": 1,
+          "brand": 0,
+          "consumer": 1,
+          "details": 1,
+          "mrp details": 1,
+          "origin": 0,
+          "tax": 0,
+          "weight": 1
+        },
+        "yolo_total_bbox_area": 0.0987,
+        "has_physical_image": true,
+        "image_path": "/home/devabhay07/Desktop/MLmodelV2/data/external/yolo_candidate_dataset/train/images/IMG-20250928-WA0045_jpg.rf.2893646906d3dac581dc552e39c1f543.jpg"
+      },
+      "declarations": {
+        "D01": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D02": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D03": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D04": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D05": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D06": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D07": {
+          "status": "ABSENT",
+          "confidence": null
+        }
+      }
+    },
+    {
+      "index": 2,
+      "product_id": "YOLO_TRAIN_IMG-20250928-WA0",
+      "category": "Physical Packaging",
+      "brand": "IMG-20250928-WA0045_jpg",
+      "target_provenance": "WEAKLY_DERIVED_SILVER",
+      "overall_target": "COMPLIANT",
+      "packaging_features": {
+        "yolo_region_count": 6,
+        "yolo_detected_classes": [
+          "address",
+          "details",
+          "weight",
+          "mrp details",
+          "barcode",
+          "consumer"
+        ],
+        "yolo_class_counts": {
+          "address": 1,
+          "barcode": 1,
+          "brand": 0,
+          "consumer": 1,
+          "details": 1,
+          "mrp details": 1,
+          "origin": 0,
+          "tax": 0,
+          "weight": 1
+        },
+        "yolo_total_bbox_area": 0.1903,
+        "has_physical_image": true,
+        "image_path": "/home/devabhay07/Desktop/MLmodelV2/data/external/yolo_candidate_dataset/train/images/IMG-20250928-WA0045_jpg.rf.73462d474c6c6f691182216b60760676.jpg"
+      },
+      "declarations": {
+        "D01": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D02": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D03": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D04": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D05": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D06": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D07": {
+          "status": "ABSENT",
+          "confidence": null
+        }
+      }
+    },
+    {
+      "index": 3,
+      "product_id": "YOLO_TRAIN_IMG-20250928-WA0",
+      "category": "Physical Packaging",
+      "brand": "IMG-20250928-WA0045_jpg",
+      "target_provenance": "WEAKLY_DERIVED_SILVER",
+      "overall_target": "COMPLIANT",
+      "packaging_features": {
+        "yolo_region_count": 6,
+        "yolo_detected_classes": [
+          "address",
+          "details",
+          "weight",
+          "mrp details",
+          "barcode",
+          "consumer"
+        ],
+        "yolo_class_counts": {
+          "address": 1,
+          "barcode": 1,
+          "brand": 0,
+          "consumer": 1,
+          "details": 1,
+          "mrp details": 1,
+          "origin": 0,
+          "tax": 0,
+          "weight": 1
+        },
+        "yolo_total_bbox_area": 0.1894,
+        "has_physical_image": true,
+        "image_path": "/home/devabhay07/Desktop/MLmodelV2/data/external/yolo_candidate_dataset/train/images/IMG-20250928-WA0045_jpg.rf.94a4170f633df1c15a705a90c8e47470.jpg"
+      },
+      "declarations": {
+        "D01": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D02": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D03": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D04": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D05": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D06": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D07": {
+          "status": "ABSENT",
+          "confidence": null
+        }
+      }
+    },
+    {
+      "index": 4,
+      "product_id": "YOLO_TRAIN_IMG-20250928-WA0",
+      "category": "Physical Packaging",
+      "brand": "IMG-20250928-WA0048_jpg",
+      "target_provenance": "WEAKLY_DERIVED_SILVER",
+      "overall_target": "COMPLIANT",
+      "packaging_features": {
+        "yolo_region_count": 6,
+        "yolo_detected_classes": [
+          "mrp details",
+          "address",
+          "origin",
+          "weight",
+          "barcode",
+          "consumer"
+        ],
+        "yolo_class_counts": {
+          "address": 1,
+          "barcode": 1,
+          "brand": 0,
+          "consumer": 1,
+          "details": 0,
+          "mrp details": 1,
+          "origin": 1,
+          "tax": 0,
+          "weight": 1
+        },
+        "yolo_total_bbox_area": 0.0865,
+        "has_physical_image": true,
+        "image_path": "/home/devabhay07/Desktop/MLmodelV2/data/external/yolo_candidate_dataset/train/images/IMG-20250928-WA0048_jpg.rf.757a9a5a3227dd7bc4c300c08314c745.jpg"
+      },
+      "declarations": {
+        "D01": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D02": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D03": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D04": {
+          "status": "ABSENT",
+          "confidence": null
+        },
+        "D05": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D06": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D07": {
+          "status": "PRESENT",
+          "confidence": null
+        }
+      }
+    },
+    {
+      "index": 5,
+      "product_id": "YOLO_TRAIN_IMG-20250928-WA0",
+      "category": "Physical Packaging",
+      "brand": "IMG-20250928-WA0048_jpg",
+      "target_provenance": "WEAKLY_DERIVED_SILVER",
+      "overall_target": "COMPLIANT",
+      "packaging_features": {
+        "yolo_region_count": 6,
+        "yolo_detected_classes": [
+          "mrp details",
+          "address",
+          "origin",
+          "weight",
+          "barcode",
+          "consumer"
+        ],
+        "yolo_class_counts": {
+          "address": 1,
+          "barcode": 1,
+          "brand": 0,
+          "consumer": 1,
+          "details": 0,
+          "mrp details": 1,
+          "origin": 1,
+          "tax": 0,
+          "weight": 1
+        },
+        "yolo_total_bbox_area": 0.2238,
+        "has_physical_image": true,
+        "image_path": "/home/devabhay07/Desktop/MLmodelV2/data/external/yolo_candidate_dataset/train/images/IMG-20250928-WA0048_jpg.rf.e745fb7d3b9e7cc2a197f0cc4c7af75d.jpg"
+      },
+      "declarations": {
+        "D01": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D02": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D03": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D04": {
+          "status": "ABSENT",
+          "confidence": null
+        },
+        "D05": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D06": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D07": {
+          "status": "PRESENT",
+          "confidence": null
+        }
+      }
+    },
+    {
+      "index": 6,
+      "product_id": "YOLO_TRAIN_IMG-20250928-WA0",
+      "category": "Physical Packaging",
+      "brand": "IMG-20250928-WA0048_jpg",
+      "target_provenance": "WEAKLY_DERIVED_SILVER",
+      "overall_target": "COMPLIANT",
+      "packaging_features": {
+        "yolo_region_count": 6,
+        "yolo_detected_classes": [
+          "mrp details",
+          "address",
+          "origin",
+          "weight",
+          "barcode",
+          "consumer"
+        ],
+        "yolo_class_counts": {
+          "address": 1,
+          "barcode": 1,
+          "brand": 0,
+          "consumer": 1,
+          "details": 0,
+          "mrp details": 1,
+          "origin": 1,
+          "tax": 0,
+          "weight": 1
+        },
+        "yolo_total_bbox_area": 0.1572,
+        "has_physical_image": true,
+        "image_path": "/home/devabhay07/Desktop/MLmodelV2/data/external/yolo_candidate_dataset/train/images/IMG-20250928-WA0048_jpg.rf.f5a37f651ca61340f4db6e7524b95553.jpg"
+      },
+      "declarations": {
+        "D01": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D02": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D03": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D04": {
+          "status": "ABSENT",
+          "confidence": null
+        },
+        "D05": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D06": {
+          "status": "PRESENT",
+          "confidence": null
+        },
+        "D07": {
+          "status": "PRESENT",
+          "confidence": null
+        }
+      }
+    }
+  ],
+  "benchmarks": {
+    "human_75_count": 75,
+    "real_packaging_20_count": 20
+  }
+}

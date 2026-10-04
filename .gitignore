@@ -1,0 +1,107 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# .gitignore — NitiMark Product Compliance ML API
+# IMPORTANT: Never commit secrets, API keys, or credentials!
+# ──────────────────────────────────────────────────────────────────────────────
+
+# ── Secrets and credentials (NEVER commit) ───────────────────────────────────
+.env
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+.secret
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+*.spec
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Pytest & coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.coveragerc
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── IDEs and editors ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# ── OS artifacts ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# (Docker build artifacts — not the compose file itself)
+
+# ── Data files (raw datasets should not be committed; use DVC or data storage) ─
+data/raw/
+data/interim/
+data/external/
+data/synthetic_packaging/
+# data/processed/ is intentionally not excluded because the repo references it
+# for training reproducibility. If it contains sensitive data, add it here.
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+data/interim/inference_logs/
+
+# ── Model artifacts (large binaries — tracked separately if needed) ───────────
+# The best_product_compliance_model.joblib IS committed because it is required
+# at runtime by the Docker container and is not a secret.
+# If you have a large model (>100 MB), consider Git LFS.
+# models/product_compliance/best_product_compliance_model.joblib  # keep this!
+
+# ── YOLOv8 model (large binary, downloadable separately) ─────────────────────
+yolov8n.pt
+
+# ── Temporary and misc ────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.backup
+tmp/
+temp/

@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_08",
+  "title": "Prestige Deluxe Alpha Stainless Steel Pressure Cooker 3L",
+  "category": "Kitchen & Dining",
+  "brand": "Prestige",
+  "retail_price": 2450.0,
+  "discounted_price": 1899.0,
+  "description": "Prestige Alpha base stainless steel outer lid pressure cooker induction and gas compatible 3 liters.",
+  "specifications": {
+    "Capacity": "3 L",
+    "Material": "Stainless Steel",
+    "Base": "Alpha Induction Base"
+  },
+  "image_path": "real_product_validation/images/real_prod_08.png"
+}

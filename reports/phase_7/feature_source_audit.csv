@@ -1,0 +1,655 @@
+field_name,source_dataset,data_type,description,missing_rate_pct,unique_count,example_values,feature_role,leakage_risk
+uniq_id,FLIPKART_RAW_CSV,str,Field 'uniq_id' from FLIPKART_RAW_CSV,0.0,500,c2d766ca982eca8304150849735ffef9; 7f7036a6d550aaa89d34c77bd39a5e48; f449ec65dcbc,IDENTIFIER,SPLIT_GROUPING_KEY
+crawl_timestamp,FLIPKART_RAW_CSV,str,Field 'crawl_timestamp' from FLIPKART_RAW_CSV,0.0,20,2016-03-25 22:59:23 +0000; 2016-03-31 15:22:07 +0000; 2016-01-03 20:56:50 +0000,METADATA,CAUTION
+product_url,FLIPKART_RAW_CSV,str,Field 'product_url' from FLIPKART_RAW_CSV,0.0,500,http://www.flipkart.com/alisha-solid-women-s-cycling-shorts/p/itmeh2ffvzetthbb?p,IDENTIFIER,SPLIT_GROUPING_KEY
+product_name,FLIPKART_RAW_CSV,str,Field 'product_name' from FLIPKART_RAW_CSV,0.0,385,Alisha Solid Women's Cycling Shorts; FabHomeDecor Fabric Double Sofa Bed; AW Bel,INDEPENDENT_INPUT,NONE
+product_category_tree,FLIPKART_RAW_CSV,str,Field 'product_category_tree' from FLIPKART_RAW_CSV,0.0,239,"[""Clothing >> Women's Clothing >> Lingerie, Sleep & Swimwear >> Shorts >> Alisha",METADATA,CAUTION
+pid,FLIPKART_RAW_CSV,str,Field 'pid' from FLIPKART_RAW_CSV,0.0,500,SRTEH2FF9KEDEFGF; SBEEH3QGU7MFYJFY; SHOEH4GRSUBJGZXE,IDENTIFIER,SPLIT_GROUPING_KEY
+retail_price,FLIPKART_RAW_CSV,float64,Field 'retail_price' from FLIPKART_RAW_CSV,0.6,200,999.0; 32157.0; 699.0,INDEPENDENT_INPUT,NONE
+discounted_price,FLIPKART_RAW_CSV,float64,Field 'discounted_price' from FLIPKART_RAW_CSV,0.6,250,379.0; 22646.0; 499.0,INDEPENDENT_INPUT,NONE
+image,FLIPKART_RAW_CSV,str,Field 'image' from FLIPKART_RAW_CSV,0.0,488,"[""http://img5a.flixcart.com/image/short/u/4/a/altht-3p-21-alisha-38-original-ima",METADATA,CAUTION
+is_FK_Advantage_product,FLIPKART_RAW_CSV,bool,Field 'is_FK_Advantage_product' from FLIPKART_RAW_CSV,0.0,2,False; True,METADATA,CAUTION
+description,FLIPKART_RAW_CSV,str,Field 'description' from FLIPKART_RAW_CSV,0.0,486,"Key Features of Alisha Solid Women's Cycling Shorts Cotton Lycra Navy, Red, Navy",INDEPENDENT_INPUT,NONE
+product_rating,FLIPKART_RAW_CSV,str,Field 'product_rating' from FLIPKART_RAW_CSV,0.0,15,No rating available; 5; 3,METADATA,CAUTION
+overall_rating,FLIPKART_RAW_CSV,str,Field 'overall_rating' from FLIPKART_RAW_CSV,0.0,15,No rating available; 5; 3,METADATA,CAUTION
+brand,FLIPKART_RAW_CSV,str,Field 'brand' from FLIPKART_RAW_CSV,59.2,104,Alisha; FabHomeDecor; AW,INDEPENDENT_INPUT,NONE
+product_specifications,FLIPKART_RAW_CSV,str,Field 'product_specifications' from FLIPKART_RAW_CSV,0.2,480,"{""product_specification""=>[{""key""=>""Number of Contents in Sales Package"", ""value",METADATA,CAUTION
+product_id,PRODUCT_EVIDENCE_STREAM,str,Field 'product_id' from PRODUCT_EVIDENCE_STREAM,0.0,501,bc940ea42ee6bef5ac7cea3fb5cfbee7; c2a17313954882c1dba461863e98adf2; f35f27525ab8,IDENTIFIER,SPLIT_GROUPING_KEY
+product_url,PRODUCT_EVIDENCE_STREAM,str,Field 'product_url' from PRODUCT_EVIDENCE_STREAM,0.0,501,http://www.flipkart.com/sicons-all-purpose-arnica-dog-shampoo/p/itmeh3zyw2vhgsp5,IDENTIFIER,SPLIT_GROUPING_KEY
+pid,PRODUCT_EVIDENCE_STREAM,str,Field 'pid' from PRODUCT_EVIDENCE_STREAM,0.0,501,PSOEH3ZYDMSYARJ5; PWTEB7H2E4KCYUE3; PSOEH3ZXRTZJUVXM,IDENTIFIER,SPLIT_GROUPING_KEY
+title,PRODUCT_EVIDENCE_STREAM,str,Field 'title' from PRODUCT_EVIDENCE_STREAM,0.0,487,Sicons All Purpose Arnica Dog Shampoo; Eternal Gandhi Super Series Crystal Paper,INDEPENDENT_INPUT,NONE
+raw_title,PRODUCT_EVIDENCE_STREAM,str,Field 'raw_title' from PRODUCT_EVIDENCE_STREAM,0.0,487,Sicons All Purpose Arnica Dog Shampoo; Eternal Gandhi Super Series Crystal Paper,METADATA,CAUTION
+description,PRODUCT_EVIDENCE_STREAM,str,Field 'description' from PRODUCT_EVIDENCE_STREAM,0.0,499,Specifications of Sicons All Purpose Arnica Dog Shampoo (500 ml) General Pet Typ,INDEPENDENT_INPUT,NONE
+raw_description,PRODUCT_EVIDENCE_STREAM,str,Field 'raw_description' from PRODUCT_EVIDENCE_STREAM,0.0,499,Specifications of Sicons All Purpose Arnica Dog Shampoo (500 ml) General Pet Typ,METADATA,CAUTION
+brand,PRODUCT_EVIDENCE_STREAM,str,Field 'brand' from PRODUCT_EVIDENCE_STREAM,0.0,232,Sicons; Eternal Gandhi; Kennel,INDEPENDENT_INPUT,NONE
+retail_price,PRODUCT_EVIDENCE_STREAM,float64,Field 'retail_price' from PRODUCT_EVIDENCE_STREAM,0.0,199,220.0; 430.0; 110.0,INDEPENDENT_INPUT,NONE
+discounted_price,PRODUCT_EVIDENCE_STREAM,float64,Field 'discounted_price' from PRODUCT_EVIDENCE_STREAM,0.0,219,210.0; 430.0; 100.0,INDEPENDENT_INPUT,NONE
+category_hierarchy,PRODUCT_EVIDENCE_STREAM,object,Field 'category_hierarchy' from PRODUCT_EVIDENCE_STREAM,0.0,335,"['Pet Supplies', 'Grooming', 'Skin & Coat Care', 'Shampoo', 'Sicons All Purpose ",INDEPENDENT_INPUT,NONE
+root_category,PRODUCT_EVIDENCE_STREAM,str,Field 'root_category' from PRODUCT_EVIDENCE_STREAM,0.0,81,Pet Supplies; Eternal Gandhi Super Series Crystal Paper Weight...; Bengal Blooms,INDEPENDENT_INPUT,NONE
+leaf_category,PRODUCT_EVIDENCE_STREAM,str,Field 'leaf_category' from PRODUCT_EVIDENCE_STREAM,0.0,334,Sicons All Purpose Arnica Dog Shampoo (500 ml); Eternal Gandhi Super Series Crys,METADATA,CAUTION
+extra_spec_values,PRODUCT_EVIDENCE_STREAM,object,Field 'extra_spec_values' from PRODUCT_EVIDENCE_STREAM,0.0,149,"[]; ['Paper Weight']; ['Kurta', 'Gentle Machine Wash in Lukewarm Water, Do Not B",INDEPENDENT_INPUT,NONE
+spec_parse_status,PRODUCT_EVIDENCE_STREAM,str,Field 'spec_parse_status' from PRODUCT_EVIDENCE_STREAM,0.0,1,SUCCESS,METADATA,CAUTION
+image_urls,PRODUCT_EVIDENCE_STREAM,object,Field 'image_urls' from PRODUCT_EVIDENCE_STREAM,0.0,497,['http://img5a.flixcart.com/image/pet-shampoo/r/j/5/sh-df-14-sicons-500-1100x110,INDEPENDENT_INPUT,NONE
+accessible_images,PRODUCT_EVIDENCE_STREAM,object,Field 'accessible_images' from PRODUCT_EVIDENCE_STREAM,0.0,497,['http://img5a.flixcart.com/image/pet-shampoo/r/j/5/sh-df-14-sicons-500-1100x110,METADATA,CAUTION
+image_evidence_status,PRODUCT_EVIDENCE_STREAM,str,Field 'image_evidence_status' from PRODUCT_EVIDENCE_STREAM,0.0,1,NOT_ATTEMPTED,METADATA,CAUTION
+evidence_sources,PRODUCT_EVIDENCE_STREAM,object,Field 'evidence_sources' from PRODUCT_EVIDENCE_STREAM,0.0,2,"['PRODUCT_TITLE', 'PRODUCT_DESCRIPTION', 'PRODUCT_SPECIFICATIONS', 'BRAND_FIELD'",METADATA,CAUTION
+extraction_timestamp,PRODUCT_EVIDENCE_STREAM,str,Field 'extraction_timestamp' from PRODUCT_EVIDENCE_STREAM,0.0,501,2026-09-05T00:12:38.405964+00:00; 2026-09-05T00:12:38.406211+00:00; 2026-09-05T0,METADATA,CAUTION
+extraction_status,PRODUCT_EVIDENCE_STREAM,str,Field 'extraction_status' from PRODUCT_EVIDENCE_STREAM,0.0,1,SUCCESS,METADATA,CAUTION
+extraction_version,PRODUCT_EVIDENCE_STREAM,str,Field 'extraction_version' from PRODUCT_EVIDENCE_STREAM,0.0,1,v1,PROVENANCE,PROVENANCE_LEAKAGE
+specifications.Pet Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pet Type' from PRODUCT_EVIDENCE_STREAM,98.6,3,"Dog; Fish; Cat, Dog",METADATA,CAUTION
+specifications.Brand,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Brand' from PRODUCT_EVIDENCE_STREAM,71.66,116,Sicons; Kennel; Bengal Blooms,METADATA,CAUTION
+specifications.Quantity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Quantity' from PRODUCT_EVIDENCE_STREAM,96.81,14,500 ml; 200 ml; 60 No,METADATA,CAUTION
+specifications.Model Number,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Model Number' from PRODUCT_EVIDENCE_STREAM,78.44,108,SH.DF-14; SH.DF-02; A35,METADATA,CAUTION
+specifications.Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Type' from PRODUCT_EVIDENCE_STREAM,30.14,114,All Purpose; Conditioning; Rubber Toy,METADATA,CAUTION
+specifications.Fragrance,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fragrance' from PRODUCT_EVIDENCE_STREAM,99.6,2,Arnica; Conditoner,METADATA,CAUTION
+specifications.Form Factor,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Form Factor' from PRODUCT_EVIDENCE_STREAM,99.6,2,Liquid; Gel,METADATA,CAUTION
+specifications.Sales Package,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Sales Package' from PRODUCT_EVIDENCE_STREAM,52.3,91,Shampoo Sicons Dog Fashion Arnica; Shampoo Sicons Dog Fashion Conditioner Aloe R,METADATA,CAUTION
+image_metadata.total_urls,PRODUCT_EVIDENCE_STREAM,int64,Field 'image_metadata.total_urls' from PRODUCT_EVIDENCE_STREAM,0.0,8,2; 1; 5,METADATA,CAUTION
+image_metadata.valid_url_count,PRODUCT_EVIDENCE_STREAM,int64,Field 'image_metadata.valid_url_count' from PRODUCT_EVIDENCE_STREAM,0.0,8,2; 1; 5,INDEPENDENT_INPUT,NONE
+image_metadata.primary_domain,PRODUCT_EVIDENCE_STREAM,str,Field 'image_metadata.primary_domain' from PRODUCT_EVIDENCE_STREAM,0.0,2,img5a.flixcart.com; img6a.flixcart.com,METADATA,CAUTION
+image_metadata.download_policy,PRODUCT_EVIDENCE_STREAM,str,Field 'image_metadata.download_policy' from PRODUCT_EVIDENCE_STREAM,0.0,1,deferred_for_ml_pipeline,METADATA,CAUTION
+specifications.Model Name,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Model Name' from PRODUCT_EVIDENCE_STREAM,81.44,93,Gandhi Paper Weight Mark V; Rubber Dumbell With Bell - Small; Rose,METADATA,CAUTION
+specifications.Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Weight' from PRODUCT_EVIDENCE_STREAM,64.87,71,323 g; 159 g; 200 g,METADATA,CAUTION
+specifications.Paper Weight Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Paper Weight Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Crystal,METADATA,CAUTION
+specifications.Paper Weight Finish,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Paper Weight Finish' from PRODUCT_EVIDENCE_STREAM,99.8,1,Silver Finish,METADATA,CAUTION
+specifications.Suitable For,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Suitable For' from PRODUCT_EVIDENCE_STREAM,97.41,10,"Adult, Young; Homes, Offices, Intermittent Spaces, Warehouses, Industrial Spacin",METADATA,CAUTION
+specifications.Activity Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Activity Type' from PRODUCT_EVIDENCE_STREAM,99.2,3,Training; Chew; Fetch,METADATA,CAUTION
+specifications.Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Material' from PRODUCT_EVIDENCE_STREAM,61.48,33,Rubber; Polyester; Cotton,METADATA,CAUTION
+specifications.Chewable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Chewable' from PRODUCT_EVIDENCE_STREAM,99.2,2,No; Yes,METADATA,CAUTION
+specifications.Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Color' from PRODUCT_EVIDENCE_STREAM,64.07,48,Multicolor; White; Silver,METADATA,CAUTION
+specifications.Pack of,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pack of' from PRODUCT_EVIDENCE_STREAM,82.63,7,1; 4; 6,METADATA,CAUTION
+specifications.Bonsai,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bonsai' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Pot Included,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pot Included' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Total Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Total Height' from PRODUCT_EVIDENCE_STREAM,99.8,1,30 cm,METADATA,CAUTION
+specifications.Sleeve,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Sleeve' from PRODUCT_EVIDENCE_STREAM,90.42,7,Sleeveless; Half Sleeve; 3/4 Sleeve,METADATA,CAUTION
+specifications.Number of Contents in Sales Package,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Contents in Sales Package' from PRODUCT_EVIDENCE_STREAM,71.66,9,Pack of 1; Pack of 2; 3,METADATA,CAUTION
+specifications.Fabric,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fabric' from PRODUCT_EVIDENCE_STREAM,78.24,48,100% Cotton; Cotton; Rayon,METADATA,CAUTION
+specifications.Neck,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Neck' from PRODUCT_EVIDENCE_STREAM,90.62,14,ROUND NECK; Round; Round Neck,METADATA,CAUTION
+specifications.Pattern,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pattern' from PRODUCT_EVIDENCE_STREAM,79.44,17,Printed; Solid; Embroidered,METADATA,CAUTION
+specifications.Occasion,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Occasion' from PRODUCT_EVIDENCE_STREAM,74.05,25,"Festive; Casual; Party, Casual",METADATA,CAUTION
+specifications.Ideal For,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Ideal For' from PRODUCT_EVIDENCE_STREAM,53.49,29,"Women's; Men, Women, Boys, Girls; Women",METADATA,CAUTION
+specifications.Style Code,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Style Code' from PRODUCT_EVIDENCE_STREAM,89.82,51,VNKU004384 NAVY BLUE; VNKU004389 BEIGE::PINK; M002PCOTSEARAIN,METADATA,CAUTION
+specifications.Detection Angle,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Detection Angle' from PRODUCT_EVIDENCE_STREAM,99.8,1,360 degree,METADATA,CAUTION
+specifications.Brand Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Brand Color' from PRODUCT_EVIDENCE_STREAM,92.81,19,Off White; Ivory; Black,METADATA,CAUTION
+specifications.Wired/Wireless,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Wired/Wireless' from PRODUCT_EVIDENCE_STREAM,99.2,2,Wireless; Wired,METADATA,CAUTION
+specifications.Display Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Display Type' from PRODUCT_EVIDENCE_STREAM,99.0,4,NA; LED; LCD,METADATA,CAUTION
+specifications.Installation Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Installation Type' from PRODUCT_EVIDENCE_STREAM,99.2,3,"Plug and Play, Simply Attached to the Ceiling; Cabling; Slip-in",METADATA,CAUTION
+specifications.Audible Alarm,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Audible Alarm' from PRODUCT_EVIDENCE_STREAM,99.4,2,No; NO,METADATA,CAUTION
+specifications.Maximum Alarm Distance,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Maximum Alarm Distance' from PRODUCT_EVIDENCE_STREAM,99.4,2,0 m; 98 m,METADATA,CAUTION
+specifications.Minimum Alarm Distance,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Minimum Alarm Distance' from PRODUCT_EVIDENCE_STREAM,99.4,2,0 m; 10 m,METADATA,CAUTION
+specifications.Detection Range,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Detection Range' from PRODUCT_EVIDENCE_STREAM,99.4,2,10 ft; 987 ft,METADATA,CAUTION
+specifications.Number of Sensors,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Sensors' from PRODUCT_EVIDENCE_STREAM,99.4,2,1; 4,METADATA,CAUTION
+specifications.Other Dimensions,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Dimensions' from PRODUCT_EVIDENCE_STREAM,98.4,8,"106x106x71 mm; Outside Trim Dimensions: 19 mm x 65 mm x 160 mm, Backset: 60 - 90",METADATA,CAUTION
+specifications.Service Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Service Type' from PRODUCT_EVIDENCE_STREAM,98.2,9,Manufacturer's Warranty - 1 Year; Customer needs to send the product to the auth,METADATA,CAUTION
+specifications.Other Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Features' from PRODUCT_EVIDENCE_STREAM,96.81,15,"Saves Energy, Lowers Electricity Bills, Adds Convenience, Works with Existing Sw",METADATA,CAUTION
+specifications.Technology Used,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Technology Used' from PRODUCT_EVIDENCE_STREAM,98.6,6,Passive Infra Red (PIR); Advance Direct Injection Process; Fluidride,METADATA,CAUTION
+specifications.LED Indicators,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.LED Indicators' from PRODUCT_EVIDENCE_STREAM,99.6,1,Yes,METADATA,CAUTION
+specifications.Stand By,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Stand By' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Certification,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Certification' from PRODUCT_EVIDENCE_STREAM,98.4,5,"ISO 9001:2008; BIS Hallmark, DGLA; Brand Certification",METADATA,CAUTION
+specifications.Number of Faders,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Faders' from PRODUCT_EVIDENCE_STREAM,99.8,1,4,METADATA,CAUTION
+specifications.Application Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Application Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Live Performance Mixer,METADATA,CAUTION
+specifications.Number of Channels,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Channels' from PRODUCT_EVIDENCE_STREAM,99.8,1,5,METADATA,CAUTION
+specifications.Channel Equalizer Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Channel Equalizer Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,2 band EQ,METADATA,CAUTION
+specifications.Number of Bus,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Bus' from PRODUCT_EVIDENCE_STREAM,99.8,1,2,METADATA,CAUTION
+specifications.On-board Effects,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.On-board Effects' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Height' from PRODUCT_EVIDENCE_STREAM,76.25,43,15 cm; 18 cm; 31.5 cm,METADATA,CAUTION
+specifications.Width,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Width' from PRODUCT_EVIDENCE_STREAM,76.85,42,15 cm; 60 inch; 7.4,METADATA,CAUTION
+specifications.Covered in Warranty,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Covered in Warranty' from PRODUCT_EVIDENCE_STREAM,96.61,13,Warranty of the product is limited to manufacturing defects only; REPLACEMENT WI,METADATA,CAUTION
+specifications.Warranty Summary,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Warranty Summary' from PRODUCT_EVIDENCE_STREAM,96.01,19,1 year India Warranty; 0; 1 Year Product Warranty from LG,METADATA,CAUTION
+specifications.Not Covered in Warranty,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Not Covered in Warranty' from PRODUCT_EVIDENCE_STREAM,96.81,14,Warranty does not cover product damaged while in use by customer; Physical and T,METADATA,CAUTION
+specifications.Power Consumption,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Consumption' from PRODUCT_EVIDENCE_STREAM,99.4,3,50; 6 W; 750 W,METADATA,CAUTION
+specifications.Power Requirements,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Requirements' from PRODUCT_EVIDENCE_STREAM,99.8,1,230V AC,METADATA,CAUTION
+specifications.Face Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Face Material' from PRODUCT_EVIDENCE_STREAM,99.6,1,Polyvinyl Chloride,METADATA,CAUTION
+specifications.Inner Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Inner Material' from PRODUCT_EVIDENCE_STREAM,98.0,8,"Cotton, Fabric; Cloth; Moisture wicking Breathable Inner Lining",METADATA,CAUTION
+specifications.Suitable for,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Suitable for' from PRODUCT_EVIDENCE_STREAM,98.6,6,"RIGHT-HANDED; 12 Inch Pizza, 6 Inch Pie; 12 inch, 6 inch Pizza, Breads, Nan, Puf",METADATA,CAUTION
+specifications.Designed For,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Designed For' from PRODUCT_EVIDENCE_STREAM,99.0,5,Door; SAMSUNG GALAXY J5; All Mobile,METADATA,CAUTION
+specifications.Model ID,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Model ID' from PRODUCT_EVIDENCE_STREAM,96.01,20,Duster25; asvtwl322; RI-04-X,METADATA,CAUTION
+specifications.Length,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Length' from PRODUCT_EVIDENCE_STREAM,96.61,10,213 cm; 30 inch; Mini/Short,INDEPENDENT_INPUT,NONE
+specifications.Machine Washable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Machine Washable' from PRODUCT_EVIDENCE_STREAM,99.0,1,Yes,METADATA,CAUTION
+specifications.Design,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Design' from PRODUCT_EVIDENCE_STREAM,92.61,21,Self Design; Christmas Boots; Rugged Cowboy Style,METADATA,CAUTION
+specifications.GSM,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.GSM' from PRODUCT_EVIDENCE_STREAM,99.8,1,500,METADATA,CAUTION
+specifications.Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Size' from PRODUCT_EVIDENCE_STREAM,96.41,12,Mediam; 4; Free,METADATA,CAUTION
+specifications.Dietary Preference,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Dietary Preference' from PRODUCT_EVIDENCE_STREAM,99.6,1,No MSG,METADATA,CAUTION
+specifications.Flavor,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Flavor' from PRODUCT_EVIDENCE_STREAM,99.2,3,Unflavored; Strawberry; Menthol,METADATA,CAUTION
+specifications.Usage Timings,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Usage Timings' from PRODUCT_EVIDENCE_STREAM,99.6,1,"Pre-workout, Post-workout",METADATA,CAUTION
+specifications.Number of Scoops per Container,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Scoops per Container' from PRODUCT_EVIDENCE_STREAM,99.6,1,NA,METADATA,CAUTION
+specifications.Container Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Container Type' from PRODUCT_EVIDENCE_STREAM,98.4,7,Mason Jar; Plastic Bottle; Set,METADATA,CAUTION
+specifications.Ayurvedic,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Ayurvedic' from PRODUCT_EVIDENCE_STREAM,99.6,1,No,METADATA,CAUTION
+specifications.Protein Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Protein Type' from PRODUCT_EVIDENCE_STREAM,99.6,2,"Weight Gainers, Mass Gainers; Mass Gainers",METADATA,CAUTION
+specifications.Form,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Form' from PRODUCT_EVIDENCE_STREAM,99.4,3,Capsules; Powder; Cream,METADATA,CAUTION
+specifications.Serving Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Serving Size' from PRODUCT_EVIDENCE_STREAM,99.6,2,60 No; 40 g,METADATA,CAUTION
+specifications.Food Preference,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Food Preference' from PRODUCT_EVIDENCE_STREAM,99.6,1,Veg,METADATA,CAUTION
+specifications.Composition,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Composition' from PRODUCT_EVIDENCE_STREAM,99.2,4,"Atmagupta sd:-85 mg ,shilajatu:-60 mg , Goksura;-50 mg, Ashwagandha:-50 mg , vid",METADATA,CAUTION
+specifications.Shelf Life,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Shelf Life' from PRODUCT_EVIDENCE_STREAM,99.6,2,18 Year; 18 Month,METADATA,CAUTION
+specifications.Sole Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Sole Material' from PRODUCT_EVIDENCE_STREAM,95.21,10,TPR; Rubber; Resin Sheet,METADATA,CAUTION
+specifications.Closure,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Closure' from PRODUCT_EVIDENCE_STREAM,95.81,12,Zipper; NA; Lace Up,METADATA,CAUTION
+specifications.Heel Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Heel Height' from PRODUCT_EVIDENCE_STREAM,93.01,9,0 inch; 1 inch; 1.5 inch,METADATA,CAUTION
+specifications.Outer Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Outer Material' from PRODUCT_EVIDENCE_STREAM,92.22,14,Leather; Genuine Leather; EVA,METADATA,CAUTION
+specifications.Brand Fit,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Brand Fit' from PRODUCT_EVIDENCE_STREAM,99.2,4,Slim; SLIM; Regular,METADATA,CAUTION
+specifications.Chronograph,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Chronograph' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Altimeter,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Altimeter' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Date Display,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Date Display' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Barometer,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Barometer' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Alarm Clock,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Alarm Clock' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Compass,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Compass' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Calendar,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Calendar' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Luminous,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Luminous' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Mechanism,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Mechanism' from PRODUCT_EVIDENCE_STREAM,99.8,1,Quartz,METADATA,CAUTION
+specifications.Series,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Series' from PRODUCT_EVIDENCE_STREAM,94.01,22,Formula 1; Pulse; FeatherWeight,METADATA,CAUTION
+specifications.Novelty Feature,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Novelty Feature' from PRODUCT_EVIDENCE_STREAM,99.8,1,Scratch Resistant Sapphire,METADATA,CAUTION
+specifications.Dial Shape,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Dial Shape' from PRODUCT_EVIDENCE_STREAM,99.8,1,Round,METADATA,CAUTION
+specifications.Strap Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Strap Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Bracelet,METADATA,CAUTION
+specifications.Strap Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Strap Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,Steel,METADATA,CAUTION
+specifications.Scratch Resistant,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Scratch Resistant' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Water Resistant,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Water Resistant' from PRODUCT_EVIDENCE_STREAM,99.6,1,Yes,METADATA,CAUTION
+specifications.Water Resistance Depth,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Water Resistance Depth' from PRODUCT_EVIDENCE_STREAM,99.8,1,200 m,METADATA,CAUTION
+specifications.Clasp Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Clasp Type' from PRODUCT_EVIDENCE_STREAM,99.6,2,Clasp; Lobster Claw,METADATA,CAUTION
+specifications.Other Body Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Body Features' from PRODUCT_EVIDENCE_STREAM,99.2,4,BEZEL:Black Titanium Carbide Coated steel; Keep the watches dust free 5 separate,METADATA,CAUTION
+specifications.Dial Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Dial Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,Black,METADATA,CAUTION
+specifications.Strap Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Strap Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Metal Strap,METADATA,CAUTION
+specifications.Lining,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lining' from PRODUCT_EVIDENCE_STREAM,98.6,7,Fur Lining; Breathable Fabric Lining; Synthetic Lining,METADATA,CAUTION
+specifications.Boot Shaft Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Boot Shaft Height' from PRODUCT_EVIDENCE_STREAM,99.6,2,7 inch; 5 inch,METADATA,CAUTION
+specifications.Tip Shape,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Tip Shape' from PRODUCT_EVIDENCE_STREAM,97.8,3,Round; Point Toe; Cap Toe,METADATA,CAUTION
+specifications.Style,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Style' from PRODUCT_EVIDENCE_STREAM,99.2,4,Black n White Comfortable Boots; Zipper; Curved Sides,METADATA,CAUTION
+specifications.Other Details,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Details' from PRODUCT_EVIDENCE_STREAM,98.8,6,"Long Boots, Padded Footbed, Moisture Wicking Breathable Inner Lining, Christmas ",METADATA,CAUTION
+specifications.Care Instructions,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Care Instructions' from PRODUCT_EVIDENCE_STREAM,98.0,10,Clean With Damp Cloth; Wipe With a Damp Cloth; Kindly Clean With Damp Cloth,METADATA,CAUTION
+specifications.Diameter,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diameter' from PRODUCT_EVIDENCE_STREAM,85.23,31,4.26 cm; 8 mm; 80 mm,METADATA,CAUTION
+specifications.Sport Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Sport Type' from PRODUCT_EVIDENCE_STREAM,98.8,2,Skating; Cricket,METADATA,CAUTION
+specifications.Ideal for,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Ideal for' from PRODUCT_EVIDENCE_STREAM,99.8,1,Senior,METADATA,CAUTION
+specifications.Designed for,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Designed for' from PRODUCT_EVIDENCE_STREAM,98.8,6,"TRAINING, INTERMEDIATE; Moto X (2nd Gen); Samsung Galaxy Tab S 8.4",METADATA,CAUTION
+specifications.Depth,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Depth' from PRODUCT_EVIDENCE_STREAM,91.42,29,29 cm; 52 cm; 8 mm,METADATA,CAUTION
+specifications.Touch Screen Digitizer,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Touch Screen Digitizer' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Compatible Model,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Compatible Model' from PRODUCT_EVIDENCE_STREAM,99.8,1,Blackberry 8520 WHITE LCD,METADATA,CAUTION
+specifications.Color Code,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Color Code' from PRODUCT_EVIDENCE_STREAM,98.2,6,Gold; Black; Orange,METADATA,CAUTION
+specifications.Right Hand Gloves,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Right Hand Gloves' from PRODUCT_EVIDENCE_STREAM,99.2,1,Yes,METADATA,CAUTION
+specifications.Playing Level,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Playing Level' from PRODUCT_EVIDENCE_STREAM,97.8,6,"Beginner; Professional, Intermediate, Advanced, Beginner; beginner, medium",METADATA,CAUTION
+specifications.Left Hand Gloves,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Left Hand Gloves' from PRODUCT_EVIDENCE_STREAM,99.2,1,No,METADATA,CAUTION
+specifications.Fingerless,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fingerless' from PRODUCT_EVIDENCE_STREAM,99.4,1,No,METADATA,CAUTION
+specifications.Full Fingered,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Full Fingered' from PRODUCT_EVIDENCE_STREAM,99.4,1,Yes,METADATA,CAUTION
+specifications.Age Group,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Age Group' from PRODUCT_EVIDENCE_STREAM,97.8,10,"11 - 15 Years, 15 Years and Above; 11-15; 14 Years and Above",METADATA,CAUTION
+specifications.Three Fingered,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Three Fingered' from PRODUCT_EVIDENCE_STREAM,99.6,1,No,METADATA,CAUTION
+specifications.Fingers,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fingers' from PRODUCT_EVIDENCE_STREAM,99.4,2,"Split Fingers, Multi Flex Pre Bent Fingers; Split fingers, protection inserts",METADATA,CAUTION
+specifications.Belt Included,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Belt Included' from PRODUCT_EVIDENCE_STREAM,97.8,2,No; Yes,METADATA,CAUTION
+specifications.Pockets,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pockets' from PRODUCT_EVIDENCE_STREAM,99.4,3,Pockets on Sides; NO; Mitered Patch Pocket on Thigh,METADATA,CAUTION
+specifications.Collar,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Collar' from PRODUCT_EVIDENCE_STREAM,99.8,1,V-Neck,METADATA,CAUTION
+specifications.Bulb Base,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bulb Base' from PRODUCT_EVIDENCE_STREAM,99.8,1,B22,METADATA,CAUTION
+specifications.Light Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Light Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,White,METADATA,CAUTION
+specifications.Bulb Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bulb Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,LED,METADATA,CAUTION
+specifications.Lumen,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lumen' from PRODUCT_EVIDENCE_STREAM,99.8,1,700,METADATA,CAUTION
+specifications.Racks & Trays Available,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Racks & Trays Available' from PRODUCT_EVIDENCE_STREAM,99.8,1,Grill Rack,METADATA,CAUTION
+specifications.Other Convenience Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Convenience Features' from PRODUCT_EVIDENCE_STREAM,99.4,3,"Body Massage Oil, Keep Warm, Quick Menu, Custom Cook, Defrost Veg, Defrost Non V",METADATA,CAUTION
+specifications.Child Lock,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Child Lock' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Other Performance Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Performance Features' from PRODUCT_EVIDENCE_STREAM,99.6,2,"Auto Defrost Options, Increase / Decrease Function; Ice Pack, VC Fresh, Bigger C",METADATA,CAUTION
+specifications.Preheat,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Preheat' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Power Levels,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Levels' from PRODUCT_EVIDENCE_STREAM,99.8,1,5,METADATA,CAUTION
+specifications.Defrost,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Defrost' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Timer,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Timer' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Shade,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Shade' from PRODUCT_EVIDENCE_STREAM,96.41,14,"Black; Multicolor,; Blue",METADATA,CAUTION
+specifications.Frequency,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Frequency' from PRODUCT_EVIDENCE_STREAM,99.8,1,2450 MHz,METADATA,CAUTION
+specifications.Control Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Control Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Tact (Buttons),METADATA,CAUTION
+specifications.Capacity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Capacity' from PRODUCT_EVIDENCE_STREAM,92.81,26,"32 L; 1500 ml, 2.25 L; 16 L",METADATA,CAUTION
+specifications.Turntable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Turntable' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Turntable Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Turntable Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Glass,METADATA,CAUTION
+specifications.Cavity Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cavity Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Stainless Steel,METADATA,CAUTION
+specifications.Demo Details,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Demo Details' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Demo is provided free of cost.After delivery of your Microwave Oven, you will re",METADATA,CAUTION
+specifications.Auto Indian Cook Menu,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Auto Indian Cook Menu' from PRODUCT_EVIDENCE_STREAM,99.8,1,211,METADATA,CAUTION
+specifications.Other Cooking Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Cooking Features' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Diet Fry: 12, Indian Roti Basket: 25, Salad: 13, Tandoor Se: 14, Dosa: 8, Ghee: ",METADATA,CAUTION
+specifications.Cooking Completion Indicator,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cooking Completion Indicator' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Auto Cook Menu,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Auto Cook Menu' from PRODUCT_EVIDENCE_STREAM,99.8,1,301,METADATA,CAUTION
+specifications.Turntable Diameter,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Turntable Diameter' from PRODUCT_EVIDENCE_STREAM,99.8,1,34 cm,METADATA,CAUTION
+specifications.Power Consumption - Convection,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Consumption - Convection' from PRODUCT_EVIDENCE_STREAM,99.8,1,2450 W,METADATA,CAUTION
+specifications.Power Consumption - Microwave,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Consumption - Microwave' from PRODUCT_EVIDENCE_STREAM,99.8,1,900 W,METADATA,CAUTION
+specifications.Power Requirement,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Requirement' from PRODUCT_EVIDENCE_STREAM,99.4,3,"AC 230 V, 50 Hz; 220 - 240 V; AC 220 - 240 V, 50 Hz",METADATA,CAUTION
+specifications.Power Consumption - Grill,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Consumption - Grill' from PRODUCT_EVIDENCE_STREAM,99.8,1,1250 W,METADATA,CAUTION
+specifications.Power Output,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Output' from PRODUCT_EVIDENCE_STREAM,99.6,2,900 W; 3W,METADATA,CAUTION
+specifications.Other Power Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Power Features' from PRODUCT_EVIDENCE_STREAM,99.8,1,Microwave Output: 900 W,METADATA,CAUTION
+specifications.Cable Length,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cable Length' from PRODUCT_EVIDENCE_STREAM,99.8,1,1 m,INDEPENDENT_INPUT,NONE
+specifications.Model,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Model' from PRODUCT_EVIDENCE_STREAM,99.4,3,USB Adapter with Cable For Mt X (2nd Gen); PEARL; N150 Wireless ADSL 2 Modem Rou,METADATA,CAUTION
+specifications.LED Indicator,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.LED Indicator' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Connector,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Connector' from PRODUCT_EVIDENCE_STREAM,99.8,1,Micro USB,METADATA,CAUTION
+specifications.Warranty Service Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Warranty Service Type' from PRODUCT_EVIDENCE_STREAM,98.0,8,Contact Service centre; Replacement within 10 days of Purchase; NA,METADATA,CAUTION
+specifications.Hair Condition,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Hair Condition' from PRODUCT_EVIDENCE_STREAM,99.6,1,Damaged Hair,METADATA,CAUTION
+specifications.Hair Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Hair Type' from PRODUCT_EVIDENCE_STREAM,99.6,2,Dry Hair; All Hair Types,METADATA,CAUTION
+specifications.Applied For,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Applied For' from PRODUCT_EVIDENCE_STREAM,98.6,7,Hair Shine; Split-ends; Replenishing and Rejuvenation,METADATA,CAUTION
+specifications.Mug Capacity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Mug Capacity' from PRODUCT_EVIDENCE_STREAM,79.44,5,300 ml; 330 ml; 350 g,METADATA,CAUTION
+specifications.Freezer Safe,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Freezer Safe' from PRODUCT_EVIDENCE_STREAM,83.83,1,Yes,METADATA,CAUTION
+specifications.Microwave Safe,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Microwave Safe' from PRODUCT_EVIDENCE_STREAM,78.84,2,No; Yes,METADATA,CAUTION
+specifications.Replaceable Refill,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Replaceable Refill' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Marker Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Marker Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Permanent Alcohol Dye Base,METADATA,CAUTION
+specifications.Tip Design,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Tip Design' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Banknote Tester, ball pen",METADATA,CAUTION
+specifications.Organic Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Organic Type' from PRODUCT_EVIDENCE_STREAM,98.6,3,Mineral; Natural; Herbal,METADATA,CAUTION
+specifications.Application Area,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Application Area' from PRODUCT_EVIDENCE_STREAM,99.6,2,"Face; Neck, Face",METADATA,CAUTION
+specifications.Skin Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Skin Type' from PRODUCT_EVIDENCE_STREAM,99.4,2,"All Skin Types; Delicate Skin, Dry Skin, Normal Skin, Oily Skin",METADATA,CAUTION
+specifications.Treatment Form,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Treatment Form' from PRODUCT_EVIDENCE_STREAM,99.6,2,Serum; Lotion,METADATA,CAUTION
+specifications.Compartment Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Compartment Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,5,METADATA,CAUTION
+specifications.Thumb,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Thumb' from PRODUCT_EVIDENCE_STREAM,99.8,1,Two piece,METADATA,CAUTION
+specifications.Ventilation,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Ventilation' from PRODUCT_EVIDENCE_STREAM,99.8,1,"airflow gusset ,, sweat dissipation",METADATA,CAUTION
+specifications.Palm,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Palm' from PRODUCT_EVIDENCE_STREAM,99.8,1,Grade 1 Leather palm,METADATA,CAUTION
+specifications.Other Glove Details,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Glove Details' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Lightweight, Split fingers for easy movement and comfort",METADATA,CAUTION
+specifications.Casserole Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Casserole Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Cook and Serve Casserole,METADATA,CAUTION
+specifications.Lid Included,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lid Included' from PRODUCT_EVIDENCE_STREAM,97.01,2,Yes; No,METADATA,CAUTION
+specifications.Non-stick Coating,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Non-stick Coating' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Mirror Width,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Mirror Width' from PRODUCT_EVIDENCE_STREAM,99.8,1,8 Cm,METADATA,CAUTION
+specifications.Mirror Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Mirror Height' from PRODUCT_EVIDENCE_STREAM,99.8,1,5 Cm,METADATA,CAUTION
+specifications.Purpose,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Purpose' from PRODUCT_EVIDENCE_STREAM,99.2,4,Home And Travel; Home Decor; Travel,METADATA,CAUTION
+specifications.Body Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Body Material' from PRODUCT_EVIDENCE_STREAM,98.2,9,FABRIC; Wooden; Glass,METADATA,CAUTION
+specifications.Handle/Strap Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Handle/Strap Features' from PRODUCT_EVIDENCE_STREAM,99.6,2,There Is One Small Handle To Pick The Case; Yes,METADATA,CAUTION
+specifications.Number of Contents in Combo Set,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Contents in Combo Set' from PRODUCT_EVIDENCE_STREAM,99.4,2,4; 5,METADATA,CAUTION
+specifications.Combo Set Contents,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Combo Set Contents' from PRODUCT_EVIDENCE_STREAM,99.2,3,"2 Nail polish, 2 LIPSTICKS; 3 Nail Paints, 2 Lipsticks; Imported Disposable Stri",METADATA,CAUTION
+specifications.Organic,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Organic' from PRODUCT_EVIDENCE_STREAM,98.8,2,Yes; No,METADATA,CAUTION
+specifications.Professional Care,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Professional Care' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Configuration,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Configuration' from PRODUCT_EVIDENCE_STREAM,99.8,1,Single Unit Channel Channel,METADATA,CAUTION
+specifications.Power Source,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Source' from PRODUCT_EVIDENCE_STREAM,99.4,3,Rechargeable Battery; 220-240 VOLTS; AC,METADATA,CAUTION
+specifications.Impedance,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Impedance' from PRODUCT_EVIDENCE_STREAM,99.8,1,4 ohms,METADATA,CAUTION
+specifications.Total Power Output RMS (W),PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Total Power Output RMS (W)' from PRODUCT_EVIDENCE_STREAM,99.8,1,3W,METADATA,CAUTION
+specifications.Frequency Response,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Frequency Response' from PRODUCT_EVIDENCE_STREAM,99.8,1,20-20000Hz,METADATA,CAUTION
+specifications.Memory Card Slot,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Memory Card Slot' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Fit,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fit' from PRODUCT_EVIDENCE_STREAM,98.2,3,Slim Fit; Regular; Regular Fit,METADATA,CAUTION
+specifications.Insulated,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Insulated' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Washable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Washable' from PRODUCT_EVIDENCE_STREAM,99.4,1,Yes,METADATA,CAUTION
+specifications.Trolley Support,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Trolley Support' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Laptop Sleeve,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Laptop Sleeve' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Compatible Laptop Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Compatible Laptop Size' from PRODUCT_EVIDENCE_STREAM,99.8,1,15.6,METADATA,CAUTION
+specifications.Number of Compartments,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Compartments' from PRODUCT_EVIDENCE_STREAM,98.8,4,2; 4; 2 Compartments,METADATA,CAUTION
+specifications.Seating Capacity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Seating Capacity' from PRODUCT_EVIDENCE_STREAM,99.6,1,8 Seater,METADATA,CAUTION
+specifications.Model Id,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Model Id' from PRODUCT_EVIDENCE_STREAM,99.8,1,REK-164-W,METADATA,CAUTION
+specifications.Power Required (Volts),PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Required (Volts)' from PRODUCT_EVIDENCE_STREAM,99.6,2,220-240 VOLT AC; 220,METADATA,CAUTION
+specifications.Power Consumption (Watts),PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Power Consumption (Watts)' from PRODUCT_EVIDENCE_STREAM,99.8,1,25 W,METADATA,CAUTION
+specifications.Lunch Box Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lunch Box Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Plastic,METADATA,CAUTION
+specifications.Number of Containers,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Containers' from PRODUCT_EVIDENCE_STREAM,99.8,1,2,METADATA,CAUTION
+specifications.Lunch Box Capacity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lunch Box Capacity' from PRODUCT_EVIDENCE_STREAM,99.8,1,550 ml,METADATA,CAUTION
+specifications.Net Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Net Weight' from PRODUCT_EVIDENCE_STREAM,99.8,1,2.380 kg,METADATA,CAUTION
+specifications.W x H x D,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.W x H x D' from PRODUCT_EVIDENCE_STREAM,99.8,1,14 x 25,METADATA,CAUTION
+specifications.Placement Position,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Placement Position' from PRODUCT_EVIDENCE_STREAM,99.6,2,"Dashboard; Side Window, Rear Window",METADATA,CAUTION
+specifications.Dishwasher Safe,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Dishwasher Safe' from PRODUCT_EVIDENCE_STREAM,95.61,2,Yes; No,METADATA,CAUTION
+specifications.Break Resistant,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Break Resistant' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Cup Diameter,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cup Diameter' from PRODUCT_EVIDENCE_STREAM,99.8,1,4 inch,METADATA,CAUTION
+specifications.Cup Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cup Height' from PRODUCT_EVIDENCE_STREAM,99.8,1,4 inch,METADATA,CAUTION
+specifications.Saucer Width,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Saucer Width' from PRODUCT_EVIDENCE_STREAM,99.8,1,3.5 inch,METADATA,CAUTION
+specifications.Saucer Diameter,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Saucer Diameter' from PRODUCT_EVIDENCE_STREAM,99.8,1,3.5 inch,METADATA,CAUTION
+specifications.Belt,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Belt' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Rise,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Rise' from PRODUCT_EVIDENCE_STREAM,99.8,1,High Rise,METADATA,CAUTION
+specifications.Blade Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Blade Material' from PRODUCT_EVIDENCE_STREAM,96.41,4,Willow; Plastic; Stainless Steel,METADATA,CAUTION
+specifications.Handle Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Handle Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Round,METADATA,CAUTION
+specifications.Foldable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Foldable' from PRODUCT_EVIDENCE_STREAM,99.6,2,Yes; No,METADATA,CAUTION
+specifications.Assembly Required,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Assembly Required' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Weight Supported,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Weight Supported' from PRODUCT_EVIDENCE_STREAM,99.8,1,25 kg,METADATA,CAUTION
+specifications.Wheeled Bottom,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Wheeled Bottom' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Brakes,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Brakes' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Height Adjustment,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Height Adjustment' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Knit Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Knit Type' from PRODUCT_EVIDENCE_STREAM,99.6,2,Jersey; Single Jersey Knit,METADATA,CAUTION
+specifications.Primary Product Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Primary Product Size' from PRODUCT_EVIDENCE_STREAM,99.6,2,L; Kids,METADATA,CAUTION
+specifications.Usage Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Usage Type' from PRODUCT_EVIDENCE_STREAM,99.4,2,Reusable; Rechargable Cigarette,METADATA,CAUTION
+specifications.Number of Cups,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Cups' from PRODUCT_EVIDENCE_STREAM,99.8,1,1,METADATA,CAUTION
+specifications.Card Slots,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Card Slots' from PRODUCT_EVIDENCE_STREAM,99.8,1,4,METADATA,CAUTION
+specifications.Pleated,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pleated' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Waistband,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Waistband' from PRODUCT_EVIDENCE_STREAM,99.8,1,Elastic,METADATA,CAUTION
+specifications.Headset Design,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Headset Design' from PRODUCT_EVIDENCE_STREAM,99.8,1,Earbud,METADATA,CAUTION
+specifications.Compatible Devices,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Compatible Devices' from PRODUCT_EVIDENCE_STREAM,99.6,2,Mobile; Remote,METADATA,CAUTION
+specifications.Type of Headset,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Type of Headset' from PRODUCT_EVIDENCE_STREAM,99.8,1,In the Ear,METADATA,CAUTION
+specifications.In Sales Package,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.In Sales Package' from PRODUCT_EVIDENCE_STREAM,99.8,1,1 Headset,METADATA,CAUTION
+specifications.Call Controls,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Call Controls' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Answer/End Call, Call Reject",METADATA,CAUTION
+specifications.Bluetooth,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bluetooth' from PRODUCT_EVIDENCE_STREAM,99.6,1,No,METADATA,CAUTION
+specifications.Noise Cancellation Headphones,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Noise Cancellation Headphones' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Connector Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Connector Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Gold Plated,METADATA,CAUTION
+specifications.Cord Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cord Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,"1.2 m Double-sided, Symmetric Cord",METADATA,CAUTION
+specifications.Noise Cancellation Mircrophone,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Noise Cancellation Mircrophone' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Bag Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bag Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Multipurpose Bag,METADATA,CAUTION
+specifications.Waterproof,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Waterproof' from PRODUCT_EVIDENCE_STREAM,99.4,2,Yes; No,METADATA,CAUTION
+specifications.Bag Capacity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bag Capacity' from PRODUCT_EVIDENCE_STREAM,99.8,1,4 inch,METADATA,CAUTION
+specifications.Bag Design,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bag Design' from PRODUCT_EVIDENCE_STREAM,99.8,1,no,METADATA,CAUTION
+specifications.Application Frequency,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Application Frequency' from PRODUCT_EVIDENCE_STREAM,99.8,1,Twice a week,METADATA,CAUTION
+specifications.Number of Contents in Kit,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Contents in Kit' from PRODUCT_EVIDENCE_STREAM,99.8,1,4,METADATA,CAUTION
+specifications.Design Code,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Design Code' from PRODUCT_EVIDENCE_STREAM,99.6,2,mgit12x12_5528; QUILT_20145,METADATA,CAUTION
+specifications.Number of Buttonhole Styles,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Buttonhole Styles' from PRODUCT_EVIDENCE_STREAM,99.6,1,20,METADATA,CAUTION
+specifications.Sewing Speed,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Sewing Speed' from PRODUCT_EVIDENCE_STREAM,99.6,1,40 SPM,METADATA,CAUTION
+specifications.Number of Stitches,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Stitches' from PRODUCT_EVIDENCE_STREAM,99.6,1,45,METADATA,CAUTION
+specifications.Cordless,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cordless' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Temperature Control,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Temperature Control' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Self Cleaning,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Self Cleaning' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Spray,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Spray' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Indicator Light,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Indicator Light' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Automatic shut-off,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Automatic shut-off' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Steam Burst,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Steam Burst' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Soleplate type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Soleplate type' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Teflon Coated, Lightweight",METADATA,CAUTION
+specifications.Lockable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lockable' from PRODUCT_EVIDENCE_STREAM,99.6,2,No; Yes,METADATA,CAUTION
+specifications.Professional Use,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Professional Use' from PRODUCT_EVIDENCE_STREAM,99.8,1,Storing,METADATA,CAUTION
+specifications.Functions,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Functions' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Break-in / Damage Alarm, Automatic Lock Mode, Rim Lock Type, Pin Code or RF Card",METADATA,CAUTION
+specifications.Finish,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Finish' from PRODUCT_EVIDENCE_STREAM,99.0,4,"Metallic; Glossy; Glossy, Matte",METADATA,CAUTION
+specifications.Battery Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Battery Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,AA,METADATA,CAUTION
+specifications.Usage Instructions,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Usage Instructions' from PRODUCT_EVIDENCE_STREAM,99.8,1,Install The Sucker At The Base Of The Aquarium Close To The Water Pump Or Oxygen,METADATA,CAUTION
+specifications.Wall Mount,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Wall Mount' from PRODUCT_EVIDENCE_STREAM,99.6,1,No,METADATA,CAUTION
+specifications.Hand Washable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Hand Washable' from PRODUCT_EVIDENCE_STREAM,99.4,1,Yes,METADATA,CAUTION
+specifications.Collection,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Collection' from PRODUCT_EVIDENCE_STREAM,98.0,3,Contemporary; Designer; Ethnic,METADATA,CAUTION
+specifications.Precious/Artificial Jewellery,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Precious/Artificial Jewellery' from PRODUCT_EVIDENCE_STREAM,97.8,3,Precious Jewellery; Fashion Jewellery; Semi Precious Jewellery,METADATA,CAUTION
+specifications.Diamond Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diamond Weight' from PRODUCT_EVIDENCE_STREAM,99.0,3,0.2 carat; 0 carat; 0.046 carat,METADATA,CAUTION
+specifications.Diamond Color Grade,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diamond Color Grade' from PRODUCT_EVIDENCE_STREAM,99.0,3,GH; NA; IJ,METADATA,CAUTION
+specifications.Diamond Clarity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diamond Clarity' from PRODUCT_EVIDENCE_STREAM,99.0,3,VS; NA; SI,METADATA,CAUTION
+specifications.Diamond Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diamond Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,White,METADATA,CAUTION
+specifications.Gold Purity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Gold Purity' from PRODUCT_EVIDENCE_STREAM,99.2,2,18 K; NA K,METADATA,CAUTION
+specifications.Gold Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Gold Weight' from PRODUCT_EVIDENCE_STREAM,99.6,2,1.66; 1.75,METADATA,CAUTION
+specifications.Metal Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Metal Weight' from PRODUCT_EVIDENCE_STREAM,99.8,1,1.62,METADATA,CAUTION
+specifications.Base Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Base Material' from PRODUCT_EVIDENCE_STREAM,97.8,8,Yellow Gold; Alloy; Sterling Silver,METADATA,CAUTION
+specifications.Gemstone,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Gemstone' from PRODUCT_EVIDENCE_STREAM,98.8,4,Diamond; Zircon; Swarovski Zirconia,METADATA,CAUTION
+specifications.Ring Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Ring Size' from PRODUCT_EVIDENCE_STREAM,99.0,5,16; Free Size; 13,METADATA,CAUTION
+specifications.Setting,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Setting' from PRODUCT_EVIDENCE_STREAM,99.4,3,Prong; NA; Bezel,METADATA,CAUTION
+specifications.Character,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Character' from PRODUCT_EVIDENCE_STREAM,99.2,4,Checkered; Floral; Teddy Bear,METADATA,CAUTION
+specifications.Design & Style,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Design & Style' from PRODUCT_EVIDENCE_STREAM,99.8,1,NA,METADATA,CAUTION
+specifications.Closure Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Closure Type' from PRODUCT_EVIDENCE_STREAM,99.6,2,"Magnetic closure; Ankle Buckle Closure, Instep Strap, Standard Lacing System",METADATA,CAUTION
+specifications.Width x Height x Depth,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Width x Height x Depth' from PRODUCT_EVIDENCE_STREAM,99.8,1,80 x 100 x 10 cm,METADATA,CAUTION
+specifications.Additional Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Additional Features' from PRODUCT_EVIDENCE_STREAM,99.8,1,7 inch Tablet Cover,METADATA,CAUTION
+specifications.Digital Display,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Digital Display' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Corded/Cordless,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Corded/Cordless' from PRODUCT_EVIDENCE_STREAM,99.8,1,Cordless,METADATA,CAUTION
+specifications.Rechargeable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Rechargeable' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Battery Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Battery Size' from PRODUCT_EVIDENCE_STREAM,99.8,1,AAA,METADATA,CAUTION
+specifications.Recharging Dock,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Recharging Dock' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Cleaning and Care,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cleaning and Care' from PRODUCT_EVIDENCE_STREAM,99.8,1,Washable Head,METADATA,CAUTION
+specifications.Kurta Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Kurta Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Straight,METADATA,CAUTION
+specifications.Salwar Fabric,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Salwar Fabric' from PRODUCT_EVIDENCE_STREAM,99.8,1,Cotton,METADATA,CAUTION
+specifications.Kurta Fabric,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Kurta Fabric' from PRODUCT_EVIDENCE_STREAM,99.8,1,Cotton,METADATA,CAUTION
+specifications.color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.color' from PRODUCT_EVIDENCE_STREAM,94.41,14,"Black; Multicolor; Blue, Purple, Blue",METADATA,CAUTION
+specifications.Wire Support,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Wire Support' from PRODUCT_EVIDENCE_STREAM,94.41,2,Underwire; Wirefree,METADATA,CAUTION
+specifications.Straps,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Straps' from PRODUCT_EVIDENCE_STREAM,94.41,3,Regular; Multiway; Strapless,METADATA,CAUTION
+specifications.Cup Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cup Type' from PRODUCT_EVIDENCE_STREAM,94.61,13,Non padded Cups; Non Padded; Padded,METADATA,CAUTION
+specifications.Seam Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Seam Type' from PRODUCT_EVIDENCE_STREAM,97.6,2,Seamed; Seamless,METADATA,CAUTION
+specifications.Detachable Straps,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Detachable Straps' from PRODUCT_EVIDENCE_STREAM,96.81,2,No; Yes,METADATA,CAUTION
+specifications.Inner Lining,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Inner Lining' from PRODUCT_EVIDENCE_STREAM,97.8,6,Polyster Seamless Lining; Lycra Polymade; Spandex,METADATA,CAUTION
+specifications.Other Bra Details,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Bra Details' from PRODUCT_EVIDENCE_STREAM,99.2,3,Sports T-Shirt Bra; Seamless -T-Shirt- Front Open Bra; Three Different Bra In Si,METADATA,CAUTION
+specifications.Fastening,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fastening' from PRODUCT_EVIDENCE_STREAM,99.6,2,Provided at the Hooked; Provided at the Hooks at Back,METADATA,CAUTION
+specifications.Back,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Back' from PRODUCT_EVIDENCE_STREAM,99.8,1,Hooked,METADATA,CAUTION
+specifications.Frame Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Frame Material' from PRODUCT_EVIDENCE_STREAM,99.2,2,EMS Grilamid TR90; Plastic,METADATA,CAUTION
+specifications.Other Goggle Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Other Goggle Features' from PRODUCT_EVIDENCE_STREAM,99.2,2,"UV Factor; Best For Riding Bikes, Motorcycling Goggles, Biking Goggles, Cycling ",METADATA,CAUTION
+specifications.Frame Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Frame Color' from PRODUCT_EVIDENCE_STREAM,99.0,5,"Black, Red; Blue, Yellow; Black",METADATA,CAUTION
+specifications.Sign Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Sign Type' from PRODUCT_EVIDENCE_STREAM,99.4,1,Worded,METADATA,CAUTION
+specifications.Text on Sign,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Text on Sign' from PRODUCT_EVIDENCE_STREAM,99.4,3,Avoid Contanimation Wash your Hands; Vehicles parked Illegally will be towed at ,METADATA,CAUTION
+specifications.Glow In The Dark,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Glow In The Dark' from PRODUCT_EVIDENCE_STREAM,99.4,1,No,METADATA,CAUTION
+specifications.Reflective Sign,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Reflective Sign' from PRODUCT_EVIDENCE_STREAM,99.4,1,No,METADATA,CAUTION
+specifications.Flexible,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Flexible' from PRODUCT_EVIDENCE_STREAM,99.4,2,Yes; No,METADATA,CAUTION
+specifications.Double Sided,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Double Sided' from PRODUCT_EVIDENCE_STREAM,99.4,1,No,METADATA,CAUTION
+specifications.Shape,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Shape' from PRODUCT_EVIDENCE_STREAM,99.2,3,Sports Wrap Around; Round; Petal,METADATA,CAUTION
+specifications.Lens Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lens Color' from PRODUCT_EVIDENCE_STREAM,99.6,2,Clear; Green,METADATA,CAUTION
+specifications.UV Protection,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.UV Protection' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Product Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Product Weight' from PRODUCT_EVIDENCE_STREAM,99.8,1,400 g,METADATA,CAUTION
+specifications.Product Depth,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Product Depth' from PRODUCT_EVIDENCE_STREAM,99.8,1,25 cm,METADATA,CAUTION
+specifications.Product Width,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Product Width' from PRODUCT_EVIDENCE_STREAM,99.8,1,30 cm,METADATA,CAUTION
+specifications.Country of Manufacture,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Country of Manufacture' from PRODUCT_EVIDENCE_STREAM,99.6,2,India; China,INDEPENDENT_INPUT,NONE
+specifications.Number of Contents,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Contents' from PRODUCT_EVIDENCE_STREAM,99.8,1,1,METADATA,CAUTION
+specifications.Product Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Product Height' from PRODUCT_EVIDENCE_STREAM,99.8,1,17.01 inch,METADATA,CAUTION
+specifications.External Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.External Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Plush,METADATA,CAUTION
+specifications.Belt Loops,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Belt Loops' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Fly,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fly' from PRODUCT_EVIDENCE_STREAM,99.8,1,Zipper,METADATA,CAUTION
+specifications.Attachment Mechanism,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Attachment Mechanism' from PRODUCT_EVIDENCE_STREAM,99.8,1,Custom Fit,METADATA,CAUTION
+specifications.UV Ray Protection,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.UV Ray Protection' from PRODUCT_EVIDENCE_STREAM,99.6,1,Yes,METADATA,CAUTION
+specifications.Reflects Heat,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Reflects Heat' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Driver Visibility,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Driver Visibility' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Vehicle Model Name,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Vehicle Model Name' from PRODUCT_EVIDENCE_STREAM,97.6,12,Cruze; Aveo; Yeti,METADATA,CAUTION
+specifications.Plating,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Plating' from PRODUCT_EVIDENCE_STREAM,99.0,4,Chrome; Platinum; NA,METADATA,CAUTION
+specifications.Vehicle Brand,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Vehicle Brand' from PRODUCT_EVIDENCE_STREAM,97.6,7,Chevrolet; Skoda; Toyota,METADATA,CAUTION
+specifications.Vehicle Model Year,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Vehicle Model Year' from PRODUCT_EVIDENCE_STREAM,99.8,1,"2008, 2009, 2006, 2007, 2013, 2014, 2015, 2012, 2010, 2011",METADATA,CAUTION
+specifications.Corrosion Resistant,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Corrosion Resistant' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Set Contents,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Set Contents' from PRODUCT_EVIDENCE_STREAM,98.8,6,"Re-Stick Paper Notes Yellow; Cuticle Pusher, Cuticle Nipper; 1 Hand Cream",METADATA,CAUTION
+specifications.Number of Sheets,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Sheets' from PRODUCT_EVIDENCE_STREAM,99.8,1,100 Sheets per Pad,METADATA,CAUTION
+specifications.Sticky Note Colors,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Sticky Note Colors' from PRODUCT_EVIDENCE_STREAM,99.8,1,1 Colors,METADATA,CAUTION
+specifications.Bag Style,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bag Style' from PRODUCT_EVIDENCE_STREAM,99.8,1,Alphabetic Print,METADATA,CAUTION
+specifications.Reusable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Reusable' from PRODUCT_EVIDENCE_STREAM,99.8,1,Many times,METADATA,CAUTION
+specifications.Maximum Altitude,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Maximum Altitude' from PRODUCT_EVIDENCE_STREAM,99.8,1,2200 m,METADATA,CAUTION
+specifications.Light Source,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Light Source' from PRODUCT_EVIDENCE_STREAM,99.8,1,Candle,METADATA,CAUTION
+specifications.Number Of Lights,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number Of Lights' from PRODUCT_EVIDENCE_STREAM,99.8,1,1,METADATA,CAUTION
+specifications.Usage,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Usage' from PRODUCT_EVIDENCE_STREAM,99.8,1,Eye Protection,METADATA,CAUTION
+specifications.Frame material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Frame material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Metal,METADATA,CAUTION
+specifications.Lens Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Lens Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Polycarbonate,METADATA,CAUTION
+specifications.Frame Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Frame Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Full-frame,METADATA,CAUTION
+specifications.character,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.character' from PRODUCT_EVIDENCE_STREAM,99.8,1,Kung Fu Panda,METADATA,CAUTION
+specifications.Pearl Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pearl Type' from PRODUCT_EVIDENCE_STREAM,99.0,1,NA,METADATA,CAUTION
+specifications.Silver Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Silver Weight' from PRODUCT_EVIDENCE_STREAM,99.2,3,0 g; 2.7 g; 5.85 g,METADATA,CAUTION
+specifications.Diamond Shape,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diamond Shape' from PRODUCT_EVIDENCE_STREAM,99.2,2,NA; Round,METADATA,CAUTION
+specifications.Silver Purity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Silver Purity' from PRODUCT_EVIDENCE_STREAM,99.6,1,S 925,METADATA,CAUTION
+specifications.Diamond Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diamond Height' from PRODUCT_EVIDENCE_STREAM,99.8,1,1.2 mm,METADATA,CAUTION
+specifications.Natural/Synthetic Diamond,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Natural/Synthetic Diamond' from PRODUCT_EVIDENCE_STREAM,99.8,1,Natural Diamond,METADATA,CAUTION
+specifications.Diamond Width,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Diamond Width' from PRODUCT_EVIDENCE_STREAM,99.8,1,1.2 mm,METADATA,CAUTION
+specifications.Gold Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Gold Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yellow Gold,METADATA,CAUTION
+specifications.Number of Gemstones,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Gemstones' from PRODUCT_EVIDENCE_STREAM,99.6,2,"5; 22 Green Zircon, 14 Red Zircon, 4 White A.D",METADATA,CAUTION
+specifications.Silver Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Silver Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,White,METADATA,CAUTION
+specifications.Metal Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Metal Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,White,METADATA,CAUTION
+specifications.Number of Contents in Set,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Contents in Set' from PRODUCT_EVIDENCE_STREAM,94.81,4,2; 1; 5,METADATA,CAUTION
+specifications.Display,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Display' from PRODUCT_EVIDENCE_STREAM,99.8,1,Month,METADATA,CAUTION
+specifications.Used for,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Used for' from PRODUCT_EVIDENCE_STREAM,98.4,4,"Cutting Pizza; Slicing Meat and Vegetables, Cutting Pizza; Slicing Meat, Vegetab",METADATA,CAUTION
+specifications.Handle Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Handle Material' from PRODUCT_EVIDENCE_STREAM,96.61,3,Plastic; Stainless Steel; Polypropylene,METADATA,CAUTION
+specifications.Thumb Guard,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Thumb Guard' from PRODUCT_EVIDENCE_STREAM,96.61,2,No; Yes,METADATA,CAUTION
+specifications.Grip Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Grip Type' from PRODUCT_EVIDENCE_STREAM,99.4,3,"Soft Grip; Soft Grip, Rubber Grip; Plain",METADATA,CAUTION
+specifications.Child Safe,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Child Safe' from PRODUCT_EVIDENCE_STREAM,99.6,2,No; Yes,METADATA,CAUTION
+specifications.Model Year,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Model Year' from PRODUCT_EVIDENCE_STREAM,97.8,1,NA,METADATA,CAUTION
+specifications.Necklace Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Necklace Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Geomectric,METADATA,CAUTION
+specifications.Chain Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Chain Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Belcher,METADATA,CAUTION
+specifications.Pan Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pan Type' from PRODUCT_EVIDENCE_STREAM,95.61,10,Sauce; Tadka; Curry,METADATA,CAUTION
+specifications.Non-stick,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Non-stick' from PRODUCT_EVIDENCE_STREAM,94.01,2,No; Yes,METADATA,CAUTION
+specifications.Induction Bottom,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Induction Bottom' from PRODUCT_EVIDENCE_STREAM,94.21,2,Yes; No,METADATA,CAUTION
+specifications.Audience Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Audience Size' from PRODUCT_EVIDENCE_STREAM,99.8,1,50,METADATA,CAUTION
+specifications.Microphone Included,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Microphone Included' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Portable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Portable' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Maximum Power Output,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Maximum Power Output' from PRODUCT_EVIDENCE_STREAM,99.8,1,35 W,METADATA,CAUTION
+specifications.Number of Sound Mixer Channel,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Sound Mixer Channel' from PRODUCT_EVIDENCE_STREAM,99.8,1,1,METADATA,CAUTION
+specifications.Memory Card Slot Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Memory Card Slot Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,SD Card Slots,METADATA,CAUTION
+specifications.Number of Microphone Input,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Microphone Input' from PRODUCT_EVIDENCE_STREAM,99.8,1,2,METADATA,CAUTION
+specifications.Wireless,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Wireless' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.USB Port,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.USB Port' from PRODUCT_EVIDENCE_STREAM,99.8,1,1,METADATA,CAUTION
+specifications.Setting Controls,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Setting Controls' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Bass, Treble",METADATA,CAUTION
+specifications.Maximum Frequency Response,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Maximum Frequency Response' from PRODUCT_EVIDENCE_STREAM,99.8,1,1200 kHz,METADATA,CAUTION
+specifications.Minimum Frequency Response,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Minimum Frequency Response' from PRODUCT_EVIDENCE_STREAM,99.8,1,100 Hz,METADATA,CAUTION
+specifications.Speaker Form Factor,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Speaker Form Factor' from PRODUCT_EVIDENCE_STREAM,99.8,1,External,METADATA,CAUTION
+specifications.Limit Indicator,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Limit Indicator' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Maximum Sound Output,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Maximum Sound Output' from PRODUCT_EVIDENCE_STREAM,99.8,1,28 dB,METADATA,CAUTION
+specifications.Speaker Mount,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Speaker Mount' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Handle Features,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Handle Features' from PRODUCT_EVIDENCE_STREAM,98.2,7,Double Sided Handle; Stainless Steel; Without Handle,METADATA,CAUTION
+specifications.Base Thickness,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Base Thickness' from PRODUCT_EVIDENCE_STREAM,98.8,5,0.26 cm; 0.3 cm; 0.29 cm,METADATA,CAUTION
+specifications.Dupatta Fabric,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Dupatta Fabric' from PRODUCT_EVIDENCE_STREAM,99.8,1,NA,METADATA,CAUTION
+specifications.Top Fabric,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Top Fabric' from PRODUCT_EVIDENCE_STREAM,99.8,1,Cotton Silk Blend,METADATA,CAUTION
+specifications.Bottom Fabric,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bottom Fabric' from PRODUCT_EVIDENCE_STREAM,99.8,1,Cotton Silk Blend,METADATA,CAUTION
+specifications.Top Length,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Top Length' from PRODUCT_EVIDENCE_STREAM,99.8,1,39.37 inch,INDEPENDENT_INPUT,NONE
+specifications.Top Width,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Top Width' from PRODUCT_EVIDENCE_STREAM,99.8,1,36 inch,METADATA,CAUTION
+specifications.Apparel Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Apparel Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Microfiber,METADATA,CAUTION
+specifications.Embellished,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Embellished' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Filter Thread Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Filter Thread Size' from PRODUCT_EVIDENCE_STREAM,99.8,1,67 mm,METADATA,CAUTION
+specifications.Mount Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Mount Type' from PRODUCT_EVIDENCE_STREAM,99.6,1,Bayonet,METADATA,CAUTION
+specifications.Covered In Warranty,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Covered In Warranty' from PRODUCT_EVIDENCE_STREAM,99.8,1,10 days Replacement,METADATA,CAUTION
+specifications.Not Covered In Warranty,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Not Covered In Warranty' from PRODUCT_EVIDENCE_STREAM,99.8,1,Misuse item/mishandling Damage,METADATA,CAUTION
+specifications.Brush Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Brush Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Makeup Brush,METADATA,CAUTION
+specifications.Number of Pieces per Set,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Pieces per Set' from PRODUCT_EVIDENCE_STREAM,99.8,1,10,METADATA,CAUTION
+specifications.Set Content,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Set Content' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Kabuki Brush, Foundation Brush, Blending Brush, Blush Brush, Eyeliner Brush, Fac",METADATA,CAUTION
+specifications.Water Dispenser,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Water Dispenser' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Water & Ice Dispenser,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Water & Ice Dispenser' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Door Lock,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Door Lock' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Installation & Demo,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Installation & Demo' from PRODUCT_EVIDENCE_STREAM,99.8,1,Standard installation and demo is provided free of cost.After delivery of your R,METADATA,CAUTION
+specifications.Net Total Capacity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Net Total Capacity' from PRODUCT_EVIDENCE_STREAM,99.8,1,220 L,METADATA,CAUTION
+specifications.Star Rating,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Star Rating' from PRODUCT_EVIDENCE_STREAM,99.8,1,2,METADATA,CAUTION
+specifications.Refrigerator Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Refrigerator Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Top Freezer Refrigerator,METADATA,CAUTION
+specifications.Defrosting Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Defrosting Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Frost Free,METADATA,CAUTION
+specifications.Number of Doors,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Doors' from PRODUCT_EVIDENCE_STREAM,99.8,1,2,METADATA,CAUTION
+specifications.Shelf Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Shelf Material' from PRODUCT_EVIDENCE_STREAM,99.8,1,Toughened Glass,METADATA,CAUTION
+specifications.Door Finish,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Door Finish' from PRODUCT_EVIDENCE_STREAM,99.8,1,PCM,METADATA,CAUTION
+specifications.Number of Refrigerator Door Bins,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Refrigerator Door Bins' from PRODUCT_EVIDENCE_STREAM,99.8,1,3,METADATA,CAUTION
+specifications.Number of Refrigerator Shelves,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Number of Refrigerator Shelves' from PRODUCT_EVIDENCE_STREAM,99.8,1,3,METADATA,CAUTION
+specifications.Egg Tray,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Egg Tray' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Net Height,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Net Height' from PRODUCT_EVIDENCE_STREAM,99.8,1,1433 mm,METADATA,CAUTION
+specifications.Net Depth,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Net Depth' from PRODUCT_EVIDENCE_STREAM,99.8,1,628 mm,METADATA,CAUTION
+specifications.Net Width,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Net Width' from PRODUCT_EVIDENCE_STREAM,99.8,1,541 mm,METADATA,CAUTION
+specifications.Freezer Tray Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Freezer Tray Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Ice Tray,METADATA,CAUTION
+specifications.Ice Cube Tray Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Ice Cube Tray Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Twist Ice Maker,METADATA,CAUTION
+specifications.Stabilizer Required,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Stabilizer Required' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Usage Time,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Usage Time' from PRODUCT_EVIDENCE_STREAM,99.6,1,430 min,METADATA,CAUTION
+specifications.Charge Time,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Charge Time' from PRODUCT_EVIDENCE_STREAM,99.8,1,90 min,METADATA,CAUTION
+specifications.Charging Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Charging Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,USB,METADATA,CAUTION
+specifications.Nicotine Strength,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Nicotine Strength' from PRODUCT_EVIDENCE_STREAM,99.6,1,10,METADATA,CAUTION
+specifications.Tip Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Tip Type' from PRODUCT_EVIDENCE_STREAM,99.8,1,Soft,METADATA,CAUTION
+specifications.Activation Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Activation Type' from PRODUCT_EVIDENCE_STREAM,99.6,1,Automatic,METADATA,CAUTION
+specifications.LED Light Color,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.LED Light Color' from PRODUCT_EVIDENCE_STREAM,99.8,1,Red,METADATA,CAUTION
+specifications.Puff Count,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Puff Count' from PRODUCT_EVIDENCE_STREAM,99.6,2,1200; 1600,INDEPENDENT_INPUT,NONE
+specifications.Certifications,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Certifications' from PRODUCT_EVIDENCE_STREAM,99.8,1,"Rohs, Ul, Csa",METADATA,CAUTION
+specifications.Locking,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Locking' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Oven Safe,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Oven Safe' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Broiler Safe,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Broiler Safe' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Cleaning,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cleaning' from PRODUCT_EVIDENCE_STREAM,99.8,1,Handwash with Soapy Water,METADATA,CAUTION
+specifications.Body Weight,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Body Weight' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Body Mass Index (BMI),PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Body Mass Index (BMI)' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Body Fat Percentage,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Body Fat Percentage' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,INDEPENDENT_INPUT,NONE
+specifications.Basal Metabolic Rate (BMR),PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Basal Metabolic Rate (BMR)' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Memory,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Memory' from PRODUCT_EVIDENCE_STREAM,99.8,1,4 Memory Presets,METADATA,CAUTION
+specifications.Maximum Weight Capacity,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Maximum Weight Capacity' from PRODUCT_EVIDENCE_STREAM,99.8,1,150 kg,METADATA,CAUTION
+specifications.Powered By,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Powered By' from PRODUCT_EVIDENCE_STREAM,99.8,1,Battery,METADATA,CAUTION
+specifications.Shoe Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Shoe Size' from PRODUCT_EVIDENCE_STREAM,99.4,3,30-33 Euro; 12-2 US; 3 UK,METADATA,CAUTION
+specifications.Wheel Size,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Wheel Size' from PRODUCT_EVIDENCE_STREAM,99.8,1,76 mm,METADATA,CAUTION
+specifications.Frame/Chassis,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Frame/Chassis' from PRODUCT_EVIDENCE_STREAM,99.8,1,Polypropylene,METADATA,CAUTION
+specifications.Cuff,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Cuff' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Bearings,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Bearings' from PRODUCT_EVIDENCE_STREAM,99.8,1,ABEC-3,METADATA,CAUTION
+specifications.Combo Set Content,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Combo Set Content' from PRODUCT_EVIDENCE_STREAM,95.41,23,1 Sizzle 1 Rage; Total Quantity-2 2 Nike Ride Deodorants for Men (200ml each); 1,METADATA,CAUTION
+specifications.Fragrance Segment,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Fragrance Segment' from PRODUCT_EVIDENCE_STREAM,98.0,2,Luxury; Mass Premium,METADATA,CAUTION
+specifications.Gift Set Content,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Gift Set Content' from PRODUCT_EVIDENCE_STREAM,99.4,3,1 Zeva Magic Deo Spray(150ml) For Women 1 Zeva Romantic Deo Spray(45ml) For Men ,METADATA,CAUTION
+specifications.Pencil Box Art,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pencil Box Art' from PRODUCT_EVIDENCE_STREAM,97.21,12,Cartoon; Netted; Flowers,METADATA,CAUTION
+specifications.Pencil Box Material,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pencil Box Material' from PRODUCT_EVIDENCE_STREAM,97.21,8,Metal; Cloth; Polyester,METADATA,CAUTION
+specifications.Integrated Sharpener,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Integrated Sharpener' from PRODUCT_EVIDENCE_STREAM,99.6,1,No,METADATA,CAUTION
+specifications.Pencil Box Closure Type,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Pencil Box Closure Type' from PRODUCT_EVIDENCE_STREAM,99.6,1,Zip,METADATA,CAUTION
+specifications.Universal Fit,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Universal Fit' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Compatible With,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Compatible With' from PRODUCT_EVIDENCE_STREAM,99.8,1,Beat,METADATA,CAUTION
+specifications.Breathable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Breathable' from PRODUCT_EVIDENCE_STREAM,99.8,1,Yes,METADATA,CAUTION
+specifications.Disposable,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Disposable' from PRODUCT_EVIDENCE_STREAM,99.8,1,No,METADATA,CAUTION
+specifications.Wireless Speed,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Wireless Speed' from PRODUCT_EVIDENCE_STREAM,99.8,1,150 Mbps,METADATA,CAUTION
+specifications.In The Box,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.In The Box' from PRODUCT_EVIDENCE_STREAM,99.8,1,Router,METADATA,CAUTION
+specifications.Antennae,PRODUCT_EVIDENCE_STREAM,str,Field 'specifications.Antennae' from PRODUCT_EVIDENCE_STREAM,99.8,1,External,METADATA,CAUTION
+product_id,WEAK_LABEL_DATASET_V1,str,Field 'product_id' from WEAK_LABEL_DATASET_V1,0.0,501,bc940ea42ee6bef5ac7cea3fb5cfbee7; c2a17313954882c1dba461863e98adf2; f35f27525ab8,IDENTIFIER,SPLIT_GROUPING_KEY
+product_url,WEAK_LABEL_DATASET_V1,str,Field 'product_url' from WEAK_LABEL_DATASET_V1,0.0,501,http://www.flipkart.com/sicons-all-purpose-arnica-dog-shampoo/p/itmeh3zyw2vhgsp5,IDENTIFIER,SPLIT_GROUPING_KEY
+pid,WEAK_LABEL_DATASET_V1,str,Field 'pid' from WEAK_LABEL_DATASET_V1,0.0,501,PSOEH3ZYDMSYARJ5; PWTEB7H2E4KCYUE3; PSOEH3ZXRTZJUVXM,IDENTIFIER,SPLIT_GROUPING_KEY
+product_name,WEAK_LABEL_DATASET_V1,str,Field 'product_name' from WEAK_LABEL_DATASET_V1,0.0,487,Sicons All Purpose Arnica Dog Shampoo; Eternal Gandhi Super Series Crystal Paper,INDEPENDENT_INPUT,NONE
+category,WEAK_LABEL_DATASET_V1,str,Field 'category' from WEAK_LABEL_DATASET_V1,0.0,81,Pet Supplies; Eternal Gandhi Super Series Crystal Paper Weight...; Bengal Blooms,INDEPENDENT_INPUT,NONE
+category_hierarchy,WEAK_LABEL_DATASET_V1,object,Field 'category_hierarchy' from WEAK_LABEL_DATASET_V1,0.0,335,"['Pet Supplies', 'Grooming', 'Skin & Coat Care', 'Shampoo', 'Sicons All Purpose ",INDEPENDENT_INPUT,NONE
+brand,WEAK_LABEL_DATASET_V1,str,Field 'brand' from WEAK_LABEL_DATASET_V1,0.0,232,Sicons; Eternal Gandhi; Kennel,INDEPENDENT_INPUT,NONE
+retail_price,WEAK_LABEL_DATASET_V1,float64,Field 'retail_price' from WEAK_LABEL_DATASET_V1,0.0,199,220.0; 430.0; 110.0,INDEPENDENT_INPUT,NONE
+discounted_price,WEAK_LABEL_DATASET_V1,float64,Field 'discounted_price' from WEAK_LABEL_DATASET_V1,0.0,219,210.0; 430.0; 100.0,INDEPENDENT_INPUT,NONE
+image_urls,WEAK_LABEL_DATASET_V1,object,Field 'image_urls' from WEAK_LABEL_DATASET_V1,0.0,497,['http://img5a.flixcart.com/image/pet-shampoo/r/j/5/sh-df-14-sicons-500-1100x110,INDEPENDENT_INPUT,NONE
+image_evidence_status,WEAK_LABEL_DATASET_V1,str,Field 'image_evidence_status' from WEAK_LABEL_DATASET_V1,0.0,1,NOT_ATTEMPTED,METADATA,CAUTION
+overall_label,WEAK_LABEL_DATASET_V1,str,Field 'overall_label' from WEAK_LABEL_DATASET_V1,0.0,2,NON_COMPLIANT; UNCERTAIN,TARGET,HIGH_TARGET_LEAKAGE
+overall_confidence,WEAK_LABEL_DATASET_V1,float64,Field 'overall_confidence' from WEAK_LABEL_DATASET_V1,0.0,10,0.886; 0.864; 0.893,RULE_DERIVED,PROVENANCE_LEAKAGE
+overall_reason,WEAK_LABEL_DATASET_V1,str,Field 'overall_reason' from WEAK_LABEL_DATASET_V1,0.0,6,Required declaration(s) D06 are ABSENT in listing evidence.; Required declaratio,RULE_DERIVED,PROVENANCE_LEAKAGE
+quality_tier,WEAK_LABEL_DATASET_V1,str,Field 'quality_tier' from WEAK_LABEL_DATASET_V1,0.0,1,TIER_A_HIGH_CONFIDENCE,PROVENANCE,PROVENANCE_LEAKAGE
+label_type,WEAK_LABEL_DATASET_V1,str,Field 'label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,PROVENANCE,PROVENANCE_LEAKAGE
+provenance,WEAK_LABEL_DATASET_V1,str,Field 'provenance' from WEAK_LABEL_DATASET_V1,0.0,1,AUTOMATED_WEAK_LABEL_PIPELINE_V1,PROVENANCE,PROVENANCE_LEAKAGE
+rule_engine_version,WEAK_LABEL_DATASET_V1,str,Field 'rule_engine_version' from WEAK_LABEL_DATASET_V1,0.0,1,v1,PROVENANCE,PROVENANCE_LEAKAGE
+evidence_version,WEAK_LABEL_DATASET_V1,str,Field 'evidence_version' from WEAK_LABEL_DATASET_V1,0.0,1,v1,PROVENANCE,PROVENANCE_LEAKAGE
+extraction_version,WEAK_LABEL_DATASET_V1,str,Field 'extraction_version' from WEAK_LABEL_DATASET_V1,0.0,1,v1,PROVENANCE,PROVENANCE_LEAKAGE
+generation_timestamp,WEAK_LABEL_DATASET_V1,str,Field 'generation_timestamp' from WEAK_LABEL_DATASET_V1,0.0,501,2026-09-05T00:12:38.863013+00:00; 2026-09-05T00:12:38.863766+00:00; 2026-09-05T0,PROVENANCE,PROVENANCE_LEAKAGE
+duplicate_group_id,WEAK_LABEL_DATASET_V1,str,Field 'duplicate_group_id' from WEAK_LABEL_DATASET_V1,0.0,501,dup_bc940ea42ee6; dup_c2a173139548; dup_f35f27525ab8,IDENTIFIER,SPLIT_GROUPING_KEY
+product_family_id,WEAK_LABEL_DATASET_V1,str,Field 'product_family_id' from WEAK_LABEL_DATASET_V1,0.0,473,fam_4e90ff9c2e08; fam_9379a95f8f97; fam_a8e632d7a2a2,IDENTIFIER,SPLIT_GROUPING_KEY
+normalized_family_title,WEAK_LABEL_DATASET_V1,str,Field 'normalized_family_title' from WEAK_LABEL_DATASET_V1,0.0,467,sicons all purpose arnica; eternal gandhi super series; sicons conditioning cond,METADATA,CAUTION
+declarations.D01.label,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D01.label' from WEAK_LABEL_DATASET_V1,0.0,3,PARTIAL; PRESENT; ABSENT,METADATA,CAUTION
+declarations.D01.confidence,WEAK_LABEL_DATASET_V1,float64,Field 'declarations.D01.confidence' from WEAK_LABEL_DATASET_V1,0.0,3,0.7; 0.9; 0.85,METADATA,CAUTION
+declarations.D01.evidence_nature,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D01.evidence_nature' from WEAK_LABEL_DATASET_V1,0.0,3,WEAK_EVIDENCE; EXPLICIT_EVIDENCE; NO_EVIDENCE,METADATA,CAUTION
+declarations.D01.evidence_sources,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D01.evidence_sources' from WEAK_LABEL_DATASET_V1,0.0,5,"['BRAND_FIELD']; ['PRODUCT_SPECIFICATIONS', 'PRODUCT_DESCRIPTION', 'BRAND_FIELD'",METADATA,CAUTION
+declarations.D01.evidence_text,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D01.evidence_text' from WEAK_LABEL_DATASET_V1,0.0,241,"['Brand ""Sicons"" present']; ['Brand ""Eternal Gandhi"" present']; ['Brand ""Kennel""",METADATA,CAUTION
+declarations.D01.rule_ids,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D01.rule_ids' from WEAK_LABEL_DATASET_V1,0.0,7,"['D01_BRAND_FIELD_FOUND']; ['D01_SPEC_ADDR_FOUND', 'D01_DESC_MFG_FOUND', 'D01_DE",METADATA,CAUTION
+declarations.D01.label_type,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D01.label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,METADATA,CAUTION
+declarations.D01.extraction_method,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D01.extraction_method' from WEAK_LABEL_DATASET_V1,0.0,1,DETERMINISTIC_LEGAL_HEURISTICS_V1,METADATA,CAUTION
+declarations.D02.label,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D02.label' from WEAK_LABEL_DATASET_V1,0.0,1,PRESENT,METADATA,CAUTION
+declarations.D02.confidence,WEAK_LABEL_DATASET_V1,float64,Field 'declarations.D02.confidence' from WEAK_LABEL_DATASET_V1,0.0,2,0.95; 0.8,METADATA,CAUTION
+declarations.D02.evidence_nature,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D02.evidence_nature' from WEAK_LABEL_DATASET_V1,0.0,2,EXPLICIT_EVIDENCE; WEAK_EVIDENCE,METADATA,CAUTION
+declarations.D02.evidence_sources,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D02.evidence_sources' from WEAK_LABEL_DATASET_V1,0.0,3,"['PRODUCT_TITLE', 'PRODUCT_SPECIFICATIONS']; ['PRODUCT_TITLE']; ['PRODUCT_SPECIF",METADATA,CAUTION
+declarations.D02.evidence_text,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D02.evidence_text' from WEAK_LABEL_DATASET_V1,0.0,342,"['Generic terms in title: ""shampoo""', 'Spec ""Type: All Purpose""', 'Category tree",METADATA,CAUTION
+declarations.D02.rule_ids,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D02.rule_ids' from WEAK_LABEL_DATASET_V1,0.0,4,"['D02_GENERIC_IN_TITLE', 'D02_SPEC_TYPE_FOUND', 'D02_CATEGORY_LEAF']; ['D02_TITL",METADATA,CAUTION
+declarations.D02.label_type,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D02.label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,METADATA,CAUTION
+declarations.D02.extraction_method,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D02.extraction_method' from WEAK_LABEL_DATASET_V1,0.0,1,DETERMINISTIC_LEGAL_HEURISTICS_V1,METADATA,CAUTION
+declarations.D03.label,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D03.label' from WEAK_LABEL_DATASET_V1,0.0,2,PRESENT; ABSENT,METADATA,CAUTION
+declarations.D03.confidence,WEAK_LABEL_DATASET_V1,float64,Field 'declarations.D03.confidence' from WEAK_LABEL_DATASET_V1,0.0,2,0.95; 0.85,METADATA,CAUTION
+declarations.D03.evidence_nature,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D03.evidence_nature' from WEAK_LABEL_DATASET_V1,0.0,2,EXPLICIT_EVIDENCE; NO_EVIDENCE,METADATA,CAUTION
+declarations.D03.evidence_sources,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D03.evidence_sources' from WEAK_LABEL_DATASET_V1,0.0,6,"['PRODUCT_SPECIFICATIONS', 'PRODUCT_DESCRIPTION']; ['PRODUCT_SPECIFICATIONS']; [",METADATA,CAUTION
+declarations.D03.evidence_text,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D03.evidence_text' from WEAK_LABEL_DATASET_V1,0.0,202,"['Spec ""Quantity"": ""500 ml""', 'Description quantity: ""500 ml, 500 ml""']; ['Spec ",METADATA,CAUTION
+declarations.D03.rule_ids,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D03.rule_ids' from WEAK_LABEL_DATASET_V1,0.0,6,"['D03_SPEC_QUANTITY_FOUND', 'D03_DESC_QUANTITY_FOUND']; ['D03_SPEC_QUANTITY_FOUN",METADATA,CAUTION
+declarations.D03.label_type,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D03.label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,METADATA,CAUTION
+declarations.D03.extraction_method,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D03.extraction_method' from WEAK_LABEL_DATASET_V1,0.0,1,DETERMINISTIC_LEGAL_HEURISTICS_V1,METADATA,CAUTION
+declarations.D04.label,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D04.label' from WEAK_LABEL_DATASET_V1,0.0,2,CANNOT_DETERMINE; PRESENT,METADATA,CAUTION
+declarations.D04.confidence,WEAK_LABEL_DATASET_V1,float64,Field 'declarations.D04.confidence' from WEAK_LABEL_DATASET_V1,0.0,2,0.9; 0.85,METADATA,CAUTION
+declarations.D04.evidence_nature,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D04.evidence_nature' from WEAK_LABEL_DATASET_V1,0.0,2,NO_EVIDENCE; EXPLICIT_EVIDENCE,METADATA,CAUTION
+declarations.D04.evidence_sources,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D04.evidence_sources' from WEAK_LABEL_DATASET_V1,0.0,2,['NO_EVIDENCE']; ['PRODUCT_SPECIFICATIONS'],METADATA,CAUTION
+declarations.D04.evidence_text,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D04.evidence_text' from WEAK_LABEL_DATASET_V1,0.0,3,['Month and year of manufacture/packing not stated in listing (standard for e-co,METADATA,CAUTION
+declarations.D04.rule_ids,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D04.rule_ids' from WEAK_LABEL_DATASET_V1,0.0,2,['D04_NO_DATE_IN_LISTING']; ['D04_SPEC_DATE_FOUND'],METADATA,CAUTION
+declarations.D04.label_type,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D04.label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,METADATA,CAUTION
+declarations.D04.extraction_method,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D04.extraction_method' from WEAK_LABEL_DATASET_V1,0.0,1,DETERMINISTIC_LEGAL_HEURISTICS_V1,METADATA,CAUTION
+declarations.D05.label,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D05.label' from WEAK_LABEL_DATASET_V1,0.0,1,PRESENT,METADATA,CAUTION
+declarations.D05.confidence,WEAK_LABEL_DATASET_V1,float64,Field 'declarations.D05.confidence' from WEAK_LABEL_DATASET_V1,0.0,1,0.95,METADATA,CAUTION
+declarations.D05.evidence_nature,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D05.evidence_nature' from WEAK_LABEL_DATASET_V1,0.0,1,EXPLICIT_EVIDENCE,METADATA,CAUTION
+declarations.D05.evidence_sources,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D05.evidence_sources' from WEAK_LABEL_DATASET_V1,0.0,1,['PRICE_FIELD'],METADATA,CAUTION
+declarations.D05.evidence_text,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D05.evidence_text' from WEAK_LABEL_DATASET_V1,0.0,352,"['Retail price: ₹220.00', 'Discounted price: ₹210.00', 'Note: Standard listing p",METADATA,CAUTION
+declarations.D05.rule_ids,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D05.rule_ids' from WEAK_LABEL_DATASET_V1,0.0,1,['D05_PRICE_FIELD_PRESENT'],METADATA,CAUTION
+declarations.D05.label_type,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D05.label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,METADATA,CAUTION
+declarations.D05.extraction_method,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D05.extraction_method' from WEAK_LABEL_DATASET_V1,0.0,1,DETERMINISTIC_LEGAL_HEURISTICS_V1,METADATA,CAUTION
+declarations.D06.label,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D06.label' from WEAK_LABEL_DATASET_V1,0.0,2,ABSENT; PRESENT,METADATA,CAUTION
+declarations.D06.confidence,WEAK_LABEL_DATASET_V1,float64,Field 'declarations.D06.confidence' from WEAK_LABEL_DATASET_V1,0.0,1,0.9,METADATA,CAUTION
+declarations.D06.evidence_nature,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D06.evidence_nature' from WEAK_LABEL_DATASET_V1,0.0,2,NO_EVIDENCE; EXPLICIT_EVIDENCE,METADATA,CAUTION
+declarations.D06.evidence_sources,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D06.evidence_sources' from WEAK_LABEL_DATASET_V1,0.0,2,['NO_EVIDENCE']; ['PRODUCT_SPECIFICATIONS'],METADATA,CAUTION
+declarations.D06.evidence_text,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D06.evidence_text' from WEAK_LABEL_DATASET_V1,0.0,5,"['No consumer care contact, toll-free number, or grievance email in listing']; [",METADATA,CAUTION
+declarations.D06.rule_ids,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D06.rule_ids' from WEAK_LABEL_DATASET_V1,0.0,2,['D06_NO_CARE_FOUND']; ['D06_SPEC_CARE_FOUND'],METADATA,CAUTION
+declarations.D06.label_type,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D06.label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,METADATA,CAUTION
+declarations.D06.extraction_method,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D06.extraction_method' from WEAK_LABEL_DATASET_V1,0.0,1,DETERMINISTIC_LEGAL_HEURISTICS_V1,METADATA,CAUTION
+declarations.D07.label,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D07.label' from WEAK_LABEL_DATASET_V1,0.0,2,CANNOT_DETERMINE; PRESENT,METADATA,CAUTION
+declarations.D07.confidence,WEAK_LABEL_DATASET_V1,float64,Field 'declarations.D07.confidence' from WEAK_LABEL_DATASET_V1,0.0,2,0.85; 0.75,METADATA,CAUTION
+declarations.D07.evidence_nature,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D07.evidence_nature' from WEAK_LABEL_DATASET_V1,0.0,2,NO_EVIDENCE; WEAK_EVIDENCE,METADATA,CAUTION
+declarations.D07.evidence_sources,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D07.evidence_sources' from WEAK_LABEL_DATASET_V1,0.0,2,['NO_EVIDENCE']; ['PRODUCT_DESCRIPTION'],METADATA,CAUTION
+declarations.D07.evidence_text,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D07.evidence_text' from WEAK_LABEL_DATASET_V1,0.0,2,['Country of origin not stated in listing; domestic vs imported status cannot be,METADATA,CAUTION
+declarations.D07.rule_ids,WEAK_LABEL_DATASET_V1,object,Field 'declarations.D07.rule_ids' from WEAK_LABEL_DATASET_V1,0.0,2,['D07_NO_ORIGIN_IN_LISTING']; ['D07_DESC_ORIGIN_FOUND'],METADATA,CAUTION
+declarations.D07.label_type,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D07.label_type' from WEAK_LABEL_DATASET_V1,0.0,1,WEAK_LABEL,METADATA,CAUTION
+declarations.D07.extraction_method,WEAK_LABEL_DATASET_V1,str,Field 'declarations.D07.extraction_method' from WEAK_LABEL_DATASET_V1,0.0,1,DETERMINISTIC_LEGAL_HEURISTICS_V1,METADATA,CAUTION
+product_id,HUMAN_GROUND_TRUTH_PILOT,str,Field 'product_id' from HUMAN_GROUND_TRUTH_PILOT,0.0,75,a11773bc4188f1c6226b941ec61c2024; 1835f47e943ce06311b96ce068dade0f; 031906a2ae75,IDENTIFIER,SPLIT_GROUPING_KEY
+product_name,HUMAN_GROUND_TRUTH_PILOT,str,Field 'product_name' from HUMAN_GROUND_TRUTH_PILOT,0.0,74,Sivanna Baking Powder Rouge  Highlighter; Khadi Herbal Trifala Hair Oil; Lip Rag,INDEPENDENT_INPUT,NONE
+product_url,HUMAN_GROUND_TRUTH_PILOT,str,Field 'product_url' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,,IDENTIFIER,SPLIT_GROUPING_KEY
+category,HUMAN_GROUND_TRUTH_PILOT,str,Field 'category' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,Beauty and Personal Care; Kitchen & Dining; Baby Care,INDEPENDENT_INPUT,NONE
+category_tree,HUMAN_GROUND_TRUTH_PILOT,str,Field 'category_tree' from HUMAN_GROUND_TRUTH_PILOT,0.0,62,"[""Beauty and Personal Care >> Men's Grooming >> Sivanna Men's Grooming >> Sivann",METADATA,CAUTION
+brand,HUMAN_GROUND_TRUTH_PILOT,str,Field 'brand' from HUMAN_GROUND_TRUTH_PILOT,0.0,41,Sivanna; Khadi Herbal; Lip Rageous,INDEPENDENT_INPUT,NONE
+retail_price,HUMAN_GROUND_TRUTH_PILOT,float64,Field 'retail_price' from HUMAN_GROUND_TRUTH_PILOT,0.0,49,700.0; 300.0; 1140.0,INDEPENDENT_INPUT,NONE
+discounted_price,HUMAN_GROUND_TRUTH_PILOT,float64,Field 'discounted_price' from HUMAN_GROUND_TRUTH_PILOT,0.0,53,399.0; 280.0; 950.0,INDEPENDENT_INPUT,NONE
+image_urls,HUMAN_GROUND_TRUTH_PILOT,str,Field 'image_urls' from HUMAN_GROUND_TRUTH_PILOT,0.0,75,"[""http://img5a.flixcart.com/image/highlighter/h/z/m/sivanna-baking-powder-rouge-",INDEPENDENT_INPUT,NONE
+overall_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'overall_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,NON_COMPLIANT; COMPLIANT; UNCERTAIN,TARGET,HIGH_TARGET_LEAKAGE
+provenance,HUMAN_GROUND_TRUTH_PILOT,str,Field 'provenance' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_PILOT_ANNOTATION; PHASE_4.5_HUMAN_REVIEW,PROVENANCE,PROVENANCE_LEAKAGE
+human_confirmed,HUMAN_GROUND_TRUTH_PILOT,bool,Field 'human_confirmed' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,True,PROVENANCE,PROVENANCE_LEAKAGE
+reviewed_by_human,HUMAN_GROUND_TRUTH_PILOT,bool,Field 'reviewed_by_human' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,True,PROVENANCE,PROVENANCE_LEAKAGE
+reviewer_id,HUMAN_GROUND_TRUTH_PILOT,str,Field 'reviewer_id' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,annotator_01; reviewer_01,PROVENANCE,PROVENANCE_LEAKAGE
+finalized_timestamp,HUMAN_GROUND_TRUTH_PILOT,str,Field 'finalized_timestamp' from HUMAN_GROUND_TRUTH_PILOT,0.0,75,2026-09-01T06:17:58.219344+00:00; 2026-09-01T06:23:41.615298+00:00; 2026-09-01T0,PROVENANCE,PROVENANCE_LEAKAGE
+declarations.D01.label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D01.label' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,PARTIAL; PRESENT; ABSENT,METADATA,CAUTION
+declarations.D01.evidence_source,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D01.evidence_source' from HUMAN_GROUND_TRUTH_PILOT,0.0,5,BRAND_FIELD; PRODUCT_TITLE; MULTIPLE_SOURCES,METADATA,CAUTION
+declarations.D01.evidence_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D01.evidence_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,43,"Brand name ""Sivanna"" is available, but no complete manufacturer, packer, importe",METADATA,CAUTION
+declarations.D01.review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D01.review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_HUMAN_ANNOTATION; ACCEPTED_AI_DRAFT,METADATA,CAUTION
+declarations.D01.original_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D01.original_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,PARTIAL; PRESENT; ABSENT,METADATA,CAUTION
+declarations.D02.label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D02.label' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,PRESENT,METADATA,CAUTION
+declarations.D02.evidence_source,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D02.evidence_source' from HUMAN_GROUND_TRUTH_PILOT,0.0,4,PRODUCT_TITLE; MULTIPLE_SOURCES; NO_EVIDENCE,METADATA,CAUTION
+declarations.D02.evidence_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D02.evidence_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,39,"The listing title identifies the product as a Baking Powder Rouge Highlighter, c",METADATA,CAUTION
+declarations.D02.review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D02.review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_HUMAN_ANNOTATION; ACCEPTED_AI_DRAFT,METADATA,CAUTION
+declarations.D02.original_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D02.original_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,PRESENT,METADATA,CAUTION
+declarations.D03.label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D03.label' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,PARTIAL; PRESENT; ABSENT,METADATA,CAUTION
+declarations.D03.evidence_source,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D03.evidence_source' from HUMAN_GROUND_TRUTH_PILOT,0.0,5,PRODUCT_SPECIFICATIONS; MULTIPLE_SOURCES; NO_EVIDENCE,METADATA,CAUTION
+declarations.D03.evidence_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D03.evidence_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,43,"Quantity is listed as ""12"", but the unit of measurement or number of items is no",METADATA,CAUTION
+declarations.D03.review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D03.review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_HUMAN_ANNOTATION; ACCEPTED_AI_DRAFT,METADATA,CAUTION
+declarations.D03.original_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D03.original_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,PARTIAL; PRESENT; ABSENT,METADATA,CAUTION
+declarations.D04.label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D04.label' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,CANNOT_DETERMINE; PRESENT,METADATA,CAUTION
+declarations.D04.evidence_source,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D04.evidence_source' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,NO_EVIDENCE; PRODUCT_TITLE; CANNOT_VERIFY,METADATA,CAUTION
+declarations.D04.evidence_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D04.evidence_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,13,"No month or year of manufacture, packing, or import is available in the listing ",METADATA,CAUTION
+declarations.D04.review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D04.review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_HUMAN_ANNOTATION; ACCEPTED_AI_DRAFT,METADATA,CAUTION
+declarations.D04.original_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D04.original_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,CANNOT_DETERMINE; PRESENT,METADATA,CAUTION
+declarations.D05.label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D05.label' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,PRESENT,METADATA,CAUTION
+declarations.D05.evidence_source,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D05.evidence_source' from HUMAN_GROUND_TRUTH_PILOT,0.0,6,PRICE_FIELD; PRODUCT_DESCRIPTION; MULTIPLE_SOURCES,METADATA,CAUTION
+declarations.D05.evidence_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D05.evidence_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,43,A retail price of ₹700 is listed; A retail price of ₹300 is provided; The listin,METADATA,CAUTION
+declarations.D05.review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D05.review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_HUMAN_ANNOTATION; ACCEPTED_AI_DRAFT,METADATA,CAUTION
+declarations.D05.original_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D05.original_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,PRESENT,METADATA,CAUTION
+declarations.D06.label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D06.label' from HUMAN_GROUND_TRUTH_PILOT,0.0,4,ABSENT; PRESENT; CANNOT_DETERMINE,METADATA,CAUTION
+declarations.D06.evidence_source,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D06.evidence_source' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,PRODUCT_DESCRIPTION; NO_EVIDENCE; PRODUCT_IMAGE,METADATA,CAUTION
+declarations.D06.evidence_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D06.evidence_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,16,"No consumer care phone number, email address, or complaint contact details are p",METADATA,CAUTION
+declarations.D06.review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D06.review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_HUMAN_ANNOTATION; ACCEPTED_AI_DRAFT,METADATA,CAUTION
+declarations.D06.original_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D06.original_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,ABSENT; PRESENT; CANNOT_DETERMINE,METADATA,CAUTION
+declarations.D07.label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D07.label' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,CANNOT_DETERMINE; PRESENT,METADATA,CAUTION
+declarations.D07.evidence_source,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D07.evidence_source' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,NO_EVIDENCE; PRODUCT_SPECIFICATIONS; CANNOT_VERIFY,METADATA,CAUTION
+declarations.D07.evidence_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D07.evidence_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,12,"No country of origin is provided, and the available listing information does not",METADATA,CAUTION
+declarations.D07.review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D07.review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_HUMAN_ANNOTATION; ACCEPTED_AI_DRAFT,METADATA,CAUTION
+declarations.D07.original_label,HUMAN_GROUND_TRUTH_PILOT,str,Field 'declarations.D07.original_label' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,CANNOT_DETERMINE; PRESENT,METADATA,CAUTION
+audit.reviewer_decision,HUMAN_GROUND_TRUTH_PILOT,str,Field 'audit.reviewer_decision' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,ORIGINAL_CONFIRMED; CONFIRMED,METADATA,CAUTION
+audit.review_reason,HUMAN_GROUND_TRUTH_PILOT,str,Field 'audit.review_reason' from HUMAN_GROUND_TRUTH_PILOT,0.0,48,The available product listing contains a clear commodity name and price informat,METADATA,CAUTION
+audit.reviewer_notes,HUMAN_GROUND_TRUTH_PILOT,str,Field 'audit.reviewer_notes' from HUMAN_GROUND_TRUTH_PILOT,0.0,1,,METADATA,CAUTION
+audit.review_confidence,HUMAN_GROUND_TRUTH_PILOT,str,Field 'audit.review_confidence' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,MEDIUM; HIGH,METADATA,CAUTION
+audit.overall_review_action,HUMAN_GROUND_TRUTH_PILOT,str,Field 'audit.overall_review_action' from HUMAN_GROUND_TRUTH_PILOT,0.0,3,ORIGINAL; ACCEPTED_AI_DRAFT; MANUAL,METADATA,CAUTION
+audit.ai_draft_metadata.draft_generated,HUMAN_GROUND_TRUTH_PILOT,bool,Field 'audit.ai_draft_metadata.draft_generated' from HUMAN_GROUND_TRUTH_PILOT,0.0,2,False; True,METADATA,CAUTION
+audit.ai_draft_metadata.model_name,HUMAN_GROUND_TRUTH_PILOT,str,Field 'audit.ai_draft_metadata.model_name' from HUMAN_GROUND_TRUTH_PILOT,52.0,3,gemini-3.6-flash; gemini-2.5-flash; gemini-2.5-flash-lite,METADATA,CAUTION
+audit.ai_draft_metadata.draft_timestamp,HUMAN_GROUND_TRUTH_PILOT,str,Field 'audit.ai_draft_metadata.draft_timestamp' from HUMAN_GROUND_TRUTH_PILOT,52.0,36,2026-09-04T22:18:28.972253+00:00; 2026-09-04T21:55:51.036145+00:00; 2026-09-04T2,METADATA,CAUTION

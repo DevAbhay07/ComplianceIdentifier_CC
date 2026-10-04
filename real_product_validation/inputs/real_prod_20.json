@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_20",
+  "title": "Aroma Magic Sunblock Lotion SPF 30 (100ml)",
+  "category": "Beauty & Personal Care",
+  "brand": "Aroma Magic",
+  "retail_price": 220.0,
+  "discounted_price": 185.0,
+  "description": "All natural mineral sunscreen lotion with non-nano zinc oxide and calendula extracts.",
+  "specifications": {
+    "SPF": "SPF 30",
+    "Volume": "100 ml",
+    "Type": "Lotion"
+  },
+  "image_path": "real_product_validation/images/real_prod_20.png"
+}

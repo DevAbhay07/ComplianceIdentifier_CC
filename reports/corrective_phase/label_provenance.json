@@ -1,0 +1,66 @@
+{
+  "audit_date": "2026-09-05",
+  "datasets": [
+    {
+      "dataset_name": "Flipkart Raw Catalog",
+      "domain": "E-Commerce Catalog Metadata",
+      "sample_count": 20002,
+      "annotation_type": "Unlabeled / Raw text & specs",
+      "target_type": "None",
+      "provenance_class": "RAW_CATALOG",
+      "human_verified": false,
+      "usable_for_training": false,
+      "usable_for_evaluation": false,
+      "limitations": "Contains unstructured catalog descriptions and metadata; lacks verified statutory ground truth."
+    },
+    {
+      "dataset_name": "Flipkart Weak Silver Dataset",
+      "domain": "E-Commerce Catalog Metadata",
+      "sample_count": 1663,
+      "annotation_type": "Rule-derived synthetic silver targets",
+      "target_type": "COMPLIANT / NON_COMPLIANT / UNCERTAIN",
+      "provenance_class": "WEAKLY_DERIVED_SILVER",
+      "human_verified": false,
+      "usable_for_training": true,
+      "usable_for_evaluation": true,
+      "limitations": "Target labels generated via heuristic catalog keyword rules. Represents weak supervision; not gold packaging truth."
+    },
+    {
+      "dataset_name": "Human Reference Dataset",
+      "domain": "E-Commerce Catalog Metadata",
+      "sample_count": 75,
+      "annotation_type": "Manual dual-adjudicated human labels",
+      "target_type": "COMPLIANT / NON_COMPLIANT / UNCERTAIN",
+      "provenance_class": "HUMAN_VERIFIED_CATALOG",
+      "sha256_hash": "37dc62a308a67899ee40d782b2163d56b6c472edc47b6f56059048649b877520",
+      "human_verified": true,
+      "usable_for_training": false,
+      "usable_for_evaluation": true,
+      "limitations": "Strictly immutable catalog-domain evaluation benchmark. Must never be used in training, tuning, or feature selection."
+    },
+    {
+      "dataset_name": "Real Product Packaging Benchmark",
+      "domain": "Physical Product Packaging Images",
+      "sample_count": 20,
+      "annotation_type": "Physical package image audit",
+      "target_type": "NON_COMPLIANT / COMPLIANT",
+      "provenance_class": "HUMAN_VERIFIED_PHYSICAL_BENCHMARK",
+      "human_verified": true,
+      "usable_for_training": false,
+      "usable_for_evaluation": true,
+      "limitations": "Independent physical packaging benchmark (N=20). Evaluation-only. Never tune thresholds or select models on it."
+    },
+    {
+      "dataset_name": "YOLO Physical Packaging Dataset",
+      "domain": "Physical Packaging Images",
+      "sample_count": 249,
+      "annotation_type": "482 bounding boxes across 9 visual classes",
+      "target_type": "SPATIAL_LOCALIZATION_ONLY (address, barcode, brand, consumer, details, mrp details, origin, tax, weight)",
+      "provenance_class": "VISUAL_LOCALIZATION_SUPERVISION",
+      "human_verified": true,
+      "usable_for_training": true,
+      "usable_for_evaluation": true,
+      "limitations": "Provides spatial bounding-box supervision for packaging regions. Contains ZERO product-level compliance labels. YOLO annotations != compliance ground truth."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "overall_status": "ALL QUALITY GATES PASSED (26/26)",
+  "all_passed": true,
+  "total_gates": 26,
+  "passed_gates": 26,
+  "gates": {
+    "GATE_A": {
+      "name": "Repository audit complete",
+      "passed": true,
+      "details": "repository_audit.md exists (8785 bytes)"
+    },
+    "GATE_B": {
+      "name": "Dataset roles correctly separated",
+      "passed": true,
+      "details": "dataset_role_decision.md documents Flipkart, YOLO, Human Ref, Real Packaging roles."
+    },
+    "GATE_C": {
+      "name": "YOLO dataset used as physical packaging data",
+      "passed": true,
+      "details": "YOLO physical packaging dataset verified with 249 total images (219 train, 20 val, 10 test)."
+    },
+    "GATE_D": {
+      "name": "YOLO labels not falsely treated as compliance labels",
+      "passed": true,
+      "details": "YOLO annotations are spatial region boxes (brand, mrp details, weight, etc.), not legal compliance verdicts."
+    },
+    "GATE_E": {
+      "name": "OCR/Vision declaration extraction works",
+      "passed": true,
+      "details": "Regex and OCR extraction extracts D03 and D05 from packaging text."
+    },
+    "GATE_F": {
+      "name": "D01-D07 structured representation works",
+      "passed": true,
+      "details": "ProductEvidenceRecord contains complete structured D01-D07 declarations dictionary."
+    },
+    "GATE_G": {
+      "name": "Actual declaration values preserved",
+      "passed": true,
+      "details": "Preserved numerical quantity (100.0g) and MRP (Rs. 99.0)."
+    },
+    "GATE_H": {
+      "name": "Declaration features enter ML matrix",
+      "passed": true,
+      "details": "Extracted feature matrix shape: (1, 61) (61 declaration-centric features)."
+    },
+    "GATE_I": {
+      "name": "Product target provenance documented",
+      "passed": true,
+      "details": "label_provenance.md documents provenance for all datasets."
+    },
+    "GATE_J": {
+      "name": "No fabricated gold labels",
+      "passed": true,
+      "details": "Weak catalog training labels are explicitly designated as WEAKLY_DERIVED_SILVER."
+    },
+    "GATE_K": {
+      "name": "No target leakage",
+      "passed": true,
+      "details": "Zero target names, zero split overlap, zero benchmark contamination, no trivial 1.0 correlation."
+    },
+    "GATE_L": {
+      "name": "Multiple images fuse correctly",
+      "passed": true,
+      "details": "Cross-image evidence union successfully retained front and back declarations."
+    },
+    "GATE_M": {
+      "name": "YOLO non-detection is not legal absence",
+      "passed": true,
+      "details": "Architectural principle strictly enforced: YOLO provides spatial localization, OCR provides semantic declarations."
+    },
+    "GATE_N": {
+      "name": "OCR positive evidence preserved",
+      "passed": true,
+      "details": "Tata 1mg Creatine case: all D03-D07 declarations remain PRESENT when YOLO=0."
+    },
+    "GATE_O": {
+      "name": "Uncertainty / abstention works",
+      "passed": true,
+      "details": "Predictor supports three-class output with confidence abstention (result: NON_COMPLIANT)."
+    },
+    "GATE_P": {
+      "name": "Product-level ML exists only if scientifically supportable",
+      "passed": true,
+      "details": "Supervised model trained on weak silver data, evaluated across validation and independent benchmarks."
+    },
+    "GATE_Q": {
+      "name": "Direct ML separated from rule engine",
+      "passed": true,
+      "details": "DeclarationProductModel (pure ML) is separated from deterministic rule checks."
+    },
+    "GATE_R": {
+      "name": "Streamlit uses corrected pipeline",
+      "passed": true,
+      "details": "InferencePipelineBridge routes directly to DeclarationCentricPipeline."
+    },
+    "GATE_S": {
+      "name": "Real benchmark isolated (N=20)",
+      "passed": true,
+      "details": "All 20 real product benchmark samples strictly isolated from training."
+    },
+    "GATE_T": {
+      "name": "Human reference immutable (SHA-256 verified)",
+      "passed": true,
+      "details": "Human reference SHA-256 hash verified (37dc62a308a67899...)."
+    },
+    "GATE_U": {
+      "name": "Phase 9 preserved",
+      "passed": true,
+      "details": "Phase 9 inference code preserved intact."
+    },
+    "GATE_V": {
+      "name": "Phase 10 preserved",
+      "passed": true,
+      "details": "models/phase_10/ and reports/phase_10/ preserved intact."
+    },
+    "GATE_W": {
+      "name": "Phase 11 preserved",
+      "passed": true,
+      "details": "models/phase_11/ and reports/phase_11/ preserved intact."
+    },
+    "GATE_X": {
+      "name": "Phase 12 preserved",
+      "passed": true,
+      "details": "reports/phase_12/ preserved intact."
+    },
+    "GATE_Y": {
+      "name": "API security verified",
+      "passed": true,
+      "details": "VISION_API_KEY read dynamically from environment variables; zero hardcoding; zero silent image logging."
+    },
+    "GATE_Z": {
+      "name": "Regression tests pass",
+      "passed": true,
+      "details": "test_corrective_pipeline.py exited with code 0."
+    }
+  }
+}

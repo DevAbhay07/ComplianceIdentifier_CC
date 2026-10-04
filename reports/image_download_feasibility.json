@@ -1,0 +1,10 @@
+{
+  "test_date": "2026-09-05",
+  "total_tested": 25,
+  "accessible": 24,
+  "inaccessible": 1,
+  "accessibility_rate": "96%",
+  "file_size_range_kb": "24 - 231",
+  "dimension_range": "220x551 - 1299x3149",
+  "urls_per_product_range": "1 - 4"
+}

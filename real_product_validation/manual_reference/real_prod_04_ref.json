@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_04",
+  "title": "Happilo 100% Natural Premium California Almonds 500g",
+  "category": "Packaged Goods & Food",
+  "brand": "Happilo",
+  "observable_packaging_text": "Happilo Premium California Almonds\nNet Weight: 500 g\nImported & Packed by: Happilo International Pvt. Ltd., Singasandra, Bengaluru 560068\nCountry of Origin: USA\nMRP: Rs. 499.00 (Incl. of all taxes)\nPkd on: 12/2025 | Best Before 9 Months\nHelpline: +91-80-25721111 / support@happilo.com",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Happilo International Pvt. Ltd., Singasandra, Bengaluru 560068",
+      "note": "Importer and packer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "California Almonds",
+      "note": "Commodity name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "500 g",
+      "note": "Net weight in grams."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Pkd on: 12/2025 | Best Before 9 Months",
+      "note": "Packing date and shelf life."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 499.00 (Incl. of all taxes)",
+      "note": "MRP declared."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "+91-80-25721111, support@happilo.com",
+      "note": "Contact phone and email."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: USA",
+      "note": "Origin USA declared."
+    }
+  }
+}

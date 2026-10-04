@@ -1,0 +1,51 @@
+feature,importance,rank
+retail_price,0.10994202994157351,1
+discounted_price,0.10392278368608285,2
+title_length,0.08922481036579531,3
+discount_percentage,0.08079103561889486,4
+discount_amount,0.07663017818045953,5
+title_word_count,0.060381800802850084,6
+image_count,0.055435256203807744,7
+category_Home Furnishing,0.0305763337895474,8
+category_Beauty and Personal Care,0.029414802743234773,9
+category_Health & Personal Care Appliances,0.028807586555215342,10
+category_Toys & School Supplies,0.028510462910349782,11
+has_brand,0.02692819269937691,12
+measurement_token_count,0.02349672380433004,13
+category_Kitchen & Dining,0.023090622309618797,14
+price_tier_MID_RANGE,0.01996378237885731,15
+numeric_token_count,0.01990497093366519,16
+category_Clothing,0.017700922088071284,17
+category_Footwear,0.017032859674831858,18
+price_tier_PREMIUM,0.01204179627301963,19
+category_Baby Care,0.009819921610500045,20
+category_Mobiles & Accessories,0.008259857241308417,21
+category_Computers,0.00771152335813368,22
+category_Home & Kitchen,0.007655629265400234,23
+category_Sports & Fitness,0.006434543558780767,24
+price_tier_LUXURY,0.006417487476330578,25
+category_Watches,0.006015854542873927,26
+category_Automotive,0.005564726174996566,27
+category_Cameras & Accessories,0.005318854138646367,28
+"category_Bags, Wallets & Belts",0.004068755775196358,29
+category_Pens & Stationery,0.0040612452749133245,30
+category_Jewellery,0.003446747293669896,31
+price_tier_BUDGET,0.003153318810437854,32
+category_ATV Pouch for Acer Liquid Z330 (STEEL BLUE),0.0031234487511188668,33
+category_Pet Supplies,0.002832846623977141,34
+category_Clovia Lingerie Set,0.002423381971418597,35
+"category_tadd Men's, Women's Ankle Length Socks",0.0021465571268091134,36
+category_Indistar Self Design Viscose Women's Stole,0.002008626401513477,37
+category_Tools & Hardware,0.0018285522460147758,38
+category_United Colors of Benetton Girl's Trousers,0.0017996058576127665,39
+category_Fabpoppy Printed Women's Jumpsuit,0.001799432616357344,40
+category_Vinenzia Printed Winter Men's Gloves,0.0017597206485401359,41
+category_killys Men's Solid No Show Socks,0.001738793183965129,42
+category_Gking Hand Stiched Steering Cover For Renault Sc...,0.0017174421107176686,43
+category_SMART DENIM Solid Women's White Denim Shorts,0.0015497450022646311,44
+category_MASARA Solid Women's Straight Kurta,0.0014826504372419756,45
+origin_token_count,0.0014531430108677148,46
+category_Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562),0.0013428498007175707,47
+category_THERISE MD0005 Wired Headset (Pink),0.00127055341797168,48
+category_Gking Hand Stiched Steering Cover For Maruti Ert...,0.001133583324049856,49
+category_UFO Full Sleeve Solid Girl's Jacket,0.0011038839053078707,50

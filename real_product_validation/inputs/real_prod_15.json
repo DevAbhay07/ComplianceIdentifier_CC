@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_15",
+  "title": "Mother Sparsh 99% Pure Water Unscented Baby Wipes (72 Wipes)",
+  "category": "Baby Care",
+  "brand": "Mother Sparsh",
+  "retail_price": 299.0,
+  "discounted_price": 225.0,
+  "description": "Plant-based biodegradable wipes formulated with 99% pure water for newborn sensitive skin.",
+  "specifications": {
+    "Count": "72 Wipes",
+    "Scent": "Unscented"
+  },
+  "image_path": "real_product_validation/images/real_prod_15.png"
+}

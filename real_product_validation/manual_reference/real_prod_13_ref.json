@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_13",
+  "title": "Sunfeast Dark Fantasy Choco Fills 300g (Pack of 4)",
+  "category": "Packaged Goods & Food",
+  "brand": "Sunfeast",
+  "observable_packaging_text": "Sunfeast Dark Fantasy Choco Fills\nNet Weight: 300 g (4 Packs of 75 g each)\nManufactured by ITC Limited, 37 J.L. Nehru Road, Kolkata 700071, West Bengal\nMRP Rs. 180.00 incl of all taxes\nPkd: 02/2026 | Best Before 6 months\nFor feedback, call 1800-425-4444 or email itccares@itc.in\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "ITC Limited, J.L. Nehru Road, Kolkata 700071",
+      "note": "Manufacturer name and address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Choco Fills (Biscuits)",
+      "note": "Generic product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "300 g (4 Packs of 75 g each)",
+      "note": "Net quantity composite format."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Pkd: 02/2026",
+      "note": "Packaging date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 180.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-425-4444, itccares@itc.in",
+      "note": "Customer care details."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin India."
+    }
+  }
+}

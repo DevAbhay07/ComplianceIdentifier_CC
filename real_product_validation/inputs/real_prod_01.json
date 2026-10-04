@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_01",
+  "title": "Himalaya Purifying Neem Face Wash 150ml",
+  "category": "Beauty & Personal Care",
+  "brand": "Himalaya",
+  "retail_price": 195.0,
+  "discounted_price": 165.0,
+  "description": "Himalaya Purifying Neem Face Wash with Neem and Turmeric prevents pimples and clears skin.",
+  "specifications": {
+    "Skin Type": "All Skin Types",
+    "Net Quantity": "150 ml",
+    "Applied For": "Anti-acne & Pimples"
+  },
+  "image_path": "real_product_validation/images/real_prod_01.png"
+}

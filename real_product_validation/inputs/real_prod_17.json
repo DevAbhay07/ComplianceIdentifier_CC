@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_17",
+  "title": "KitchenPro Silicone Spatula & Pastry Brush Set",
+  "category": "Kitchen & Dining",
+  "brand": "KitchenPro",
+  "retail_price": 199.0,
+  "discounted_price": 149.0,
+  "description": "Heat resistant food grade silicone spatula and basting brush for baking and barbecue.",
+  "specifications": {
+    "Items": "2 (1 Spatula + 1 Brush)",
+    "Material": "Food Grade Silicone"
+  },
+  "image_path": "real_product_validation/images/real_prod_17.png"
+}

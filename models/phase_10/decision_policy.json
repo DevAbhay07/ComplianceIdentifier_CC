@@ -1,0 +1,7 @@
+{
+  "min_negative_confidence": 0.5,
+  "min_positive_confidence": 0.4,
+  "allow_durable_date_exemption": true,
+  "uncertainty_threshold": 0.35,
+  "policy_version": "evidence_aware_v1"
+}

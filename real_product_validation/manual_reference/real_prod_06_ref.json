@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_06",
+  "title": "Minimalist 10% Niacinamide Face Serum 30ml",
+  "category": "Beauty & Personal Care",
+  "brand": "Minimalist",
+  "observable_packaging_text": "Minimalist Niacinamide 10% + Zinc 1%\nNet Vol: 30 ml\nMfd by: Uprising Science Pvt. Ltd., RIICO Industrial Area, Jaipur 302022, Rajasthan\nMRP Rs. 599.00 (inclusive of all taxes)\nBatch: M2201 | Mfg Date: 02/2026\nCare: help@beminimalist.co | 1800-889-1234\nOrigin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Uprising Science Pvt. Ltd., Jaipur 302022, Rajasthan",
+      "note": "Manufacturer name and address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Face Serum",
+      "note": "Generic category name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "30 ml",
+      "note": "Volume in ml."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Mfg Date: 02/2026",
+      "note": "Manufacturing date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 599.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "help@beminimalist.co | 1800-889-1234",
+      "note": "Customer care."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Origin: India",
+      "note": "Origin declared."
+    }
+  }
+}

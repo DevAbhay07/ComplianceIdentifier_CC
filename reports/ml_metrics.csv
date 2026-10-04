@@ -1,0 +1,12 @@
+experiment,dataset,split,model,feature_set,n_samples,n_compliant,n_non_compliant,n_uncertain,precision_c,recall_c,f1_c,precision_nc,recall_nc,f1_nc,macro_f1,balanced_accuracy,mcc,roc_auc,average_precision,abstention_rate,coverage
+EXPERIMENT_F_UNIFIED_ALL,real_all,full_benchmark,RandomForest_SET_A,SET_A,20,17,3,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0
+BASELINE_ALWAYS_NC,real_all,full_benchmark,BASELINE_ALWAYS_NC,HEURISTIC,20,17,3,0,0.0,0.0,0.0,0.15,1.0,0.2608695652173913,0.13043478260869565,0.5,0.0,,,0.0,1.0
+BASELINE_ALWAYS_C,real_all,full_benchmark,BASELINE_ALWAYS_C,HEURISTIC,20,17,3,0,0.85,1.0,0.918918918918919,0.0,0.0,0.0,0.4594594594594595,0.5,0.0,,,0.0,1.0
+EXPERIMENT_F_UNIFIED_ALL,real,test,RandomForest_SET_A,SET_A,3,3,0,0,1.0,1.0,1.0,,,,1.0,1.0,,,,0.0,1.0
+EXPERIMENT_F_UNIFIED_ALL,synthetic,test,RandomForest_SET_A,SET_A,36,18,18,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0
+EXPERIMENT_F_UNIFIED_ALL,yolo,test,RandomForest_SET_A,SET_A,38,1,37,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0
+EXPERIMENT_F_UNIFIED_ALL,flipkart,test,RandomForest_SET_A,SET_A,250,0,250,0,,,,1.0,1.0,1.0,1.0,1.0,,,,0.0,1.0
+EXPERIMENT_F_UNIFIED_ALL,multi_domain,val,RandomForest_SET_A,SET_A,325,21,304,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0
+BASELINE_ALWAYS_C,real,test,BASELINE_ALWAYS_C,HEURISTIC,3,3,0,0,1.0,1.0,1.0,,,,1.0,1.0,,,,0.0,1.0
+BASELINE_ALWAYS_NC,real,test,BASELINE_ALWAYS_NC,HEURISTIC,3,3,0,0,0.0,0.0,0.0,,,,0.0,0.5,,,,0.0,1.0
+BASELINE_ALWAYS_NC,flipkart,test,BASELINE_ALWAYS_NC,HEURISTIC,250,0,250,0,,,,1.0,1.0,1.0,1.0,1.0,,,,0.0,1.0

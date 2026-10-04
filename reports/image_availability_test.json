@@ -1,0 +1,78 @@
+{
+  "test_date": "2026-09-01T04:34:00+05:30",
+  "total_tested": 10,
+  "accessible": 10,
+  "inaccessible": 0,
+  "results": [
+    {
+      "product_id": "660e91db93e04b564565942f32a22244",
+      "status": "HTTP_200",
+      "url": "http://img5a.flixcart.com/image/hair-styling/y/h/b/proganix-170-agave-nectar-plu",
+      "content_type": "image/jpeg",
+      "content_length": "127570"
+    },
+    {
+      "product_id": "aa98d4c65c5db0dca56fe42628762115",
+      "status": "HTTP_200",
+      "url": "http://img5a.flixcart.com/image/nail-polish/u/9/y/aroma-care-49-5-intense-color-",
+      "content_type": "image/jpeg",
+      "content_length": "149973"
+    },
+    {
+      "product_id": "4942e0a9c0527dc00319a39fc8f103e6",
+      "status": "HTTP_200",
+      "url": "http://img5a.flixcart.com/image/lip-liner/z/z/m/giorgio-armani-smooth-silk-lip-p",
+      "content_type": "image/jpeg",
+      "content_length": "41441"
+    },
+    {
+      "product_id": "1835f47e943ce06311b96ce068dade0f",
+      "status": "HTTP_200",
+      "url": "http://img6a.flixcart.com/image/bath-essential-oil/5/t/t/khadi-herbal-420-trifal",
+      "content_type": "image/jpeg",
+      "content_length": "147303"
+    },
+    {
+      "product_id": "4e858b8df41d7e393dc413c7fcb690e6",
+      "status": "HTTP_200",
+      "url": "http://img6a.flixcart.com/image/bath-essential-oil/u/d/u/allin-exporters-30-veti",
+      "content_type": "image/jpeg",
+      "content_length": "91206"
+    },
+    {
+      "product_id": "a11773bc4188f1c6226b941ec61c2024",
+      "status": "HTTP_200",
+      "url": "http://img5a.flixcart.com/image/highlighter/h/z/m/sivanna-baking-powder-rouge-hi",
+      "content_type": "image/jpeg",
+      "content_length": "968614"
+    },
+    {
+      "product_id": "456ec612b30d4b091639843cdb66bf54",
+      "status": "HTTP_200",
+      "url": "http://img6a.flixcart.com/image/bath-essential-oil/5/t/r/sscp-100-pine-oil-origi",
+      "content_type": "image/jpeg",
+      "content_length": "194810"
+    },
+    {
+      "product_id": "0abe931bedd044ac2b60b6eff6425234",
+      "status": "HTTP_200",
+      "url": "http://img5a.flixcart.com/image/deodorant/r/a/w/body-spray-jovan-600-live-it-com",
+      "content_type": "image/jpeg",
+      "content_length": "184086"
+    },
+    {
+      "product_id": "e5d41d5a421fc663e810284a834b465d",
+      "status": "HTTP_200",
+      "url": "http://img6a.flixcart.com/image/deodorant/c/3/z/body-spray-adidas-250-lavish-lif",
+      "content_type": "image/jpeg",
+      "content_length": "175944"
+    },
+    {
+      "product_id": "031906a2ae750996deee2fd3bd070f16",
+      "status": "HTTP_200",
+      "url": "http://img5a.flixcart.com/image/lip-balm/7/x/h/lip-rageous-4-25-blue-raspberry-l",
+      "content_type": "image/jpeg",
+      "content_length": "303011"
+    }
+  ]
+}

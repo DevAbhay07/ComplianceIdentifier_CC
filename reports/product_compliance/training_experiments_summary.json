@@ -1,0 +1,4936 @@
+{
+  "EXPERIMENT_A_FLIPKART_ONLY": {
+    "description": "Flipkart catalog only",
+    "train_size": 1164,
+    "val_size": 249,
+    "train_composition": {
+      "flipkart": 1164
+    },
+    "train_targets": {
+      "NON_COMPLIANT": 1164
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.0,
+        "balanced_accuracy": 0.0,
+        "macro_f1": 0.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            249,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 0.0,
+        "compliant_precision": "NOT MEASURABLE",
+        "compliant_recall": "NOT MEASURABLE",
+        "compliant_f1": "NOT MEASURABLE",
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            249
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 0,
+          "NON_COMPLIANT": 249
+        }
+      }
+    }
+  },
+  "EXPERIMENT_B_YOLO_ONLY": {
+    "description": "Eligible YOLO physical packaging only",
+    "train_size": 174,
+    "val_size": 37,
+    "train_composition": {
+      "yolo_physical_packaging": 174
+    },
+    "train_targets": {
+      "NON_COMPLIANT": 170,
+      "COMPLIANT": 4
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.027,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.0263,
+        "mcc": 0.0,
+        "compliant_precision": 0.027,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.0526,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            36,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4932,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.973,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9863,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.9861,
+        "macro_f1": 0.8263,
+        "mcc": 0.6972,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9722,
+        "non_compliant_f1": 0.9859,
+        "non_compliant_false_negative_rate": 0.0278,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.9861,
+        "macro_f1": 0.8263,
+        "mcc": 0.6972,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9722,
+        "non_compliant_f1": 0.9859,
+        "non_compliant_false_negative_rate": 0.0278,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.9861,
+        "macro_f1": 0.8263,
+        "mcc": 0.6972,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9722,
+        "non_compliant_f1": 0.9859,
+        "non_compliant_false_negative_rate": 0.0278,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4932,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.973,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9863,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.9861,
+        "macro_f1": 0.8263,
+        "mcc": 0.6972,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9722,
+        "non_compliant_f1": 0.9859,
+        "non_compliant_false_negative_rate": 0.0278,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4932,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.973,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9863,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 0.973,
+        "balanced_accuracy": 0.9861,
+        "macro_f1": 0.8263,
+        "mcc": 0.6972,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9722,
+        "non_compliant_f1": 0.9859,
+        "non_compliant_false_negative_rate": 0.0278,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.027,
+        "coverage": 0.973,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            36
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 36
+        }
+      }
+    }
+  },
+  "EXPERIMENT_C_SYNTHETIC_ONLY": {
+    "description": "Synthetic physical packaging only",
+    "train_size": 168,
+    "val_size": 36,
+    "train_composition": {
+      "synthetic_physical": 168
+    },
+    "train_targets": {
+      "COMPLIANT": 84,
+      "NON_COMPLIANT": 84
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.3333,
+        "mcc": 0.0,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.3333,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.5,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.6667,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            18
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0278,
+        "coverage": 0.9722,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 18
+        }
+      }
+    }
+  },
+  "EXPERIMENT_D_FLIPKART_YOLO": {
+    "description": "Flipkart + YOLO fusion",
+    "train_size": 1338,
+    "val_size": 286,
+    "train_composition": {
+      "flipkart": 1164,
+      "yolo_physical_packaging": 174
+    },
+    "train_targets": {
+      "NON_COMPLIANT": 1334,
+      "COMPLIANT": 4
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.0035,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.0035,
+        "mcc": 0.0,
+        "compliant_precision": 0.0035,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.007,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            285,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4991,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.9965,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4991,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.9965,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.9982,
+        "macro_f1": 0.8325,
+        "mcc": 0.7059,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9965,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0035,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            284
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4991,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.9965,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.9982,
+        "macro_f1": 0.8325,
+        "mcc": 0.7059,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9965,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0035,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            284
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.9982,
+        "macro_f1": 0.8325,
+        "mcc": 0.7059,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9965,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0035,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            284
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4991,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.9965,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.9982,
+        "macro_f1": 0.8325,
+        "mcc": 0.7059,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9965,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0035,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            284
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.9982,
+        "macro_f1": 0.8325,
+        "mcc": 0.7059,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9965,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0035,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            284
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4991,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.9965,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 0.9965,
+        "balanced_accuracy": 0.9982,
+        "macro_f1": 0.8325,
+        "mcc": 0.7059,
+        "compliant_precision": 0.5,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.6667,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9965,
+        "non_compliant_f1": 0.9982,
+        "non_compliant_false_negative_rate": 0.0035,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            284
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0035,
+        "coverage": 0.9965,
+        "confusion_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            285
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 1,
+          "NON_COMPLIANT": 285
+        }
+      }
+    }
+  },
+  "EXPERIMENT_E_FLIPKART_SYNTHETIC": {
+    "description": "Flipkart + Synthetic augmentation",
+    "train_size": 1332,
+    "val_size": 285,
+    "train_composition": {
+      "flipkart": 1164,
+      "synthetic_physical": 168
+    },
+    "train_targets": {
+      "NON_COMPLIANT": 1248,
+      "COMPLIANT": 84
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.0632,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.0594,
+        "mcc": 0.0,
+        "compliant_precision": 0.0632,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.1188,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            267,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.9368,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4837,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.9368,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9674,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            18
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 0.9684,
+        "balanced_accuracy": 0.9831,
+        "macro_f1": 0.8914,
+        "mcc": 0.8026,
+        "compliant_precision": 0.6667,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9663,
+        "non_compliant_f1": 0.9829,
+        "non_compliant_false_negative_rate": 0.0337,
+        "abstention_rate": 0.014,
+        "coverage": 0.986,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            9,
+            258
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 0.986,
+        "balanced_accuracy": 0.9925,
+        "macro_f1": 0.9462,
+        "mcc": 0.8977,
+        "compliant_precision": 0.8182,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.985,
+        "non_compliant_f1": 0.9925,
+        "non_compliant_false_negative_rate": 0.015,
+        "abstention_rate": 0.0246,
+        "coverage": 0.9754,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            4,
+            263
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            0
+          ],
+          [
+            0,
+            267
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 18,
+          "NON_COMPLIANT": 267
+        }
+      }
+    }
+  },
+  "EXPERIMENT_F_UNIFIED_ALL": {
+    "description": "Unified Multi-Domain (Flipkart + YOLO + Synthetic)",
+    "train_size": 1506,
+    "val_size": 322,
+    "train_composition": {
+      "flipkart": 1164,
+      "yolo_physical_packaging": 174,
+      "synthetic_physical": 168
+    },
+    "train_targets": {
+      "NON_COMPLIANT": 1418,
+      "COMPLIANT": 88
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.059,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.0557,
+        "mcc": 0.0,
+        "compliant_precision": 0.059,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.1114,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            303,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.941,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4848,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.941,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9696,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            19
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 0.9969,
+        "balanced_accuracy": 0.9737,
+        "macro_f1": 0.9857,
+        "mcc": 0.9717,
+        "compliant_precision": 1.0,
+        "compliant_recall": 0.9474,
+        "compliant_f1": 0.973,
+        "non_compliant_precision": 0.9967,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9984,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            18,
+            1
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 0.9752,
+        "balanced_accuracy": 0.9868,
+        "macro_f1": 0.9064,
+        "mcc": 0.8277,
+        "compliant_precision": 0.7037,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8261,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9736,
+        "non_compliant_f1": 0.9866,
+        "non_compliant_false_negative_rate": 0.0264,
+        "abstention_rate": 0.0155,
+        "coverage": 0.9845,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            8,
+            295
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 0.9658,
+        "balanced_accuracy": 0.9818,
+        "macro_f1": 0.8785,
+        "mcc": 0.7812,
+        "compliant_precision": 0.6333,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.7755,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9637,
+        "non_compliant_f1": 0.9815,
+        "non_compliant_false_negative_rate": 0.0363,
+        "abstention_rate": 0.028,
+        "coverage": 0.972,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            11,
+            292
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 0.9969,
+        "balanced_accuracy": 0.9983,
+        "macro_f1": 0.9864,
+        "mcc": 0.9731,
+        "compliant_precision": 0.95,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9744,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9967,
+        "non_compliant_f1": 0.9983,
+        "non_compliant_false_negative_rate": 0.0033,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            1,
+            302
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 0.9845,
+        "balanced_accuracy": 0.9917,
+        "macro_f1": 0.9377,
+        "mcc": 0.8824,
+        "compliant_precision": 0.7917,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8837,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9835,
+        "non_compliant_f1": 0.9917,
+        "non_compliant_false_negative_rate": 0.0165,
+        "abstention_rate": 0.0186,
+        "coverage": 0.9814,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            5,
+            298
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 0.9969,
+        "balanced_accuracy": 0.9983,
+        "macro_f1": 0.9864,
+        "mcc": 0.9731,
+        "compliant_precision": 0.95,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9744,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9967,
+        "non_compliant_f1": 0.9983,
+        "non_compliant_false_negative_rate": 0.0033,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            1,
+            302
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 0.9969,
+        "balanced_accuracy": 0.9983,
+        "macro_f1": 0.9864,
+        "mcc": 0.9731,
+        "compliant_precision": 0.95,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9744,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9967,
+        "non_compliant_f1": 0.9983,
+        "non_compliant_false_negative_rate": 0.0033,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            1,
+            302
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            19,
+            0
+          ],
+          [
+            0,
+            303
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 19,
+          "NON_COMPLIANT": 303
+        }
+      }
+    }
+  },
+  "EXPERIMENT_G_REAL_ONLY": {
+    "description": "Real Gold Physical Packaging only (REAL_HUMAN_VERIFIED)",
+    "train_size": 14,
+    "val_size": 3,
+    "train_composition": {
+      "real_physical_packaging": 14
+    },
+    "train_targets": {
+      "COMPLIANT": 12,
+      "NON_COMPLIANT": 2
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.6667,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4,
+        "mcc": 0.0,
+        "compliant_precision": 0.6667,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.3333,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.25,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.3333,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.5,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 0.6667,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4,
+        "mcc": 0.0,
+        "compliant_precision": 0.6667,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 0.6667,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4,
+        "mcc": 0.0,
+        "compliant_precision": 0.6667,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 0.6667,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4,
+        "mcc": 0.0,
+        "compliant_precision": 0.6667,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 0.6667,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4,
+        "mcc": 0.0,
+        "compliant_precision": 0.6667,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 0.6667,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4,
+        "mcc": 0.0,
+        "compliant_precision": 0.6667,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.8,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 2,
+          "NON_COMPLIANT": 1
+        }
+      }
+    }
+  },
+  "EXPERIMENT_H_REAL_SYNTHETIC": {
+    "description": "Real Gold + Synthetic Physical Packaging",
+    "train_size": 182,
+    "val_size": 39,
+    "train_composition": {
+      "real_physical_packaging": 14,
+      "synthetic_physical": 168
+    },
+    "train_targets": {
+      "COMPLIANT": 96,
+      "NON_COMPLIANT": 86
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.5128,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.339,
+        "mcc": 0.0,
+        "compliant_precision": 0.5128,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.678,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            19,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.4872,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.3276,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.4872,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.6552,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            20
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 0.9744,
+        "balanced_accuracy": 0.9737,
+        "macro_f1": 0.9743,
+        "mcc": 0.9499,
+        "compliant_precision": 0.9524,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9756,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9474,
+        "non_compliant_f1": 0.973,
+        "non_compliant_false_negative_rate": 0.0526,
+        "abstention_rate": 0.2051,
+        "coverage": 0.7949,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            1,
+            18
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0256,
+        "coverage": 0.9744,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 20,
+          "NON_COMPLIANT": 19
+        }
+      }
+    }
+  },
+  "EXPERIMENT_I_REAL_SYNTHETIC_YOLO": {
+    "description": "Real Gold + Synthetic + YOLO Packaging Fusion",
+    "train_size": 356,
+    "val_size": 76,
+    "train_composition": {
+      "real_physical_packaging": 14,
+      "synthetic_physical": 168,
+      "yolo_physical_packaging": 174
+    },
+    "train_targets": {
+      "COMPLIANT": 100,
+      "NON_COMPLIANT": 256
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.2763,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.2165,
+        "mcc": 0.0,
+        "compliant_precision": 0.2763,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.433,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            55,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.7237,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4198,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.7237,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.8397,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            21
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 0.9868,
+        "balanced_accuracy": 0.9762,
+        "macro_f1": 0.9833,
+        "mcc": 0.9671,
+        "compliant_precision": 1.0,
+        "compliant_recall": 0.9524,
+        "compliant_f1": 0.9756,
+        "non_compliant_precision": 0.9821,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.991,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0132,
+        "coverage": 0.9868,
+        "confusion_matrix": [
+          [
+            20,
+            1
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 0.9737,
+        "balanced_accuracy": 0.9671,
+        "macro_f1": 0.9671,
+        "mcc": 0.9342,
+        "compliant_precision": 0.9524,
+        "compliant_recall": 0.9524,
+        "compliant_f1": 0.9524,
+        "non_compliant_precision": 0.9818,
+        "non_compliant_recall": 0.9818,
+        "non_compliant_f1": 0.9818,
+        "non_compliant_false_negative_rate": 0.0182,
+        "abstention_rate": 0.0395,
+        "coverage": 0.9605,
+        "confusion_matrix": [
+          [
+            20,
+            1
+          ],
+          [
+            1,
+            54
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 0.9211,
+        "balanced_accuracy": 0.9307,
+        "macro_f1": 0.9065,
+        "mcc": 0.8199,
+        "compliant_precision": 0.8,
+        "compliant_recall": 0.9524,
+        "compliant_f1": 0.8696,
+        "non_compliant_precision": 0.9804,
+        "non_compliant_recall": 0.9091,
+        "non_compliant_f1": 0.9434,
+        "non_compliant_false_negative_rate": 0.0909,
+        "abstention_rate": 0.1316,
+        "coverage": 0.8684,
+        "confusion_matrix": [
+          [
+            20,
+            1
+          ],
+          [
+            5,
+            50
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 0.9868,
+        "balanced_accuracy": 0.9909,
+        "macro_f1": 0.9838,
+        "mcc": 0.9681,
+        "compliant_precision": 0.9545,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9767,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9818,
+        "non_compliant_f1": 0.9908,
+        "non_compliant_false_negative_rate": 0.0182,
+        "abstention_rate": 0.0526,
+        "coverage": 0.9474,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            1,
+            54
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 0.9868,
+        "balanced_accuracy": 0.9909,
+        "macro_f1": 0.9838,
+        "mcc": 0.9681,
+        "compliant_precision": 0.9545,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9767,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9818,
+        "non_compliant_f1": 0.9908,
+        "non_compliant_false_negative_rate": 0.0182,
+        "abstention_rate": 0.0132,
+        "coverage": 0.9868,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            1,
+            54
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 0.9868,
+        "balanced_accuracy": 0.9909,
+        "macro_f1": 0.9838,
+        "mcc": 0.9681,
+        "compliant_precision": 0.9545,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9767,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9818,
+        "non_compliant_f1": 0.9908,
+        "non_compliant_false_negative_rate": 0.0182,
+        "abstention_rate": 0.0132,
+        "coverage": 0.9868,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            1,
+            54
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 55
+        }
+      }
+    }
+  },
+  "EXPERIMENT_J_UNIFIED_REAL_ALL": {
+    "description": "All-Domain Master (Real + Flipkart + Synthetic + YOLO)",
+    "train_size": 1520,
+    "val_size": 325,
+    "train_composition": {
+      "real_physical_packaging": 14,
+      "flipkart": 1164,
+      "synthetic_physical": 168,
+      "yolo_physical_packaging": 174
+    },
+    "train_targets": {
+      "COMPLIANT": 100,
+      "NON_COMPLIANT": 1420
+    },
+    "model_results": {
+      "BASELINE::Always_COMPLIANT": {
+        "accuracy": 0.0646,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.0607,
+        "mcc": 0.0,
+        "compliant_precision": 0.0646,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.1214,
+        "non_compliant_precision": 0.0,
+        "non_compliant_recall": 0.0,
+        "non_compliant_f1": 0.0,
+        "non_compliant_false_negative_rate": 1.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            304,
+            0
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "BASELINE::Always_NON_COMPLIANT": {
+        "accuracy": 0.9354,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.4833,
+        "mcc": 0.0,
+        "compliant_precision": 0.0,
+        "compliant_recall": 0.0,
+        "compliant_f1": 0.0,
+        "non_compliant_precision": 0.9354,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9666,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            21
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_A::XGBoost": {
+        "accuracy": 0.9969,
+        "balanced_accuracy": 0.9762,
+        "macro_f1": 0.987,
+        "mcc": 0.9743,
+        "compliant_precision": 1.0,
+        "compliant_recall": 0.9524,
+        "compliant_f1": 0.9756,
+        "non_compliant_precision": 0.9967,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9984,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            20,
+            1
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_A::LogisticRegression": {
+        "accuracy": 0.9754,
+        "balanced_accuracy": 0.9868,
+        "macro_f1": 0.9133,
+        "mcc": 0.8397,
+        "compliant_precision": 0.7241,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.84,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9737,
+        "non_compliant_f1": 0.9867,
+        "non_compliant_false_negative_rate": 0.0263,
+        "abstention_rate": 0.0154,
+        "coverage": 0.9846,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            8,
+            296
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_A::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_B::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_B::LogisticRegression": {
+        "accuracy": 0.9631,
+        "balanced_accuracy": 0.9803,
+        "macro_f1": 0.8788,
+        "mcc": 0.7818,
+        "compliant_precision": 0.6364,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.7778,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9605,
+        "non_compliant_f1": 0.9799,
+        "non_compliant_false_negative_rate": 0.0395,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            12,
+            292
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_B::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_C::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_C::LogisticRegression": {
+        "accuracy": 0.9754,
+        "balanced_accuracy": 0.9868,
+        "macro_f1": 0.9133,
+        "mcc": 0.8397,
+        "compliant_precision": 0.7241,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.84,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9737,
+        "non_compliant_f1": 0.9867,
+        "non_compliant_false_negative_rate": 0.0263,
+        "abstention_rate": 0.0185,
+        "coverage": 0.9815,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            8,
+            296
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_C::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_D::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_D::LogisticRegression": {
+        "accuracy": 0.9877,
+        "balanced_accuracy": 0.9934,
+        "macro_f1": 0.9532,
+        "mcc": 0.9105,
+        "compliant_precision": 0.84,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.913,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9868,
+        "non_compliant_f1": 0.9934,
+        "non_compliant_false_negative_rate": 0.0132,
+        "abstention_rate": 0.0154,
+        "coverage": 0.9846,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            4,
+            300
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_D::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_E::XGBoost": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0,
+        "coverage": 1.0,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_E::LogisticRegression": {
+        "accuracy": 0.9938,
+        "balanced_accuracy": 0.9967,
+        "macro_f1": 0.9756,
+        "mcc": 0.9524,
+        "compliant_precision": 0.913,
+        "compliant_recall": 1.0,
+        "compliant_f1": 0.9545,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 0.9934,
+        "non_compliant_f1": 0.9967,
+        "non_compliant_false_negative_rate": 0.0066,
+        "abstention_rate": 0.0123,
+        "coverage": 0.9877,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            2,
+            302
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      },
+      "SET_E::RandomForest": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "macro_f1": 1.0,
+        "mcc": 1.0,
+        "compliant_precision": 1.0,
+        "compliant_recall": 1.0,
+        "compliant_f1": 1.0,
+        "non_compliant_precision": 1.0,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 1.0,
+        "non_compliant_false_negative_rate": 0.0,
+        "abstention_rate": 0.0031,
+        "coverage": 0.9969,
+        "confusion_matrix": [
+          [
+            21,
+            0
+          ],
+          [
+            0,
+            304
+          ]
+        ],
+        "support": {
+          "COMPLIANT": 21,
+          "NON_COMPLIANT": 304
+        }
+      }
+    }
+  }
+}

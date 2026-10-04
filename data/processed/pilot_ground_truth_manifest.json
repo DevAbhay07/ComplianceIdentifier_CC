@@ -1,0 +1,47 @@
+{
+  "dataset_name": "NitiMark Pilot Ground Truth",
+  "version": "1.0.0",
+  "release_tag": "pilot_ground_truth_75_v1",
+  "creation_timestamp": "2026-09-04T23:51:29.041620+00:00",
+  "total_products": 75,
+  "unique_products": 75,
+  "human_verified_count": 75,
+  "phase_4.5_reviewed_count": 36,
+  "original_baseline_count": 39,
+  "ai_assisted_reviews_count": 36,
+  "declaration_schema_version": "1.0.0",
+  "legal_requirement_source": "Legal Metrology (Packaged Commodities) Rules, 2011 (Rule 6)",
+  "declarations_covered": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07"
+  ],
+  "valid_declaration_labels": [
+    "CANNOT_DETERMINE",
+    "PARTIAL",
+    "NOT_APPLICABLE",
+    "PRESENT",
+    "ABSENT"
+  ],
+  "valid_overall_labels": [
+    "COMPLIANT",
+    "NON_COMPLIANT",
+    "UNCERTAIN"
+  ],
+  "files": {
+    "jsonl": {
+      "path": "data/processed/pilot_ground_truth_75_v1.jsonl",
+      "sha256": "37dc62a308a67899ee40d782b2163d56b6c472edc47b6f56059048649b877520",
+      "record_count": 75
+    },
+    "csv": {
+      "path": "data/processed/pilot_ground_truth_75_v1.csv",
+      "sha256": "f2ecf93c94ced3c8a0e1f6643c57de2c73025476b90b9b1c611eefd5a222ef22",
+      "record_count": 75
+    }
+  }
+}

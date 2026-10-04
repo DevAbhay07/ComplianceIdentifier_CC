@@ -1,0 +1,198 @@
+{
+  "project": "NitiMark-ML",
+  "phase": "phase_9_5",
+  "status": "SUCCESS",
+  "product_id": "real_prod_02",
+  "title": "Johnson's Baby Daily Nourish Moisture Lotion 200ml",
+  "category": "Baby Care",
+  "brand": "Johnson's",
+  "vision_ocr": {
+    "status": "SUCCESS",
+    "provider": "packaging_evidence_ocr",
+    "model": "deterministic-v1",
+    "latency_sec": 0.0101,
+    "extracted_text_preview": "Johnson's baby lotion\nwith coconut oil & milk proteins\nNet Quantity: 200 ml\nMfg. by: Johnson & Johnson Pvt. Ltd., L.B.S...."
+  },
+  "extracted_evidence": {
+    "D01": {
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "evidence_detected": true,
+      "evidence_text": "Address Markers: Mumbai, 400080",
+      "source": "OCR_AND_METADATA"
+    },
+    "D02": {
+      "declaration_name": "Generic or Common Name of Commodity",
+      "evidence_detected": true,
+      "evidence_text": "Johnson's Baby Daily Nourish Moisture Lotion 200ml",
+      "source": "METADATA_TITLE"
+    },
+    "D03": {
+      "declaration_name": "Net Quantity in Standard Units",
+      "evidence_detected": true,
+      "evidence_text": "200ml, 200 ml, 200 ml",
+      "source": "COMBINED_TEXT"
+    },
+    "D04": {
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "evidence_detected": true,
+      "evidence_text": "24 months, 02/2026",
+      "source": "COMBINED_TEXT"
+    },
+    "D05": {
+      "declaration_name": "Maximum Retail Price (MRP) & Tax Inclusivity",
+      "evidence_detected": true,
+      "evidence_text": "MRP Rs. 240.00",
+      "source": "COMBINED_TEXT"
+    },
+    "D06": {
+      "declaration_name": "Consumer Care Details (Phone / Email / Address)",
+      "evidence_detected": true,
+      "evidence_text": "1800-228-111, care@jnjindia.com",
+      "source": "COMBINED_TEXT"
+    },
+    "D07": {
+      "declaration_name": "Country of Origin",
+      "evidence_detected": true,
+      "evidence_text": "India",
+      "source": "COMBINED_TEXT"
+    }
+  },
+  "declarations": {
+    "D01": {
+      "declaration_id": "D01",
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "prediction": "PARTIAL",
+      "confidence": 0.52,
+      "decision": "UNCERTAIN",
+      "probabilities": {
+        "ABSENT": 0.18,
+        "PARTIAL": 0.52,
+        "PRESENT": 0.3
+      },
+      "margin": 0.22,
+      "entropy": 0.9192,
+      "uncertainty_reason": "Low confidence (0.52 < 0.60)",
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D02": {
+      "declaration_id": "D02",
+      "declaration_name": "Generic or Common Name of Commodity",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D03": {
+      "declaration_id": "D03",
+      "declaration_name": "Net Quantity in Standard Units",
+      "prediction": "PRESENT",
+      "confidence": 0.8694,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.1306,
+        "PRESENT": 0.8694
+      },
+      "margin": 0.7388,
+      "entropy": 0.5591,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D04": {
+      "declaration_id": "D04",
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D05": {
+      "declaration_id": "D05",
+      "declaration_name": "Maximum Retail Price (MRP)",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D06": {
+      "declaration_id": "D06",
+      "declaration_name": "Consumer Care Contact Details",
+      "prediction": "ABSENT",
+      "confidence": 0.9026,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.9026,
+        "PARTIAL": 0.0151,
+        "PRESENT": 0.0823
+      },
+      "margin": 0.8203,
+      "entropy": 0.3289,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D07": {
+      "declaration_id": "D07",
+      "declaration_name": "Country of Origin",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    }
+  },
+  "latencies_sec": {
+    "total_pipeline": 0.1425,
+    "ocr": 0.0101
+  },
+  "disclaimer": "NOTICE: Statistical ML predictions based on extracted packaging evidence. Do NOT constitute statutory legal certification."
+}

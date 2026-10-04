@@ -1,0 +1,247 @@
+# =============================================================================
+# NitiMark Weak-Label Generation & Evidence Interpretation Rules
+# Schema Version: 1.0.0
+# Source: Legal Metrology (Packaged Commodities) Rules, 2011 (Rule 6)
+# =============================================================================
+
+version: "1.0.0"
+rule_engine_version: "v1"
+extraction_version: "v1"
+evidence_version: "v1"
+
+# Allowed Declaration States
+declaration_states:
+  - "PRESENT"
+  - "ABSENT"
+  - "PARTIAL"
+  - "NOT_APPLICABLE"
+  - "CANNOT_DETERMINE"
+
+# Allowed Overall Compliance States
+overall_states:
+  - "COMPLIANT"
+  - "NON_COMPLIANT"
+  - "UNCERTAIN"
+
+# Confidence Score Framework
+confidence_levels:
+  EXPLICIT_EVIDENCE: 0.90
+  STRONG_INDIRECT: 0.75
+  WEAK_EVIDENCE: 0.50
+  CONFLICTING_EVIDENCE: 0.20
+  NO_EVIDENCE: 0.00
+
+# Quality Tier Thresholds
+quality_tiers:
+  TIER_A_HIGH_CONFIDENCE:
+    min_overall_confidence: 0.70
+    max_cannot_determine: 2
+    allow_conflicting: false
+    description: "Safe candidates for primary weak-label ML training experiments"
+  TIER_B_MEDIUM_CONFIDENCE:
+    min_overall_confidence: 0.45
+    max_cannot_determine: 4
+    allow_conflicting: false
+    description: "Acceptable candidates for auxiliary/augmented training with sample weighting"
+  TIER_C_LOW_CONFIDENCE:
+    min_overall_confidence: 0.20
+    max_cannot_determine: 6
+    allow_conflicting: true
+    description: "Useful for exploratory analysis but excluded from default training"
+  REJECTED:
+    description: "Unusable due to unparseable data, missing required fields, or contradictory evidence"
+
+# Declaration Definitions & Detection Heuristics
+declarations:
+
+  D01:
+    id: "D01_MANUFACTURER_NAME_ADDRESS"
+    name: "Name and Address of Manufacturer/Packer/Importer"
+    legal_rule: "Rule 6(1)(a), Rule 10"
+    spec_keywords:
+      - "manufacturer"
+      - "manufactured by"
+      - "mfg by"
+      - "packer"
+      - "packed by"
+      - "importer"
+      - "imported by"
+      - "marketed by"
+    address_keywords:
+      - "address"
+      - "pin code"
+      - "pincode"
+      - "road"
+      - "street"
+      - "nagar"
+      - "sector"
+      - "plot"
+      - "industrial area"
+      - "dist"
+      - "district"
+      - "state"
+      - "city"
+    confidence_policy:
+      mfg_and_address: 0.90       # PRESENT
+      mfg_only_or_brand: 0.70     # PARTIAL
+      brand_field_only: 0.60      # PARTIAL
+      no_mfg_info: 0.85           # ABSENT
+
+  D02:
+    id: "D02_COMMODITY_NAME"
+    name: "Common or Generic Name of Commodity"
+    legal_rule: "Rule 6(1)(b)"
+    spec_keys:
+      - "type"
+      - "ideal for"
+      - "product type"
+      - "category"
+      - "generic name"
+    confidence_policy:
+      explicit_generic_in_title: 0.95  # PRESENT
+      spec_type_present: 0.90          # PRESENT
+      category_leaf_name: 0.80         # PRESENT
+      unidentified_title: 0.60         # PARTIAL / ABSENT
+
+  D03:
+    id: "D03_NET_QUANTITY"
+    name: "Net Quantity"
+    legal_rule: "Rule 6(1)(c), Rules 11-13"
+    spec_keys:
+      - "net quantity"
+      - "net weight"
+      - "weight"
+      - "volume"
+      - "capacity"
+      - "pack of"
+      - "number of contents"
+      - "size"
+      - "quantity"
+    units:
+      - "g"
+      - "gm"
+      - "gms"
+      - "gram"
+      - "grams"
+      - "kg"
+      - "kgs"
+      - "ml"
+      - "l"
+      - "litre"
+      - "liter"
+      - "litres"
+      - "liters"
+      - "pcs"
+      - "pc"
+      - "piece"
+      - "pieces"
+      - "count"
+      - "units"
+    confidence_policy:
+      spec_with_standard_unit: 0.95   # PRESENT
+      title_or_desc_with_unit: 0.85   # PRESENT
+      spec_count_only: 0.70           # PARTIAL
+      no_quantity_found: 0.85         # ABSENT
+
+  D04:
+    id: "D04_MANUFACTURE_DATE"
+    name: "Month and Year of Manufacture/Packing/Import"
+    legal_rule: "Rule 6(1)(d)"
+    spec_keys:
+      - "date of manufacture"
+      - "mfg date"
+      - "manufacturing date"
+      - "packing date"
+      - "packed on"
+      - "expiry date"
+      - "best before"
+      - "shelf life"
+      - "use by"
+    confidence_policy:
+      spec_explicit_date: 0.85        # PRESENT
+      desc_mention_date: 0.60         # PARTIAL
+      missing_in_listing: 0.90        # CANNOT_DETERMINE (standard for e-commerce)
+
+  D05:
+    id: "D05_MRP"
+    name: "Maximum Retail Price (MRP)"
+    legal_rule: "Rule 6(1)(e), Rule 2(m)"
+    source_fields:
+      - "retail_price"
+      - "discounted_price"
+    confidence_policy:
+      structured_retail_price: 0.95   # PRESENT
+      mrp_in_desc_or_spec: 0.85       # PRESENT
+      no_price_info: 0.90             # ABSENT
+
+  D06:
+    id: "D06_CONSUMER_CARE"
+    name: "Consumer Care / Complaint Contact Details"
+    legal_rule: "Rule 6(2)"
+    spec_keys:
+      - "customer care"
+      - "consumer care"
+      - "helpline"
+      - "toll free"
+      - "contact"
+      - "support"
+      - "grievance"
+      - "email"
+    keywords:
+      - "customer care"
+      - "consumer care"
+      - "helpline"
+      - "toll free"
+      - "toll-free"
+      - "support@"
+      - "care@"
+      - "help@"
+    confidence_policy:
+      spec_explicit_contact: 0.90     # PRESENT
+      phone_or_email_in_desc: 0.75    # PARTIAL / PRESENT
+      no_contact_info: 0.90           # ABSENT
+
+  D07:
+    id: "D07_COUNTRY_OF_ORIGIN"
+    name: "Country of Origin"
+    legal_rule: "Rule 6(1)(a)"
+    spec_keys:
+      - "country of origin"
+      - "country_of_origin"
+      - "made in"
+      - "manufactured in"
+      - "imported from"
+      - "origin"
+    confidence_policy:
+      spec_explicit_origin: 0.90      # PRESENT
+      desc_explicit_origin: 0.75      # PRESENT
+      missing_in_listing: 0.85        # CANNOT_DETERMINE
+
+# Category Relevance Classification
+category_relevance:
+  HIGH_RELEVANCE:
+    - "Beauty and Personal Care"
+    - "Baby Care"
+    - "Food & Nutrition"
+    - "Health & Personal Care Appliances"
+    - "Kitchen & Dining"
+  MEDIUM_RELEVANCE:
+    - "Clothing"
+    - "Footwear"
+    - "Home Furnishing"
+    - "Toys & School Supplies"
+    - "Sports & Fitness"
+    - "Home & Kitchen"
+    - "Pet Supplies"
+  LOW_RELEVANCE:
+    - "Automotive"
+    - "Mobiles & Accessories"
+    - "Computers"
+    - "Cameras & Accessories"
+    - "Watches"
+    - "Jewellery"
+    - "Bags, Wallets & Belts"
+    - "Pens & Stationery"
+    - "Tools & Hardware"
+  UNKNOWN:
+    - "Default fallback for unmapped trees"

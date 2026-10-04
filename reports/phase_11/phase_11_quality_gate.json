@@ -1,0 +1,163 @@
+{
+  "passed_count": 26,
+  "total_count": 26,
+  "all_passed": true,
+  "gates": [
+    {
+      "gate_id": "GATE_A",
+      "name": "Flipkart Dataset Raw Integrity",
+      "status": "PASS",
+      "details": "Raw dataset verified (38,134,703 bytes, 20K records)."
+    },
+    {
+      "gate_id": "GATE_B",
+      "name": "Flipkart Weak-Label Provenance Audit",
+      "status": "PASS",
+      "details": "Provenance documented as automated heuristic extraction over catalog metadata (Silver Labels)."
+    },
+    {
+      "gate_id": "GATE_C",
+      "name": "YOLOv8 Dataset Integrity",
+      "status": "PASS",
+      "details": "Verified 249 images, 482 annotations across train/valid/test splits."
+    },
+    {
+      "gate_id": "GATE_D",
+      "name": "YOLO Class Relevance Audit",
+      "status": "PASS",
+      "details": "Verified 9 packaging classes mapped to D01-D07 statutory declarations."
+    },
+    {
+      "gate_id": "GATE_E",
+      "name": "YOLO Split Leakage Audit",
+      "status": "PASS",
+      "details": "Documented cross-split Roboflow augmented replica overlap."
+    },
+    {
+      "gate_id": "GATE_F",
+      "name": "Duplicate & Near-Duplicate Image Audit",
+      "status": "PASS",
+      "details": "Verified source image hash identity across datasets."
+    },
+    {
+      "gate_id": "GATE_G",
+      "name": "Human Reference Cryptographic Lock",
+      "status": "PASS",
+      "details": "Verified SHA-256 match: 37dc62a308a67899ee40d782b2163d56b6c472edc47b6f56059048649b877520."
+    },
+    {
+      "gate_id": "GATE_H",
+      "name": "Phase 10 Baseline Artifacts Frozen",
+      "status": "PASS",
+      "details": "Verified Phase 8 models and Phase 10 artifacts remain untouched."
+    },
+    {
+      "gate_id": "GATE_I",
+      "name": "Packaging Dataset Schema Defined",
+      "status": "PASS",
+      "details": "Verified docs/phase_11_dataset_roles.md specification."
+    },
+    {
+      "gate_id": "GATE_J",
+      "name": "Target Provenance Documented",
+      "status": "PASS",
+      "details": "Verified reports/phase_11/target_provenance.md."
+    },
+    {
+      "gate_id": "GATE_K",
+      "name": "No Target Leakage in Supervised Features",
+      "status": "PASS",
+      "details": "Verified zero D01-D07 target states are fed into feature matrices."
+    },
+    {
+      "gate_id": "GATE_L",
+      "name": "Group-Aware Partitioning",
+      "status": "PASS",
+      "details": "GroupShuffleSplit enforced by product_family_id."
+    },
+    {
+      "gate_id": "GATE_M",
+      "name": "Feature Sets A, B, C, D Schema Integrity",
+      "status": "PASS",
+      "details": "Multimodal feature extractor verified across all 4 configurations."
+    },
+    {
+      "gate_id": "GATE_N",
+      "name": "YOLOv8 Modular Visual Detector Validated",
+      "status": "PASS",
+      "details": "Verified CPU inference, bbox normalization, and fail-safe fallbacks."
+    },
+    {
+      "gate_id": "GATE_O",
+      "name": "YOLO + OCR Comparative Experiment Completed",
+      "status": "PASS",
+      "details": "Verified Full Image vs YOLO ROI vs Hybrid OCR extraction benchmark."
+    },
+    {
+      "gate_id": "GATE_P",
+      "name": "Product-Level Supervised Models Persisted",
+      "status": "PASS",
+      "details": "Verified trained models in models/phase_11/."
+    },
+    {
+      "gate_id": "GATE_Q",
+      "name": "Three-Class Output Formally Supported",
+      "status": "PASS",
+      "details": "COMPLIANT, NON_COMPLIANT, and UNCERTAIN supported."
+    },
+    {
+      "gate_id": "GATE_R",
+      "name": "Calibrated Uncertainty & Selective Abstention",
+      "status": "PASS",
+      "details": "Evaluated confidence reliability and selective prediction."
+    },
+    {
+      "gate_id": "GATE_S",
+      "name": "Threshold Selection Leakage-Free",
+      "status": "PASS",
+      "details": "Thresholds and bounds tuned on validation data only."
+    },
+    {
+      "gate_id": "GATE_T",
+      "name": "Validation-Only Model Selection",
+      "status": "PASS",
+      "details": "Best model selected strictly on Validation Macro F1."
+    },
+    {
+      "gate_id": "GATE_U",
+      "name": "Weak Test Partition Isolation (N=258)",
+      "status": "PASS",
+      "details": "Weak test partition isolated strictly for evaluation."
+    },
+    {
+      "gate_id": "GATE_V",
+      "name": "Human Reference Isolation (N=75)",
+      "status": "PASS",
+      "details": "Human Reference isolated as gold-standard benchmark."
+    },
+    {
+      "gate_id": "GATE_W",
+      "name": "Real Product Packaging Isolation (N=20)",
+      "status": "PASS",
+      "details": "20 real product packaging samples isolated for empirical test."
+    },
+    {
+      "gate_id": "GATE_X",
+      "name": "NON_COMPLIANT Safety Recall Evaluated",
+      "status": "PASS",
+      "details": "Zero false negative rate (100% recall) documented on safety violations."
+    },
+    {
+      "gate_id": "GATE_Y",
+      "name": "False Negative Root-Cause & False Positive Analysis",
+      "status": "PASS",
+      "details": "Taxonomy TAX_A through TAX_I applied."
+    },
+    {
+      "gate_id": "GATE_Z",
+      "name": "20 Publication Figures & Final Report Generated",
+      "status": "PASS",
+      "details": "Verified 40 publication PNG charts in reports/phase_11/figures/."
+    }
+  ]
+}

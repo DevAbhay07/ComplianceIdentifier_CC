@@ -1,0 +1,1209 @@
+{
+  "evaluation_timestamp": "2026-09-05 13:16:45",
+  "sample_size": 20,
+  "categories_tested": [
+    "Beauty & Personal Care",
+    "Baby Care",
+    "Kitchen & Dining",
+    "Packaged Goods & Food",
+    "Household & Cleaning"
+  ],
+  "declaration_level_accuracy": 0.5,
+  "product_level_accuracy": 0.0,
+  "declarations": {
+    "D01": {
+      "accuracy": 0.15,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.5,
+      "macro_f1": 0.4,
+      "weighted_f1": 0.08,
+      "confusion_matrix": {
+        "PRESENT": {
+          "PRESENT": 2,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "ABSENT": {
+          "PRESENT": 1,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "NOT_APPLICABLE": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        }
+      },
+      "class_metrics": {
+        "PRESENT": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 2
+        },
+        "ABSENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "NOT_APPLICABLE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "support": 20
+    },
+    "D02": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "confusion_matrix": {
+        "PRESENT": {
+          "PRESENT": 20,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "ABSENT": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "NOT_APPLICABLE": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        }
+      },
+      "class_metrics": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "ABSENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "NOT_APPLICABLE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "support": 20
+    },
+    "D03": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "confusion_matrix": {
+        "PRESENT": {
+          "PRESENT": 20,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "ABSENT": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "NOT_APPLICABLE": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        }
+      },
+      "class_metrics": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "ABSENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "NOT_APPLICABLE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "support": 20
+    },
+    "D04": {
+      "accuracy": 0.15,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "confusion_matrix": {
+        "PRESENT": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "ABSENT": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "NOT_APPLICABLE": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        }
+      },
+      "class_metrics": {
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ABSENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "NOT_APPLICABLE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "support": 20
+    },
+    "D05": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "confusion_matrix": {
+        "PRESENT": {
+          "PRESENT": 20,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "ABSENT": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "NOT_APPLICABLE": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        }
+      },
+      "class_metrics": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "ABSENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "NOT_APPLICABLE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "support": 20
+    },
+    "D06": {
+      "accuracy": 0.15,
+      "macro_precision": 0.075,
+      "macro_recall": 0.5,
+      "macro_f1": 0.13043478260869565,
+      "weighted_f1": 0.03913043478260869,
+      "confusion_matrix": {
+        "PRESENT": {
+          "PRESENT": 0,
+          "ABSENT": 17,
+          "NOT_APPLICABLE": 0
+        },
+        "ABSENT": {
+          "PRESENT": 0,
+          "ABSENT": 3,
+          "NOT_APPLICABLE": 0
+        },
+        "NOT_APPLICABLE": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        }
+      },
+      "class_metrics": {
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 17
+        },
+        "ABSENT": {
+          "precision": 0.15,
+          "recall": 1.0,
+          "f1": 0.2608695652173913,
+          "support": 3
+        },
+        "NOT_APPLICABLE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "support": 20
+    },
+    "D07": {
+      "accuracy": 0.05,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "confusion_matrix": {
+        "PRESENT": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "ABSENT": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        },
+        "NOT_APPLICABLE": {
+          "PRESENT": 0,
+          "ABSENT": 0,
+          "NOT_APPLICABLE": 0
+        }
+      },
+      "class_metrics": {
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ABSENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "NOT_APPLICABLE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "support": 20
+    }
+  },
+  "category_breakdown": {
+    "Beauty & Personal Care": {
+      "total": 4,
+      "all_correct": 0,
+      "dec_correct": 12,
+      "dec_total": 28
+    },
+    "Baby Care": {
+      "total": 4,
+      "all_correct": 0,
+      "dec_correct": 12,
+      "dec_total": 28
+    },
+    "Kitchen & Dining": {
+      "total": 4,
+      "all_correct": 0,
+      "dec_correct": 19,
+      "dec_total": 28
+    },
+    "Packaged Goods & Food": {
+      "total": 3,
+      "all_correct": 0,
+      "dec_correct": 9,
+      "dec_total": 21
+    },
+    "Household & Cleaning": {
+      "total": 5,
+      "all_correct": 0,
+      "dec_correct": 18,
+      "dec_total": 35
+    }
+  },
+  "failure_taxonomy_counts": {
+    "ML_MODEL_ERROR": 34,
+    "FEATURE_DISTRIBUTION_SHIFT": 36
+  },
+  "high_confidence_error_count": 53,
+  "failures": [
+    {
+      "product_id": "real_prod_01",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.56,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_01",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_01",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9327,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.93). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_01",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_02",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.52,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_02",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_02",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9026,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.90). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_02",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_03",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_03",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9511,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.95). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_03",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_04",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.68,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_04",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_04",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9359,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.94). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_04",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_05",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.6,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_05",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_05",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9362,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.94). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_05",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_06",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.54,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_06",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_06",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9526,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.95). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_06",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_07",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.46,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_07",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_07",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9057,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.91). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_07",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_08",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_08",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.8511,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.85). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_08",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_09",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.56,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_09",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_09",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9455,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.95). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_09",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_10",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.74,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_10",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_10",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.8941,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.89). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_10",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_11",
+      "declaration": "D01",
+      "ground_truth": "ABSENT",
+      "predicted": "PRESENT",
+      "confidence": 0.5,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PRESENT, expected ABSENT)."
+    },
+    {
+      "product_id": "real_prod_12",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_13",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.6,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_13",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_13",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.8558,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.86). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_13",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_14",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.56,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_14",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_14",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9464,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.95). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_14",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_15",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.56,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_15",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_15",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9469,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.95). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_15",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_16",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.58,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_16",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_16",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9541,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.95). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_16",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_17",
+      "declaration": "D01",
+      "ground_truth": "PARTIAL",
+      "predicted": "PRESENT",
+      "confidence": 0.54,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PRESENT, expected PARTIAL)."
+    },
+    {
+      "product_id": "real_prod_17",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_18",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.58,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_18",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_18",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.8547,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.85). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_18",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_19",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.6,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_19",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_19",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.8666,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.87). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_19",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_20",
+      "declaration": "D01",
+      "ground_truth": "PRESENT",
+      "predicted": "PARTIAL",
+      "confidence": 0.54,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "ML model error: feature pattern mapped to incorrect class probability distribution (predicted PARTIAL, expected PRESENT)."
+    },
+    {
+      "product_id": "real_prod_20",
+      "declaration": "D04",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    },
+    {
+      "product_id": "real_prod_20",
+      "declaration": "D06",
+      "ground_truth": "PRESENT",
+      "predicted": "ABSENT",
+      "confidence": 0.9157,
+      "model_family": "RandomForest",
+      "is_baseline": false,
+      "cause_code": "F",
+      "cause_category": "ML_MODEL_ERROR",
+      "explanation": "High-confidence ML model misclassification (conf=0.92). Model overweighted text length/title cues over OCR evidence."
+    },
+    {
+      "product_id": "real_prod_20",
+      "declaration": "D07",
+      "ground_truth": "PRESENT",
+      "predicted": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "model_family": "MajorityBaseline",
+      "is_baseline": true,
+      "cause_code": "E",
+      "cause_category": "FEATURE_DISTRIBUTION_SHIFT",
+      "explanation": "Baseline single-class predictor trained on Flipkart weak labels (always predicts majority class). Failed domain transfer to physical label."
+    }
+  ]
+}

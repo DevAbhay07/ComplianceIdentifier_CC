@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_03",
+  "title": "Milton Thermosteel Flip Lid Vacuum Flask 1000ml",
+  "category": "Kitchen & Dining",
+  "brand": "Milton",
+  "retail_price": 1099.0,
+  "discounted_price": 899.0,
+  "description": "Double walled vacuum insulated stainless steel water bottle keeps beverages hot or cold for 24 hours.",
+  "specifications": {
+    "Capacity": "1000 ml",
+    "Material": "Stainless Steel",
+    "Model": "Thermosteel Flip Lid"
+  },
+  "image_path": "real_product_validation/images/real_prod_03.png"
+}

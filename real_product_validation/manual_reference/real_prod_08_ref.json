@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_08",
+  "title": "Prestige Deluxe Alpha Stainless Steel Pressure Cooker 3L",
+  "category": "Kitchen & Dining",
+  "brand": "Prestige",
+  "observable_packaging_text": "Prestige Deluxe Alpha Outer Lid Cooker\nNet Quantity: 1 Unit (Capacity: 3.0 L)\nMfd by: TTK Prestige Limited, 11th Floor, Brigade Towers, 135 Brigade Road, Bengaluru 560025, Karnataka, India\nMRP: Rs. 2450.00 (Inclusive of all taxes)\nMonth & Year of Mfg: 02/2026\nCustomer Care: 1800-123-334411 | customercare@ttkprestige.com\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "TTK Prestige Limited, Brigade Road, Bengaluru 560025",
+      "note": "Manufacturer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Pressure Cooker",
+      "note": "Commodity name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1 Unit (Capacity: 3.0 L)",
+      "note": "Volume and unit count."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Month & Year of Mfg: 02/2026",
+      "note": "Month and year of manufacture."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 2450.00",
+      "note": "Retail price."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-123-334411, customercare@ttkprestige.com",
+      "note": "Care channels."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin India."
+    }
+  }
+}

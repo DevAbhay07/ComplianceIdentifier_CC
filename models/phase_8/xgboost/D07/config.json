@@ -1,0 +1,25 @@
+{
+  "model_family": "XGBoost",
+  "declaration": "D07",
+  "feature_set": "FEATURE_SET_B",
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 3,
+    "learning_rate": 0.05
+  },
+  "target_mapping": {
+    "CANNOT_DETERMINE": 0,
+    "PRESENT": 1
+  },
+  "random_seed": 42,
+  "validation_metrics": {
+    "accuracy": 0.9959,
+    "macro_f1": 0.499,
+    "weighted_f1": 0.9939,
+    "balanced_accuracy": 0.5
+  },
+  "status": "CANDIDATE",
+  "training_dataset_version": "v1",
+  "feature_pipeline_version": "v1",
+  "training_timestamp": "2026-09-05T00:34:05.451116+00:00"
+}

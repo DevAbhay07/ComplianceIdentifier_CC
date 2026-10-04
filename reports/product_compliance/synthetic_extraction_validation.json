@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-09-05T20:32:00Z",
+  "total_synthetic_evaluated": 300,
+  "declaration_state_accuracies": {
+    "D01": 0.8,
+    "D02": 1.0,
+    "D03": 0.9,
+    "D04": 0.8,
+    "D05": 1.0,
+    "D06": 0.7967,
+    "D07": 1.0
+  },
+  "actual_value_accuracies": {
+    "D05_MRP": 0.95,
+    "D03_QTY": 0.8,
+    "D04_YEAR": 0.75
+  },
+  "failure_breakdown": {
+    "EXTRACTION_FAILURES": 25,
+    "FEATURE_FAILURES": 0,
+    "ML_FAILURES": 171,
+    "DECISION_ENGINE_FAILURES": 90
+  }
+}

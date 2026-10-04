@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_19",
+  "title": "Nestle Cerelac Baby Cereal with Milk Wheat Apple 300g",
+  "category": "Baby Care",
+  "brand": "Nestle",
+  "retail_price": 275.0,
+  "discounted_price": 260.0,
+  "description": "Complementary food for babies from 6 to 24 months with 14 essential vitamins and minerals.",
+  "specifications": {
+    "Stage": "Stage 1 (6+ months)",
+    "Net Weight": "300 g"
+  },
+  "image_path": "real_product_validation/images/real_prod_19.png"
+}

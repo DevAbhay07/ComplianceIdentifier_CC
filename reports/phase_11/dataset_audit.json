@@ -1,0 +1,345 @@
+{
+  "human_reference": {
+    "path": "data/processed/pilot_ground_truth_75_v1.jsonl",
+    "record_count": 75,
+    "expected_sha256": "37dc62a308a67899ee40d782b2163d56b6c472edc47b6f56059048649b877520",
+    "actual_sha256": "37dc62a308a67899ee40d782b2163d56b6c472edc47b6f56059048649b877520",
+    "hash_verified": true,
+    "immutable_status": "LOCKED_BENCHMARK_EVALUATION_ONLY",
+    "overall_label_distribution": {
+      "NON_COMPLIANT": 61,
+      "COMPLIANT": 2,
+      "UNCERTAIN": 12
+    },
+    "category_distribution": {
+      "Beauty and Personal Care": 29,
+      "Kitchen & Dining": 26,
+      "Baby Care": 20
+    },
+    "declaration_distributions": {
+      "D01": {
+        "PARTIAL": 43,
+        "PRESENT": 27,
+        "ABSENT": 5
+      },
+      "D02": {
+        "PRESENT": 75
+      },
+      "D03": {
+        "PARTIAL": 3,
+        "PRESENT": 59,
+        "ABSENT": 13
+      },
+      "D04": {
+        "CANNOT_DETERMINE": 43,
+        "PRESENT": 32
+      },
+      "D05": {
+        "PRESENT": 75
+      },
+      "D06": {
+        "ABSENT": 62,
+        "PRESENT": 8,
+        "CANNOT_DETERMINE": 2,
+        "PARTIAL": 3
+      },
+      "D07": {
+        "CANNOT_DETERMINE": 43,
+        "PRESENT": 32
+      }
+    }
+  },
+  "real_products": {
+    "directory": "real_product_validation",
+    "image_count": 20,
+    "input_count": 20,
+    "manual_reference_count": 20,
+    "label_distribution": {
+      "COMPLIANT": 17,
+      "NON_COMPLIANT": 3
+    },
+    "declaration_distributions": {
+      "D01": {
+        "PRESENT": 17,
+        "ABSENT": 1,
+        "PARTIAL": 2
+      },
+      "D02": {
+        "PRESENT": 20
+      },
+      "D03": {
+        "PRESENT": 20
+      },
+      "D04": {
+        "PRESENT": 17,
+        "CANNOT_DETERMINE": 3
+      },
+      "D05": {
+        "PRESENT": 20
+      },
+      "D06": {
+        "PRESENT": 17,
+        "ABSENT": 3
+      },
+      "D07": {
+        "PRESENT": 19,
+        "CANNOT_DETERMINE": 1
+      }
+    },
+    "evaluation_only": true,
+    "training_overlap_risk": "ZERO (Disjoint physical packaging domain, captured in-store/real-life)",
+    "sample_names": [
+      "real_prod_01.png",
+      "real_prod_02.png",
+      "real_prod_03.png",
+      "real_prod_04.png",
+      "real_prod_05.png",
+      "real_prod_06.png",
+      "real_prod_07.png",
+      "real_prod_08.png",
+      "real_prod_09.png",
+      "real_prod_10.png",
+      "real_prod_11.png",
+      "real_prod_12.png",
+      "real_prod_13.png",
+      "real_prod_14.png",
+      "real_prod_15.png",
+      "real_prod_16.png",
+      "real_prod_17.png",
+      "real_prod_18.png",
+      "real_prod_19.png",
+      "real_prod_20.png"
+    ]
+  },
+  "flipkart": {
+    "raw_dataset": {
+      "path": "data/raw/flipkart/flipkart_com-ecommerce_sample.csv",
+      "total_rows": 20002,
+      "columns": [
+        "uniq_id",
+        "crawl_timestamp",
+        "product_url",
+        "product_name",
+        "product_category_tree",
+        "pid",
+        "retail_price",
+        "discounted_price",
+        "image",
+        "is_FK_Advantage_product",
+        "description",
+        "product_rating",
+        "overall_rating",
+        "brand",
+        "product_specifications"
+      ],
+      "null_counts": {
+        "uniq_id": 2,
+        "crawl_timestamp": 2,
+        "product_url": 2,
+        "product_name": 2,
+        "product_category_tree": 2,
+        "pid": 2,
+        "retail_price": 80,
+        "discounted_price": 80,
+        "image": 5,
+        "is_FK_Advantage_product": 2,
+        "description": 4,
+        "product_rating": 2,
+        "overall_rating": 2,
+        "brand": 5866,
+        "product_specifications": 16
+      },
+      "unique_brands": 3499,
+      "unique_categories": 6466,
+      "mean_description_char_len": 430.86298629862983
+    },
+    "weak_dataset": {
+      "path": "data/processed/flipkart_weak_labels_v1.jsonl",
+      "total_records": 1663,
+      "split_distribution": {
+        "train": 1159,
+        "validation": 246,
+        "test": 258,
+        "human_reference": 75
+      },
+      "provenance": "Phase 6 Rule/Evidence Engine over Flipkart Catalog Metadata (Silver Labels)",
+      "product_compliance_distribution": {
+        "NON_COMPLIANT": 1607,
+        "UNCERTAIN": 56
+      },
+      "declaration_distributions": {
+        "D01": {
+          "PARTIAL": 927,
+          "PRESENT": 165,
+          "ABSENT": 571
+        },
+        "D02": {
+          "PRESENT": 1663
+        },
+        "D03": {
+          "PRESENT": 1390,
+          "ABSENT": 273
+        },
+        "D04": {
+          "CANNOT_DETERMINE": 1658,
+          "PRESENT": 5
+        },
+        "D05": {
+          "PRESENT": 1663
+        },
+        "D06": {
+          "ABSENT": 1599,
+          "PRESENT": 62,
+          "PARTIAL": 2
+        },
+        "D07": {
+          "CANNOT_DETERMINE": 1655,
+          "PRESENT": 8
+        }
+      },
+      "image_url_available_count": 1663,
+      "target_leakage_warning": "Weak product-level labels are strictly derived from D01-D07 absence heuristic. Models must NOT use target-derived D01-D07 labels as input features."
+    }
+  },
+  "yolo": {
+    "dataset_root": "data/external/yolo_candidate_dataset",
+    "class_count": 9,
+    "class_names": [
+      "address",
+      "barcode",
+      "brand",
+      "consumer",
+      "details",
+      "mrp details",
+      "origin",
+      "tax",
+      "weight"
+    ],
+    "class_relevance_taxonomy": {
+      "address": {
+        "id": 0,
+        "relevance": "DIRECTLY_RELEVANT",
+        "statutory_mapping": "D02 (Manufacturer/Packer Address), D07 (Country/Origin Address)"
+      },
+      "barcode": {
+        "id": 1,
+        "relevance": "NOT_RELEVANT",
+        "statutory_mapping": "EAN/Barcode (Not a statutory Legal Metrology text declaration)"
+      },
+      "brand": {
+        "id": 2,
+        "relevance": "DIRECTLY_RELEVANT",
+        "statutory_mapping": "D01 (Product Identity / Brand Name)"
+      },
+      "consumer": {
+        "id": 3,
+        "relevance": "DIRECTLY_RELEVANT",
+        "statutory_mapping": "D06 (Consumer Care / Helpline Details)"
+      },
+      "details": {
+        "id": 4,
+        "relevance": "POTENTIALLY_RELEVANT",
+        "statutory_mapping": "General Declaration Block / Specifications"
+      },
+      "mrp details": {
+        "id": 5,
+        "relevance": "DIRECTLY_RELEVANT",
+        "statutory_mapping": "D05 (Maximum Retail Price / MRP)"
+      },
+      "origin": {
+        "id": 6,
+        "relevance": "DIRECTLY_RELEVANT",
+        "statutory_mapping": "D07 (Country of Origin Declaration)"
+      },
+      "tax": {
+        "id": 7,
+        "relevance": "POTENTIALLY_RELEVANT",
+        "statutory_mapping": "D05 Support (Inclusive of all taxes clause)"
+      },
+      "weight": {
+        "id": 8,
+        "relevance": "DIRECTLY_RELEVANT",
+        "statutory_mapping": "D03 (Net Quantity / Net Weight)"
+      }
+    },
+    "split_summary": {
+      "train": {
+        "image_count": 219,
+        "label_file_count": 219,
+        "empty_label_files": 0,
+        "total_bounding_boxes": 438,
+        "unique_source_images": 68,
+        "class_distribution": {
+          "mrp details": 93,
+          "details": 27,
+          "brand": 135,
+          "address": 33,
+          "weight": 51,
+          "barcode": 60,
+          "consumer": 24,
+          "origin": 6,
+          "tax": 9
+        }
+      },
+      "valid": {
+        "image_count": 20,
+        "label_file_count": 20,
+        "empty_label_files": 0,
+        "total_bounding_boxes": 31,
+        "unique_source_images": 18,
+        "class_distribution": {
+          "brand": 9,
+          "barcode": 10,
+          "details": 5,
+          "weight": 6,
+          "mrp details": 1
+        }
+      },
+      "test": {
+        "image_count": 10,
+        "label_file_count": 10,
+        "empty_label_files": 0,
+        "total_bounding_boxes": 13,
+        "unique_source_images": 10,
+        "class_distribution": {
+          "brand": 7,
+          "weight": 4,
+          "barcode": 1,
+          "details": 1
+        }
+      }
+    },
+    "total_images": 249,
+    "total_bounding_boxes": 482,
+    "total_unique_source_images": 90,
+    "split_leakage_audit": {
+      "train_val_overlap_source_images": 4,
+      "train_test_overlap_source_images": 2,
+      "val_test_overlap_source_images": 0,
+      "has_split_leakage": true,
+      "leakage_details": "Source image overlap detected: train-val=4, train-test=2, val-test=0"
+    },
+    "bbox_statistics": {
+      "total_boxes": 482,
+      "mean_boxes_per_image": 1.9357429718875503,
+      "width": {
+        "min": 0.02578125,
+        "mean": 0.26382585580912865,
+        "median": 0.223046875,
+        "max": 0.9546875
+      },
+      "height": {
+        "min": 0.0171875,
+        "mean": 0.19086002334024896,
+        "median": 0.144140625,
+        "max": 0.815625
+      },
+      "area": {
+        "min": 0.0007299804687499999,
+        "mean": 0.0542515582959187,
+        "median": 0.036634521484375,
+        "max": 0.5041943359375
+      }
+    }
+  }
+}

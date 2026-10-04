@@ -1,0 +1,198 @@
+{
+  "project": "NitiMark-ML",
+  "phase": "phase_9_5",
+  "status": "SUCCESS",
+  "product_id": "real_prod_14",
+  "title": "Dettol Original Liquid Handwash Refill Pouch 1500ml",
+  "category": "Household & Cleaning",
+  "brand": "Dettol",
+  "vision_ocr": {
+    "status": "SUCCESS",
+    "provider": "packaging_evidence_ocr",
+    "model": "deterministic-v1",
+    "latency_sec": 0.0101,
+    "extracted_text_preview": "Dettol Liquid Handwash Original\nNet Volume: 1.5 L (1500 ml)\nMfd by: Reckitt Benckiser India Pvt. Ltd., Plot 1, Sector 10..."
+  },
+  "extracted_evidence": {
+    "D01": {
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "evidence_detected": true,
+      "evidence_text": "Entity: Reckitt Benckiser India Pvt | Address Markers: 249403",
+      "source": "OCR_AND_METADATA"
+    },
+    "D02": {
+      "declaration_name": "Generic or Common Name of Commodity",
+      "evidence_detected": true,
+      "evidence_text": "Dettol Original Liquid Handwash Refill Pouch 1500ml",
+      "source": "METADATA_TITLE"
+    },
+    "D03": {
+      "declaration_name": "Net Quantity in Standard Units",
+      "evidence_detected": true,
+      "evidence_text": "1500ml, 1500 ml, 1.5 L",
+      "source": "COMBINED_TEXT"
+    },
+    "D04": {
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "evidence_detected": false,
+      "evidence_text": "No date markers detected",
+      "source": "COMBINED_TEXT"
+    },
+    "D05": {
+      "declaration_name": "Maximum Retail Price (MRP) & Tax Inclusivity",
+      "evidence_detected": true,
+      "evidence_text": "MRP Rs. 279.00",
+      "source": "COMBINED_TEXT"
+    },
+    "D06": {
+      "declaration_name": "Consumer Care Details (Phone / Email / Address)",
+      "evidence_detected": true,
+      "evidence_text": "1800-102-7245, care@reckitt.com",
+      "source": "COMBINED_TEXT"
+    },
+    "D07": {
+      "declaration_name": "Country of Origin",
+      "evidence_detected": true,
+      "evidence_text": "al Liquid Handwash Refill Pouch",
+      "source": "COMBINED_TEXT"
+    }
+  },
+  "declarations": {
+    "D01": {
+      "declaration_id": "D01",
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "prediction": "PARTIAL",
+      "confidence": 0.56,
+      "decision": "UNCERTAIN",
+      "probabilities": {
+        "ABSENT": 0.24,
+        "PARTIAL": 0.56,
+        "PRESENT": 0.2
+      },
+      "margin": 0.32,
+      "entropy": 0.9003,
+      "uncertainty_reason": "Low confidence (0.56 < 0.60)",
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D02": {
+      "declaration_id": "D02",
+      "declaration_name": "Generic or Common Name of Commodity",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D03": {
+      "declaration_id": "D03",
+      "declaration_name": "Net Quantity in Standard Units",
+      "prediction": "PRESENT",
+      "confidence": 0.895,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.105,
+        "PRESENT": 0.895
+      },
+      "margin": 0.79,
+      "entropy": 0.4846,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D04": {
+      "declaration_id": "D04",
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D05": {
+      "declaration_id": "D05",
+      "declaration_name": "Maximum Retail Price (MRP)",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D06": {
+      "declaration_id": "D06",
+      "declaration_name": "Consumer Care Contact Details",
+      "prediction": "ABSENT",
+      "confidence": 0.9464,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.9464,
+        "PARTIAL": 0.0,
+        "PRESENT": 0.0536
+      },
+      "margin": 0.8928,
+      "entropy": 0.1902,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D07": {
+      "declaration_id": "D07",
+      "declaration_name": "Country of Origin",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    }
+  },
+  "latencies_sec": {
+    "total_pipeline": 0.146,
+    "ocr": 0.0101
+  },
+  "disclaimer": "NOTICE: Statistical ML predictions based on extracted packaging evidence. Do NOT constitute statutory legal certification."
+}

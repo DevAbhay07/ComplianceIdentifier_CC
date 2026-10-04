@@ -1,0 +1,164 @@
+{
+  "dataset_file": "data/raw/flipkart/flipkart_com-ecommerce_sample.csv",
+  "total_rows": 20002,
+  "total_columns": 15,
+  "columns": [
+    "uniq_id",
+    "crawl_timestamp",
+    "product_url",
+    "product_name",
+    "product_category_tree",
+    "pid",
+    "retail_price",
+    "discounted_price",
+    "image",
+    "is_FK_Advantage_product",
+    "description",
+    "product_rating",
+    "overall_rating",
+    "brand",
+    "product_specifications"
+  ],
+  "exact_duplicate_rows": 1,
+  "unique_product_urls": 20001,
+  "duplicate_product_urls": 1,
+  "unique_uniq_ids": 20001,
+  "unique_pids": 19998,
+  "missingness": {
+    "uniq_id": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "crawl_timestamp": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "product_url": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "product_name": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "product_category_tree": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "pid": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "retail_price": {
+      "missing_count": 80,
+      "missing_pct": 0.4,
+      "present_count": 19922
+    },
+    "discounted_price": {
+      "missing_count": 80,
+      "missing_pct": 0.4,
+      "present_count": 19922
+    },
+    "image": {
+      "missing_count": 5,
+      "missing_pct": 0.02,
+      "present_count": 19997
+    },
+    "is_FK_Advantage_product": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "description": {
+      "missing_count": 4,
+      "missing_pct": 0.02,
+      "present_count": 19998
+    },
+    "product_rating": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "overall_rating": {
+      "missing_count": 2,
+      "missing_pct": 0.01,
+      "present_count": 20000
+    },
+    "brand": {
+      "missing_count": 5866,
+      "missing_pct": 29.33,
+      "present_count": 14136
+    },
+    "product_specifications": {
+      "missing_count": 16,
+      "missing_pct": 0.08,
+      "present_count": 19986
+    }
+  },
+  "category_relevance_summary": {
+    "MEDIUM_RELEVANCE": 8677,
+    "LOW_RELEVANCE": 7801,
+    "UNKNOWN": 1639,
+    "HIGH_RELEVANCE": 1885
+  },
+  "top_20_root_categories": {
+    "Clothing": 6198,
+    "Jewellery": 3531,
+    "Footwear": 1227,
+    "Mobiles & Accessories": 1099,
+    "Automotive": 1012,
+    "Home Decor & Festive Needs": 929,
+    "Beauty and Personal Care": 710,
+    "Home Furnishing": 700,
+    "Kitchen & Dining": 647,
+    "Computers": 578,
+    "Watches": 530,
+    "Baby Care": 483,
+    "Tools & Hardware": 391,
+    "Toys & School Supplies": 330,
+    "Pens & Stationery": 313,
+    "Bags, Wallets & Belts": 265,
+    "Furniture": 180,
+    "Sports & Fitness": 166,
+    "Cameras & Accessories": 82,
+    "Home Improvement": 81
+  },
+  "description_statistics": {
+    "empty_or_zero_len": 4,
+    "under_50_chars": 4,
+    "mean_length": 430.8,
+    "median_length": 229.0,
+    "max_length": 5309
+  },
+  "specification_statistics": {
+    "records_with_specs": 19986,
+    "records_with_zero_keys": 69,
+    "mean_spec_keys": 11.3,
+    "median_spec_keys": 10.0,
+    "max_spec_keys": 85,
+    "ruby_hash_format_count": 19986
+  },
+  "image_statistics": {
+    "records_with_at_least_1_image": 19997,
+    "records_with_zero_images": 5,
+    "mean_images_per_product": 3.54,
+    "max_images_per_product": 26
+  },
+  "price_statistics": {
+    "has_retail_price": 19922,
+    "has_discounted_price": 19922,
+    "both_prices_present": 19922,
+    "neither_price_present": 80
+  },
+  "brand_statistics": {
+    "has_brand": 14136,
+    "missing_brand": 5866,
+    "unique_brands": 3499
+  }
+}

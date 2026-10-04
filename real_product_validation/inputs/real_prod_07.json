@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_07",
+  "title": "Pampers All Round Protection Baby Diapers (Large, 64 Count)",
+  "category": "Baby Care",
+  "brand": "Pampers",
+  "retail_price": 1099.0,
+  "discounted_price": 849.0,
+  "description": "Pampers baby pants large size with anti-rash lotion and up to 12 hours absorption.",
+  "specifications": {
+    "Size": "L",
+    "Count": "64 Pieces",
+    "Weight Group": "9-14 kg"
+  },
+  "image_path": "real_product_validation/images/real_prod_07.png"
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_02",
+  "title": "Johnson's Baby Daily Nourish Moisture Lotion 200ml",
+  "category": "Baby Care",
+  "brand": "Johnson's",
+  "observable_packaging_text": "Johnson's baby lotion\nwith coconut oil & milk proteins\nNet Quantity: 200 ml\nMfg. by: Johnson & Johnson Pvt. Ltd., L.B.S. Marg, Mulund (West), Mumbai 400080\nBest Before: 24 months from Mfg Date 02/2026\nMRP Rs. 240.00 (Inclusive of all taxes)\nContact Care: 1800-228-111 | care@jnjindia.com\nMade in India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Johnson & Johnson Pvt. Ltd., L.B.S. Marg, Mulund (West), Mumbai 400080",
+      "note": "Complete corporate name and address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "baby lotion",
+      "note": "Generic product description visible."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "200 ml",
+      "note": "Metric volume declared."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Mfg Date 02/2026, Best Before 24 months",
+      "note": "Manufacturing date and period declared."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 240.00 (Inclusive of all taxes)",
+      "note": "MRP stated with tax inclusivity."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-228-111, care@jnjindia.com",
+      "note": "Full customer contact channels."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in India",
+      "note": "Origin clearly declared."
+    }
+  }
+}

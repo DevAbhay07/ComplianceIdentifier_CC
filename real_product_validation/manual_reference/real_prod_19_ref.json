@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_19",
+  "title": "Nestle Cerelac Baby Cereal with Milk Wheat Apple 300g",
+  "category": "Baby Care",
+  "brand": "Nestle",
+  "observable_packaging_text": "NESTLE CERELAC Fortified Baby Cereal with Milk\nWheat Apple | Net Weight: 300 g (Bag-in-Box)\nMfd by: Nestle India Limited, 100/101 World Trade Centre, Barakhamba Lane, New Delhi 110001\nMRP: Rs. 275.00 (inclusive of all taxes)\nBatch No: N771 | Date of Mfg: 02/2026 | Use by: 01/2027\nNestle Consumer Care: 1800-103-1947 | wecare@in.nestle.com\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Nestle India Limited, Barakhamba Lane, New Delhi 110001",
+      "note": "Corporate address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Baby Cereal with Milk",
+      "note": "Generic title."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "300 g",
+      "note": "Net weight in grams."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Date of Mfg: 02/2026 | Use by: 01/2027",
+      "note": "Mfg and expiry dates."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 275.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-103-1947, wecare@in.nestle.com",
+      "note": "Consumer care."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin India."
+    }
+  }
+}

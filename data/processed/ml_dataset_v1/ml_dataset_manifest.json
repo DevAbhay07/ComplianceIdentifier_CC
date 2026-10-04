@@ -1,0 +1,55 @@
+{
+  "dataset_name": "NitiMark ML Feature Dataset",
+  "version": "1.0.0",
+  "release_tag": "ml_dataset_v1",
+  "feature_version": "v1",
+  "split_strategy": "GroupShuffleSplit",
+  "group_key": "product_family_id",
+  "random_seed": 42,
+  "feature_counts": {
+    "feature_set_b_total": 719,
+    "feature_set_a_total": 219,
+    "numeric_structural_count": 21,
+    "categorical_onehot_count": 198,
+    "tfidf_word_count": 300,
+    "tfidf_char_count": 200
+  },
+  "partitions": {
+    "train": {
+      "record_count": 1159,
+      "feature_set_b_dimensions": 719,
+      "feature_set_a_dimensions": 219,
+      "target_dimensions": 8,
+      "X_file_sha256": "8f6b5cfc44b5e1c17e93c89170cac123f46b5fbd1dc73bb3eb616aac9787e74d",
+      "Y_file_sha256": "59e45d5d9fa2a8060a239761f10a31b17f00d79e749c537c33b1327493b2dd00",
+      "metadata_file_sha256": "c192930a7dc248305ac0fa306b0e4c981c612fc2fac30917f62fcc262a1a8815"
+    },
+    "validation": {
+      "record_count": 246,
+      "feature_set_b_dimensions": 719,
+      "feature_set_a_dimensions": 219,
+      "target_dimensions": 8,
+      "X_file_sha256": "5a625ba715fb58a290a1bc0eeff4f8be2c228db1cb8a134a3148889627a24a7a",
+      "Y_file_sha256": "b58bb02dc5f5c69b6ed7962f45bea90a9ed7f558d7288832ffda45bcd621fc02",
+      "metadata_file_sha256": "ca0ac4bb4025e33408090741d9eab5f3f3f7c4ccf424084ca941214b0e8cc1f7"
+    },
+    "test": {
+      "record_count": 258,
+      "feature_set_b_dimensions": 719,
+      "feature_set_a_dimensions": 219,
+      "target_dimensions": 8,
+      "X_file_sha256": "3c92f47cc59d7be2e0d2552dd6414cca32914bc63998a37be3f1c2f7d2f69af9",
+      "Y_file_sha256": "77879baa8f4566b11a691766866fbef35879cdb03b930e23b719016f1c07abdd",
+      "metadata_file_sha256": "d33dacef28073b6e6ad750bbf4b57e4f118c08d24bfc2225b9cb60b842901647"
+    },
+    "human_reference": {
+      "record_count": 75,
+      "feature_set_b_dimensions": 719,
+      "feature_set_a_dimensions": 219,
+      "target_dimensions": 8,
+      "X_file_sha256": "bb7784050fc3b546749513ea6c805875394a848ad474fbc2db48082f6eac41f7",
+      "Y_file_sha256": "376893485ec95e2e68d66c9893bdb15b7df6d8e3605fd5b4aae23a6cf63b2966",
+      "metadata_file_sha256": "1494b5a8c13ea5d5c526ad542dafc8bfe4ed6ef219123d161872d0d46216c51c"
+    }
+  }
+}

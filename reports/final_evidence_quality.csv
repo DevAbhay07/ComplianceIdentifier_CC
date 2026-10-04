@@ -1,0 +1,8 @@
+declaration_id,declaration_name,with_evidence_source_count,with_evidence_source_pct,with_evidence_notes_count,with_evidence_notes_pct
+D01,Manufacturer/Packer/Importer Name & Address,45,60.0,52,69.33
+D02,Common/Generic Name of Commodity,43,57.33,43,57.33
+D03,Net Quantity,57,76.0,71,94.67
+D04,Month/Year of Manufacture/Packing,5,6.67,43,57.33
+D05,MRP (Retail Price),43,57.33,43,57.33
+D06,Consumer Care Details,11,14.67,45,60.0
+D07,Country of Origin,5,6.67,43,57.33

@@ -1,0 +1,76 @@
+product_id,product_family_id,duplicate_group_id,category,price_tier,quality_tier,overall_confidence,split
+a11773bc4188f1c6226b941ec61c2024,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+1835f47e943ce06311b96ce068dade0f,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+031906a2ae750996deee2fd3bd070f16,fam_unknown,dup_unknown,Beauty and Personal Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+4942e0a9c0527dc00319a39fc8f103e6,fam_unknown,dup_unknown,Beauty and Personal Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+0abe931bedd044ac2b60b6eff6425234,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+e5d41d5a421fc663e810284a834b465d,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+456ec612b30d4b091639843cdb66bf54,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+4e858b8df41d7e393dc413c7fcb690e6,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+660e91db93e04b564565942f32a22244,fam_unknown,dup_unknown,Beauty and Personal Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+aa98d4c65c5db0dca56fe42628762115,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+86464d19b9e382c862811e5b35d5c55e,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+a61a2d3856de6ddbc96390a424fbb613,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+63319fdd48db082037bcbc0c2979c02e,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+b48218a94e220c20373ed50dc4254093,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+ceb6a1b692cc0561fe791b33d74d52ea,fam_unknown,dup_unknown,Beauty and Personal Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+ed7c93d5a30b7191821cb9e8959091ac,fam_unknown,dup_unknown,Beauty and Personal Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+f2c5db8708d81561c3e0ed511fbf9bc9,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+99cf3ef15b984b7dd13943acb450117b,fam_unknown,dup_unknown,Beauty and Personal Care,BUDGET,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+d410e8c218cf2892c8bf8fc222c5d597,fam_unknown,dup_unknown,Beauty and Personal Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+95064299d29427bc593d471abf99744f,fam_unknown,dup_unknown,Beauty and Personal Care,BUDGET,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+6d8e0cbf001b65ae6dcfbaa0a9460089,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+abb8f1593b7de6911d53e1c1488e05d4,fam_unknown,dup_unknown,Beauty and Personal Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+522c84a79fe5ff7fc0903cda2d6038e9,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+2f1dc051b009af444dfb1883bbbeda4f,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+f2fa99bfaa4aa65a2bd53337e140f949,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+150f0154de8f25165c9b25db63f9ed11,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+2484516ef4507dae38395aacba6f73e4,fam_unknown,dup_unknown,Beauty and Personal Care,LUXURY,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+df11d370920e09a2985e574ffd9b0ff1,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+a898bd6978f9f2c6aa940b9fa3352c27,fam_unknown,dup_unknown,Beauty and Personal Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+679754023a73f7e8b1d5b42daf456e8a,fam_unknown,dup_unknown,Kitchen & Dining,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+ac11261834046e0c8d5e9dc953f281fb,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+8ac3d7168080ad1c2a3fca6f7af2aa3a,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+86e3c9cf9a2c3917d88f6fccc40e5496,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+015d31ad501bf22af9526da45b2a30fe,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+8946a0e59993846b3d2b3439a6f8ffa9,fam_unknown,dup_unknown,Kitchen & Dining,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+b5c9f8f189975feb22bbde982834565d,fam_unknown,dup_unknown,Kitchen & Dining,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+9605afb4ccd2e28a685f35a93db13a59,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+c1816b1812ae5f393f1c75a288f4112b,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+afc3ebd18df498dd87abb7ad7536b5c7,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+9ed8c3eeef76ac201ddebab9dbb5c04b,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+3633dbc85fa1b8299dffd1d50e4b349a,fam_unknown,dup_unknown,Kitchen & Dining,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+735820e1614052fde55659da9dc10ccc,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+545f9cd3365242c112089acb0b3a3b46,fam_unknown,dup_unknown,Kitchen & Dining,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+851013249efdea567111adb7c2da8030,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+645e2ad7ae592af95b59140d72577a0a,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+1e740fc82cdf4a24d9de2f5b48591b22,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+1eb6de7bada34a415da97acba0309044,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+3abb24db9bcc19031aee68ddd91497a1,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+0e2994b62be9baf63a08135ec39967ab,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+ffbf3794aa8cb6bb8d3f313d0a549a09,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+6446a0b5a862aa6fdc1058f1c585abcb,fam_unknown,dup_unknown,Kitchen & Dining,BUDGET,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+7cb1ea7b2257aeeeba701a8f6e3e0127,fam_unknown,dup_unknown,Kitchen & Dining,BUDGET,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+5c9bc04c97677c82d5c8f09fda77f175,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+3b0f02b3acf1825f8bbc1fb3b860dbb8,fam_unknown,dup_unknown,Kitchen & Dining,BUDGET,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+5dbf978ab2cf9d2da6446d3e4595f690,fam_unknown,dup_unknown,Kitchen & Dining,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+93643c9c4a543c209f3ace11e940a18d,fam_unknown,dup_unknown,Baby Care,LUXURY,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+9e822ea8a87e28225d5f814c11acdbbe,fam_unknown,dup_unknown,Baby Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+e3ae62ed831fd8b4c20e1742c30d35b5,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+aa48cf6641bd07f96a17faa18379a351,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+95feec21a9d076cff084159d61bf9b8e,fam_unknown,dup_unknown,Baby Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+11f06dffebf7edf9e15351834a190c2c,fam_unknown,dup_unknown,Baby Care,BUDGET,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+770b65aaef9e3180c9a27489acb97f59,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+8f41c6931b5220c2bb34d1cab21cb220,fam_unknown,dup_unknown,Baby Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+a8ea6fc2b3cd95f46bced80853ce8e0e,fam_unknown,dup_unknown,Baby Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+6325bf868b9040a0599f257aba42e9e0,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+51b6809d527ea36798bddc2bb8557bc2,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+fd10586bf7f01bc57e0c5364d4b2c3f7,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+5c572e1ca891dc7cfe6dd5f59be770c8,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+22185e59a3e5e3c240fc9a9123f4e183,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+5eec66ec172ce096cd4e5c947686b56a,fam_unknown,dup_unknown,Baby Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+32cf0691248297655e2c1728b12e2262,fam_unknown,dup_unknown,Baby Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+be09f5a3a88ac10ae14c791fc8ac0dae,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+04c6e93b30f762e85905c26aba4589d8,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+c2efa8aa11898bdb5fc4e46201973a42,fam_unknown,dup_unknown,Baby Care,PREMIUM,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE
+4a5c06a0242ed4608acb8ce51587abeb,fam_unknown,dup_unknown,Baby Care,MID_RANGE,HUMAN_GROUND_TRUTH,1.0,HUMAN_REFERENCE

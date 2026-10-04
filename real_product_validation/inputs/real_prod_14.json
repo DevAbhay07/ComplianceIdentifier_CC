@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_14",
+  "title": "Dettol Original Liquid Handwash Refill Pouch 1500ml",
+  "category": "Household & Cleaning",
+  "brand": "Dettol",
+  "retail_price": 279.0,
+  "discounted_price": 235.0,
+  "description": "Dettol Germ Protection handwash liquid refill with pine fragrance.",
+  "specifications": {
+    "Volume": "1500 ml",
+    "Type": "Refill Pouch"
+  },
+  "image_path": "real_product_validation/images/real_prod_14.png"
+}

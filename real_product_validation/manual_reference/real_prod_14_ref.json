@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_14",
+  "title": "Dettol Original Liquid Handwash Refill Pouch 1500ml",
+  "category": "Household & Cleaning",
+  "brand": "Dettol",
+  "observable_packaging_text": "Dettol Liquid Handwash Original\nNet Volume: 1.5 L (1500 ml)\nMfd by: Reckitt Benckiser India Pvt. Ltd., Plot 1, Sector 10, IIE SIDCUL, Haridwar 249403, Uttarakhand\nMRP Rs. 279.00 (Inclusive of all taxes)\nMfg Dt: 01/2026\nHelpline: 1800-102-7245, care@reckitt.com\nMade in India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Reckitt Benckiser, SIDCUL, Haridwar 249403",
+      "note": "Full manufacturer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Liquid Handwash",
+      "note": "Generic product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1.5 L (1500 ml)",
+      "note": "Metric volume."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Mfg Dt: 01/2026",
+      "note": "Manufacture date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 279.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-102-7245, care@reckitt.com",
+      "note": "Consumer helpline."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in India",
+      "note": "Origin India."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_11",
+  "title": "Unbranded Generic Cotton Kitchen Towel Set (Pack of 4)",
+  "category": "Kitchen & Dining",
+  "brand": "",
+  "retail_price": 199.0,
+  "discounted_price": 149.0,
+  "description": "100% cotton super absorbent kitchen towels for wiping and drying utensils. No brand label.",
+  "specifications": {
+    "Material": "Cotton",
+    "Pack Size": "4 Pieces"
+  },
+  "image_path": "real_product_validation/images/real_prod_11.png"
+}

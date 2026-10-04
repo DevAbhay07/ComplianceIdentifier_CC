@@ -1,0 +1,696 @@
+{
+  "LogisticRegression_D01_FEATURE_SET_A": {
+    "model_family": "LogisticRegression",
+    "declaration": "D01",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "C": 10.0,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9187,
+      "macro_f1": 0.8228,
+      "weighted_f1": 0.9157,
+      "balanced_accuracy": 0.8118
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:12.577789+00:00"
+  },
+  "LogisticRegression_D03_FEATURE_SET_A": {
+    "model_family": "LogisticRegression",
+    "declaration": "D03",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "C": 10.0,
+      "class_weight": "balanced",
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.7439,
+      "macro_f1": 0.5955,
+      "weighted_f1": 0.7688,
+      "balanced_accuracy": 0.6313
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:13.442215+00:00"
+  },
+  "LogisticRegression_D04_FEATURE_SET_A": {
+    "model_family": "LogisticRegression",
+    "declaration": "D04",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "C": 0.01,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:13.803227+00:00"
+  },
+  "LogisticRegression_D06_FEATURE_SET_A": {
+    "model_family": "LogisticRegression",
+    "declaration": "D06",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "C": 0.01,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9553,
+      "macro_f1": 0.4886,
+      "weighted_f1": 0.9374,
+      "balanced_accuracy": 0.4979
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:14.728996+00:00"
+  },
+  "LogisticRegression_D07_FEATURE_SET_A": {
+    "model_family": "LogisticRegression",
+    "declaration": "D07",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "C": 0.01,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9959,
+      "macro_f1": 0.499,
+      "weighted_f1": 0.9939,
+      "balanced_accuracy": 0.5
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:15.319398+00:00"
+  },
+  "LogisticRegression_D01_FEATURE_SET_B": {
+    "model_family": "LogisticRegression",
+    "declaration": "D01",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "C": 1.0,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.935,
+      "macro_f1": 0.8525,
+      "weighted_f1": 0.9311,
+      "balanced_accuracy": 0.8333
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:30.347748+00:00"
+  },
+  "LogisticRegression_D03_FEATURE_SET_B": {
+    "model_family": "LogisticRegression",
+    "declaration": "D03",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "C": 10.0,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.8455,
+      "macro_f1": 0.6675,
+      "weighted_f1": 0.8396,
+      "balanced_accuracy": 0.6563
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:39.226277+00:00"
+  },
+  "LogisticRegression_D04_FEATURE_SET_B": {
+    "model_family": "LogisticRegression",
+    "declaration": "D04",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "C": 0.01,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:43.196328+00:00"
+  },
+  "LogisticRegression_D06_FEATURE_SET_B": {
+    "model_family": "LogisticRegression",
+    "declaration": "D06",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "C": 10.0,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9634,
+      "macro_f1": 0.7948,
+      "weighted_f1": 0.9657,
+      "balanced_accuracy": 0.8373
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:49.538644+00:00"
+  },
+  "LogisticRegression_D07_FEATURE_SET_B": {
+    "model_family": "LogisticRegression",
+    "declaration": "D07",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "C": 0.01,
+      "class_weight": null,
+      "max_iter": 1000
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9959,
+      "macro_f1": 0.499,
+      "weighted_f1": 0.9939,
+      "balanced_accuracy": 0.5
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:41:54.163564+00:00"
+  },
+  "RandomForest_D01_FEATURE_SET_A": {
+    "model_family": "RandomForest",
+    "declaration": "D01",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": null,
+      "class_weight": "balanced"
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.935,
+      "macro_f1": 0.8684,
+      "weighted_f1": 0.935,
+      "balanced_accuracy": 0.8684
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:42:00.569331+00:00"
+  },
+  "RandomForest_D03_FEATURE_SET_A": {
+    "model_family": "RandomForest",
+    "declaration": "D03",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 20,
+      "class_weight": "balanced"
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.8943,
+      "macro_f1": 0.7532,
+      "weighted_f1": 0.8852,
+      "balanced_accuracy": 0.7194
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:42:06.708515+00:00"
+  },
+  "RandomForest_D04_FEATURE_SET_A": {
+    "model_family": "RandomForest",
+    "declaration": "D04",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 10,
+      "class_weight": null
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:42:13.074563+00:00"
+  },
+  "RandomForest_D06_FEATURE_SET_A": {
+    "model_family": "RandomForest",
+    "declaration": "D06",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": null,
+      "class_weight": "balanced"
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9756,
+      "macro_f1": 0.7794,
+      "weighted_f1": 0.9705,
+      "balanced_accuracy": 0.7
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:31:18.031122+00:00"
+  },
+  "RandomForest_D07_FEATURE_SET_A": {
+    "model_family": "RandomForest",
+    "declaration": "D07",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 10,
+      "class_weight": null
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9959,
+      "macro_f1": 0.499,
+      "weighted_f1": 0.9939,
+      "balanced_accuracy": 0.5
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:31:24.101877+00:00"
+  },
+  "RandomForest_D01_FEATURE_SET_B": {
+    "model_family": "RandomForest",
+    "declaration": "D01",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": null,
+      "class_weight": null
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9431,
+      "macro_f1": 0.8654,
+      "weighted_f1": 0.9383,
+      "balanced_accuracy": 0.8385
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:31:31.237047+00:00"
+  },
+  "RandomForest_D03_FEATURE_SET_B": {
+    "model_family": "RandomForest",
+    "declaration": "D03",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": null,
+      "class_weight": "balanced"
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.878,
+      "macro_f1": 0.744,
+      "weighted_f1": 0.875,
+      "balanced_accuracy": 0.7329
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:31:37.551371+00:00"
+  },
+  "RandomForest_D04_FEATURE_SET_B": {
+    "model_family": "RandomForest",
+    "declaration": "D04",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 10,
+      "class_weight": null
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:31:43.240761+00:00"
+  },
+  "RandomForest_D06_FEATURE_SET_B": {
+    "model_family": "RandomForest",
+    "declaration": "D06",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 10,
+      "class_weight": "balanced"
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9878,
+      "macro_f1": 0.9086,
+      "weighted_f1": 0.9868,
+      "balanced_accuracy": 0.85
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:31:49.556486+00:00"
+  },
+  "RandomForest_D07_FEATURE_SET_B": {
+    "model_family": "RandomForest",
+    "declaration": "D07",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 10,
+      "class_weight": null
+    },
+    "target_mapping": null,
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9959,
+      "macro_f1": 0.499,
+      "weighted_f1": 0.9939,
+      "balanced_accuracy": 0.5
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:31:55.959345+00:00"
+  },
+  "XGBoost_D01_FEATURE_SET_A": {
+    "model_family": "XGBoost",
+    "declaration": "D01",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 6,
+      "learning_rate": 0.1
+    },
+    "target_mapping": {
+      "ABSENT": 0,
+      "PARTIAL": 1,
+      "PRESENT": 2
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9309,
+      "macro_f1": 0.8468,
+      "weighted_f1": 0.9275,
+      "balanced_accuracy": 0.8318
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:32:08.556366+00:00"
+  },
+  "XGBoost_D03_FEATURE_SET_A": {
+    "model_family": "XGBoost",
+    "declaration": "D03",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 6,
+      "learning_rate": 0.1
+    },
+    "target_mapping": {
+      "ABSENT": 0,
+      "PRESENT": 1
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.878,
+      "macro_f1": 0.6661,
+      "weighted_f1": 0.8543,
+      "balanced_accuracy": 0.6294
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:32:10.461118+00:00"
+  },
+  "XGBoost_D04_FEATURE_SET_A": {
+    "model_family": "XGBoost",
+    "declaration": "D04",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 3,
+      "learning_rate": 0.05
+    },
+    "target_mapping": {
+      "CANNOT_DETERMINE": 0,
+      "PRESENT": 1
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:32:12.156941+00:00"
+  },
+  "XGBoost_D06_FEATURE_SET_A": {
+    "model_family": "XGBoost",
+    "declaration": "D06",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 3,
+      "learning_rate": 0.1
+    },
+    "target_mapping": {
+      "ABSENT": 0,
+      "PARTIAL": 1,
+      "PRESENT": 2
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9715,
+      "macro_f1": 0.7235,
+      "weighted_f1": 0.9641,
+      "balanced_accuracy": 0.65
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:32:21.539354+00:00"
+  },
+  "XGBoost_D07_FEATURE_SET_A": {
+    "model_family": "XGBoost",
+    "declaration": "D07",
+    "feature_set": "FEATURE_SET_A",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 3,
+      "learning_rate": 0.05
+    },
+    "target_mapping": {
+      "CANNOT_DETERMINE": 0,
+      "PRESENT": 1
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9959,
+      "macro_f1": 0.499,
+      "weighted_f1": 0.9939,
+      "balanced_accuracy": 0.5
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:32:25.127513+00:00"
+  },
+  "XGBoost_D01_FEATURE_SET_B": {
+    "model_family": "XGBoost",
+    "declaration": "D01",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 6,
+      "learning_rate": 0.05
+    },
+    "target_mapping": {
+      "ABSENT": 0,
+      "PARTIAL": 1,
+      "PRESENT": 2
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9431,
+      "macro_f1": 0.8659,
+      "weighted_f1": 0.9382,
+      "balanced_accuracy": 0.8395
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:33:01.641558+00:00"
+  },
+  "XGBoost_D03_FEATURE_SET_B": {
+    "model_family": "XGBoost",
+    "declaration": "D03",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 6,
+      "learning_rate": 0.1
+    },
+    "target_mapping": {
+      "ABSENT": 0,
+      "PRESENT": 1
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.8618,
+      "macro_f1": 0.5757,
+      "weighted_f1": 0.8221,
+      "balanced_accuracy": 0.5623
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:33:20.670106+00:00"
+  },
+  "XGBoost_D04_FEATURE_SET_B": {
+    "model_family": "XGBoost",
+    "declaration": "D04",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 3,
+      "learning_rate": 0.05
+    },
+    "target_mapping": {
+      "CANNOT_DETERMINE": 0,
+      "PRESENT": 1
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:33:30.423590+00:00"
+  },
+  "XGBoost_D06_FEATURE_SET_B": {
+    "model_family": "XGBoost",
+    "declaration": "D06",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 3,
+      "learning_rate": 0.05
+    },
+    "target_mapping": {
+      "ABSENT": 0,
+      "PARTIAL": 1,
+      "PRESENT": 2
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9837,
+      "macro_f1": 0.8708,
+      "weighted_f1": 0.9818,
+      "balanced_accuracy": 0.8
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:33:56.009269+00:00"
+  },
+  "XGBoost_D07_FEATURE_SET_B": {
+    "model_family": "XGBoost",
+    "declaration": "D07",
+    "feature_set": "FEATURE_SET_B",
+    "hyperparameters": {
+      "n_estimators": 50,
+      "max_depth": 3,
+      "learning_rate": 0.05
+    },
+    "target_mapping": {
+      "CANNOT_DETERMINE": 0,
+      "PRESENT": 1
+    },
+    "random_seed": 42,
+    "validation_metrics": {
+      "accuracy": 0.9959,
+      "macro_f1": 0.499,
+      "weighted_f1": 0.9939,
+      "balanced_accuracy": 0.5
+    },
+    "status": "CANDIDATE",
+    "training_dataset_version": "v1",
+    "feature_pipeline_version": "v1",
+    "training_timestamp": "2026-09-05T00:34:05.451116+00:00"
+  }
+}

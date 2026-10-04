@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_02",
+  "title": "Johnson's Baby Daily Nourish Moisture Lotion 200ml",
+  "category": "Baby Care",
+  "brand": "Johnson's",
+  "retail_price": 240.0,
+  "discounted_price": 210.0,
+  "description": "Johnson's Baby daily nourish lotion with natural milk extracts and vitamin E for delicate baby skin.",
+  "specifications": {
+    "Ideal For": "Baby Boys & Girls",
+    "Quantity": "200 ml",
+    "Skin Type": "Sensitive"
+  },
+  "image_path": "real_product_validation/images/real_prod_02.png"
+}

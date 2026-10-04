@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_05",
+  "title": "Vim Dishwash Gel Lemon 750ml Bottle",
+  "category": "Household & Cleaning",
+  "brand": "Vim",
+  "observable_packaging_text": "Vim Dishwash Gel Lemon\nNet Content: 750 ml\nMfd by Hindustan Unilever Limited (HUL), B.D. Sawant Marg, Chakala, Andheri (E), Mumbai 400099\nMRP Rs. 180.00 incl. taxes\nMfg Dt: 01/2026\nConsumer Care Manager, PO Box 14760, Mumbai 400099. Phone: 1800-10-22-221, Email: lever.care@unilever.com\nMade in India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Hindustan Unilever Limited, Andheri (E), Mumbai 400099",
+      "note": "Full corporate name and address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Dishwash Gel",
+      "note": "Generic product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "750 ml",
+      "note": "Metric volume in ml."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Mfg Dt: 01/2026",
+      "note": "Date of manufacture."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 180.00 incl. taxes",
+      "note": "Retail price."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-10-22-221, lever.care@unilever.com",
+      "note": "Consumer care details."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in India",
+      "note": "Origin country."
+    }
+  }
+}

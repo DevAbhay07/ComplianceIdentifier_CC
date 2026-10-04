@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_03",
+  "title": "Milton Thermosteel Flip Lid Vacuum Flask 1000ml",
+  "category": "Kitchen & Dining",
+  "brand": "Milton",
+  "observable_packaging_text": "MILTON Thermosteel Flask\nCapacity: 1000 ml (1.0 L)\nPkd & Mkt by: Hamilton Housewares Pvt. Ltd., Plot 11, Silvassa 396230, UT of DNH.\nMRP: Rs. 1099.00 (incl. of all taxes)\nPKD: 01/2026\nCustomer Care Cell: 1800-209-2151 or feedback@hamiltonindia.in\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Hamilton Housewares Pvt. Ltd., Plot 11, Silvassa 396230",
+      "note": "Packer name and address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Thermosteel Flask",
+      "note": "Generic product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1000 ml (1.0 L)",
+      "note": "Metric volume."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "PKD: 01/2026",
+      "note": "Packing date present."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 1099.00 (incl. of all taxes)",
+      "note": "MRP present."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-209-2151, feedback@hamiltonindia.in",
+      "note": "Customer care phone and email."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin present."
+    }
+  }
+}

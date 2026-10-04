@@ -1,0 +1,198 @@
+{
+  "project": "NitiMark-ML",
+  "phase": "phase_9_5",
+  "status": "SUCCESS",
+  "product_id": "real_prod_11",
+  "title": "Unbranded Generic Cotton Kitchen Towel Set (Pack of 4)",
+  "category": "Kitchen & Dining",
+  "brand": "",
+  "vision_ocr": {
+    "status": "SUCCESS",
+    "provider": "packaging_evidence_ocr",
+    "model": "deterministic-v1",
+    "latency_sec": 0.0101,
+    "extracted_text_preview": "Kitchen Towel Set 100% Cotton\nPack of 4\nMRP Rs 199..."
+  },
+  "extracted_evidence": {
+    "D01": {
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "evidence_detected": false,
+      "evidence_text": "No manufacturer name/address markers detected",
+      "source": "OCR_AND_METADATA"
+    },
+    "D02": {
+      "declaration_name": "Generic or Common Name of Commodity",
+      "evidence_detected": true,
+      "evidence_text": "Unbranded Generic Cotton Kitchen Towel Set (Pack of 4)",
+      "source": "METADATA_TITLE"
+    },
+    "D03": {
+      "declaration_name": "Net Quantity in Standard Units",
+      "evidence_detected": false,
+      "evidence_text": "No net quantity units found",
+      "source": "COMBINED_TEXT"
+    },
+    "D04": {
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "evidence_detected": false,
+      "evidence_text": "No date markers detected",
+      "source": "COMBINED_TEXT"
+    },
+    "D05": {
+      "declaration_name": "Maximum Retail Price (MRP) & Tax Inclusivity",
+      "evidence_detected": true,
+      "evidence_text": "MRP Rs. 199",
+      "source": "COMBINED_TEXT"
+    },
+    "D06": {
+      "declaration_name": "Consumer Care Details (Phone / Email / Address)",
+      "evidence_detected": false,
+      "evidence_text": "No customer care contacts detected",
+      "source": "COMBINED_TEXT"
+    },
+    "D07": {
+      "declaration_name": "Country of Origin",
+      "evidence_detected": false,
+      "evidence_text": "No country of origin statement detected",
+      "source": "COMBINED_TEXT"
+    }
+  },
+  "declarations": {
+    "D01": {
+      "declaration_id": "D01",
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "prediction": "PRESENT",
+      "confidence": 0.5,
+      "decision": "UNCERTAIN",
+      "probabilities": {
+        "ABSENT": 0.08,
+        "PARTIAL": 0.42,
+        "PRESENT": 0.5
+      },
+      "margin": 0.08,
+      "entropy": 0.831,
+      "uncertainty_reason": "Low confidence (0.50 < 0.60); Narrow margin (0.08 < 0.15)",
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D02": {
+      "declaration_id": "D02",
+      "declaration_name": "Generic or Common Name of Commodity",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D03": {
+      "declaration_id": "D03",
+      "declaration_name": "Net Quantity in Standard Units",
+      "prediction": "PRESENT",
+      "confidence": 0.8544,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.1456,
+        "PRESENT": 0.8544
+      },
+      "margin": 0.7088,
+      "entropy": 0.5987,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D04": {
+      "declaration_id": "D04",
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D05": {
+      "declaration_id": "D05",
+      "declaration_name": "Maximum Retail Price (MRP)",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D06": {
+      "declaration_id": "D06",
+      "declaration_name": "Consumer Care Contact Details",
+      "prediction": "ABSENT",
+      "confidence": 0.9639,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.9639,
+        "PARTIAL": 0.0,
+        "PRESENT": 0.0361
+      },
+      "margin": 0.9278,
+      "entropy": 0.1414,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D07": {
+      "declaration_id": "D07",
+      "declaration_name": "Country of Origin",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    }
+  },
+  "latencies_sec": {
+    "total_pipeline": 0.1681,
+    "ocr": 0.0101
+  },
+  "disclaimer": "NOTICE: Statistical ML predictions based on extracted packaging evidence. Do NOT constitute statutory legal certification."
+}

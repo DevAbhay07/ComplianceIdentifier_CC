@@ -1,0 +1,42 @@
+# docker-compose.yml
+# ──────────────────────────────────────────────────────────────────────────────
+# Local development / smoke-testing compose file.
+#
+# Usage:
+#   docker compose up --build        # build + start
+#   docker compose up -d --build     # background
+#   docker compose down              # stop & remove containers
+#
+# Then visit:
+#   http://localhost:8000/           → service info
+#   http://localhost:8000/health     → health check
+#   http://localhost:8000/docs       → Swagger UI
+#   http://localhost:8000/predict    → prediction endpoint (POST)
+# ──────────────────────────────────────────────────────────────────────────────
+
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nitimark-product-compliance-api:local
+    container_name: nitimark-api
+    ports:
+      - "8000:8000"
+    environment:
+      # Pass through any env vars from the host .env (optional)
+      # The model path inside the container is fixed — do not override MODEL_PATH
+      # unless you mount a custom model artifact.
+      - INFERENCE_LOGGING_ENABLED=false
+    # Environment variables loaded from a local .env file (never committed)
+    # env_file:
+    #   - .env
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped

@@ -1,0 +1,25 @@
+# render.yaml
+# ──────────────────────────────────────────────────────────────────────────────
+# Render Blueprint for the NitiMark Product Compliance ML API.
+#
+# This file defines the Render web service that runs the Dockerized FastAPI
+# application. Render will deploy when triggered via the GitHub Actions CI/CD
+# pipeline deploy job.
+#
+# Reference: https://render.com/docs/blueprint-spec
+# ──────────────────────────────────────────────────────────────────────────────
+
+services:
+  - type: web
+    name: nitimark-compliance-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: "8000"
+      - key: INFERENCE_LOGGING_ENABLED
+        value: "false"
+    plan: free
+    autoDeploy: false

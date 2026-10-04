@@ -1,0 +1,12 @@
+{
+  "total_candidates_evaluated": 500,
+  "batch_size_selected": 40,
+  "margin_threshold": 0.25,
+  "uncertainty_threshold": 0.4,
+  "average_informative_score": 0.2,
+  "average_margin": 1.0,
+  "class_distribution_suggested": {
+    "NON_COMPLIANT": 40
+  },
+  "output_path": "/home/devabhay07/Desktop/MLmodelV2/data/interim/active_learning_selected_batch.jsonl"
+}

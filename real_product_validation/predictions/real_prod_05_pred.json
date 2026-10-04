@@ -1,0 +1,198 @@
+{
+  "project": "NitiMark-ML",
+  "phase": "phase_9_5",
+  "status": "SUCCESS",
+  "product_id": "real_prod_05",
+  "title": "Vim Dishwash Gel Lemon 750ml Bottle",
+  "category": "Household & Cleaning",
+  "brand": "Vim",
+  "vision_ocr": {
+    "status": "SUCCESS",
+    "provider": "packaging_evidence_ocr",
+    "model": "deterministic-v1",
+    "latency_sec": 0.0101,
+    "extracted_text_preview": "Vim Dishwash Gel Lemon\nNet Content: 750 ml\nMfd by Hindustan Unilever Limited (HUL), B.D. Sawant Marg, Chakala, Andheri (..."
+  },
+  "extracted_evidence": {
+    "D01": {
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "evidence_detected": true,
+      "evidence_text": "Entity: Hindustan Unilever Limited (HUL), B | Address Markers: Mumbai, 400099, Mumbai",
+      "source": "OCR_AND_METADATA"
+    },
+    "D02": {
+      "declaration_name": "Generic or Common Name of Commodity",
+      "evidence_detected": true,
+      "evidence_text": "Vim Dishwash Gel Lemon 750ml Bottle",
+      "source": "METADATA_TITLE"
+    },
+    "D03": {
+      "declaration_name": "Net Quantity in Standard Units",
+      "evidence_detected": true,
+      "evidence_text": "750ml, 750 ml, 750 ml",
+      "source": "COMBINED_TEXT"
+    },
+    "D04": {
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "evidence_detected": false,
+      "evidence_text": "No date markers detected",
+      "source": "COMBINED_TEXT"
+    },
+    "D05": {
+      "declaration_name": "Maximum Retail Price (MRP) & Tax Inclusivity",
+      "evidence_detected": true,
+      "evidence_text": "MRP Rs. 180.00",
+      "source": "COMBINED_TEXT"
+    },
+    "D06": {
+      "declaration_name": "Consumer Care Details (Phone / Email / Address)",
+      "evidence_detected": true,
+      "evidence_text": "Manager, lever.care@unilever.com",
+      "source": "COMBINED_TEXT"
+    },
+    "D07": {
+      "declaration_name": "Country of Origin",
+      "evidence_detected": true,
+      "evidence_text": "India",
+      "source": "COMBINED_TEXT"
+    }
+  },
+  "declarations": {
+    "D01": {
+      "declaration_id": "D01",
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "prediction": "PARTIAL",
+      "confidence": 0.6,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.22,
+        "PARTIAL": 0.6,
+        "PRESENT": 0.18
+      },
+      "margin": 0.38,
+      "entropy": 0.8631,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D02": {
+      "declaration_id": "D02",
+      "declaration_name": "Generic or Common Name of Commodity",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D03": {
+      "declaration_id": "D03",
+      "declaration_name": "Net Quantity in Standard Units",
+      "prediction": "PRESENT",
+      "confidence": 0.9114,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.0886,
+        "PRESENT": 0.9114
+      },
+      "margin": 0.8228,
+      "entropy": 0.4318,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D04": {
+      "declaration_id": "D04",
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D05": {
+      "declaration_id": "D05",
+      "declaration_name": "Maximum Retail Price (MRP)",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D06": {
+      "declaration_id": "D06",
+      "declaration_name": "Consumer Care Contact Details",
+      "prediction": "ABSENT",
+      "confidence": 0.9362,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.9362,
+        "PARTIAL": 0.0,
+        "PRESENT": 0.0638
+      },
+      "margin": 0.8724,
+      "entropy": 0.216,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D07": {
+      "declaration_id": "D07",
+      "declaration_name": "Country of Origin",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    }
+  },
+  "latencies_sec": {
+    "total_pipeline": 0.1439,
+    "ocr": 0.0101
+  },
+  "disclaimer": "NOTICE: Statistical ML predictions based on extracted packaging evidence. Do NOT constitute statutory legal certification."
+}

@@ -1,0 +1,16 @@
+{
+  "product_id": "SAMPLE_PROD_001",
+  "title": "Colgate Total Clean Mint Antibacterial Fluoride Toothpaste",
+  "description": "Colgate Total Clean Mint toothpaste fights bacteria on teeth, tongue, cheeks and gums for 12 hours. Net Qty: 120 g. Mfd by Colgate-Palmolive (India) Ltd., Main Street, Mumbai 400001. MRP Rs. 145.00 incl. of all taxes. For Consumer Complaints, contact Customer Care at 1800-225-599 or care@colgate.com. Country of Origin: India. Mfd Date: 01/2026.",
+  "retail_price": 145.0,
+  "discounted_price": 125.0,
+  "brand": "Colgate",
+  "category": "Beauty and Personal Care",
+  "specifications": {
+    "Quantity": "120 g",
+    "Flavor": "Clean Mint",
+    "Form": "Paste",
+    "Ideal For": "Men & Women"
+  },
+  "image_path": "examples/sample_product.png"
+}

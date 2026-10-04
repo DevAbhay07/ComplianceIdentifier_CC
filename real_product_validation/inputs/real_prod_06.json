@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_06",
+  "title": "Minimalist 10% Niacinamide Face Serum 30ml",
+  "category": "Beauty & Personal Care",
+  "brand": "Minimalist",
+  "retail_price": 599.0,
+  "discounted_price": 569.0,
+  "description": "Niacinamide 10% serum with Zinc and Aloe vera for blemish removal and sebum reduction.",
+  "specifications": {
+    "Volume": "30 ml",
+    "Formulation": "Serum",
+    "For": "Unisex"
+  },
+  "image_path": "real_product_validation/images/real_prod_06.png"
+}

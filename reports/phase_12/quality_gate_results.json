@@ -1,0 +1,158 @@
+{
+  "GATE_A": {
+    "name": "Streamlit Application Entry Point",
+    "passed": true,
+    "status": "PASS",
+    "details": "app/streamlit_app.py exists and is non-empty."
+  },
+  "GATE_B": {
+    "name": "UI Modular Directory Structure",
+    "passed": true,
+    "status": "PASS",
+    "details": "app/components: True, app/utils: True"
+  },
+  "GATE_C": {
+    "name": "Primary Verdict Prominence & Taxonomy",
+    "passed": true,
+    "status": "PASS",
+    "details": "Result card renders COMPLIANT, NON_COMPLIANT, UNCERTAIN with high visual hierarchy."
+  },
+  "GATE_D": {
+    "name": "Internal Statutory D01-D07 Evidence Layer",
+    "passed": true,
+    "status": "PASS",
+    "details": "D01-D07 declaration analysis rendered cleanly as internal evidence layer."
+  },
+  "GATE_E": {
+    "name": "Plain-English Statutory 'Why' Explanation",
+    "passed": true,
+    "status": "PASS",
+    "details": "Plain-English reasoning component maps evidence and statutory ground rules."
+  },
+  "GATE_F": {
+    "name": "YOLOv8 Visual Detection Overlay Panel",
+    "passed": true,
+    "status": "PASS",
+    "details": "Visual bounding box overlay and detection table viewer active."
+  },
+  "GATE_G": {
+    "name": "Packaging ROI Patch Viewer",
+    "passed": true,
+    "status": "PASS",
+    "details": "Cropped visual ROI inspection component implemented."
+  },
+  "GATE_H": {
+    "name": "Raw & Structured OCR Text Viewer",
+    "passed": true,
+    "status": "PASS",
+    "details": "OCR raw text, optical clarity, and structured JSON viewer implemented."
+  },
+  "GATE_I": {
+    "name": "Developer Mode Diagnostic Toggle & Trace",
+    "passed": true,
+    "status": "PASS",
+    "details": "Developer mode checkbox and technical diagnostic panel active."
+  },
+  "GATE_J": {
+    "name": "Direct ML Predictions & Probabilities Exposure",
+    "passed": true,
+    "status": "PASS",
+    "details": "Secondary direct ML classification probabilities displayed in technical trace."
+  },
+  "GATE_K": {
+    "name": "29 YOLOv8 Visual Features Accessibility",
+    "passed": true,
+    "status": "PASS",
+    "details": "29 YOLO visual features extracted and exposed in technical trace."
+  },
+  "GATE_L": {
+    "name": "Detailed Latency Breakdown",
+    "passed": true,
+    "status": "PASS",
+    "details": "Per-stage latency (ms) measured across validation, YOLO, OCR, feature extraction, ML, and decision."
+  },
+  "GATE_M": {
+    "name": "Robust Image Upload Validation",
+    "passed": true,
+    "status": "PASS",
+    "details": "File format (PNG/JPG/WEBP), dimension, max size, and byte corruption validation enforced."
+  },
+  "GATE_N": {
+    "name": "Built-in Real Product Packaging Samples",
+    "passed": true,
+    "status": "PASS",
+    "details": "Sample selector active with 20 sample packaging images."
+  },
+  "GATE_O": {
+    "name": "Dual Provider Support (Gemini & Mock)",
+    "passed": true,
+    "status": "PASS",
+    "details": "UI supports selecting Gemini 3.6 Flash and deterministic Mock OCR/Vision providers."
+  },
+  "GATE_P": {
+    "name": "API Key Privacy & Redaction",
+    "passed": true,
+    "status": "PASS",
+    "details": "API key input uses password masking; export payload is strictly sanitized."
+  },
+  "GATE_Q": {
+    "name": "Sanitized JSON Analysis Export",
+    "passed": true,
+    "status": "PASS",
+    "details": "JSON download button exports full sanitized audit trail."
+  },
+  "GATE_R": {
+    "name": "Reuse of Frozen Phase 11 Inference Pipeline",
+    "passed": true,
+    "status": "PASS",
+    "details": "Inference bridge wraps Phase11FeatureExtractor and statutory decision engine without re-implementing logic."
+  },
+  "GATE_S": {
+    "name": "Frozen Phase 11 ML Model Artifacts",
+    "passed": true,
+    "status": "PASS",
+    "details": "YOLOv8, multimodal feature pipeline, and RF compliance classifier are frozen and verified."
+  },
+  "GATE_T": {
+    "name": "Human Reference Ground Truth Integrity",
+    "passed": true,
+    "status": "PASS",
+    "details": "SHA-256 match: 37dc62a308a67899... (MATCH)"
+  },
+  "GATE_U": {
+    "name": "Zero Target Leakage & Clean Validation Separation",
+    "passed": true,
+    "status": "PASS",
+    "details": "Uploaded images and evaluation samples are strictly isolated from training data."
+  },
+  "GATE_V": {
+    "name": "Unit & Integration Test Suite Pass (Phase 12)",
+    "passed": true,
+    "status": "PASS",
+    "details": "Ran 20 tests; errors=0, failures=0."
+  },
+  "GATE_W": {
+    "name": "Batch Real-Packaging Validation Robustness",
+    "passed": true,
+    "status": "PASS",
+    "details": "Processed 20/20 samples; Accuracy = 100.0%."
+  },
+  "GATE_X": {
+    "name": "Streamlit Headless Syntax & Module Import Integrity",
+    "passed": true,
+    "status": "PASS",
+    "details": "All Streamlit app modules imported and initialized successfully."
+  },
+  "GATE_Y": {
+    "name": "Prominent Legal & Benchmark Scope Disclaimers",
+    "passed": true,
+    "status": "PASS",
+    "details": "Disclaimer clearly states tool is an automated assistant, not legal certification."
+  },
+  "GATE_Z": {
+    "name": "Phase 12 Documentation & Report Artifacts",
+    "passed": true,
+    "status": "PASS",
+    "details": "All 8 Phase 12 reports and data files present."
+  }
+}

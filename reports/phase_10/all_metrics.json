@@ -1,0 +1,1627 @@
+{
+  "evaluation_timestamp": "2026-09-05T13:37:13.380192",
+  "models": {
+    "Direct_ML_RandomForest": {
+      "validation": {
+        "sample_size": 246,
+        "accuracy": 0.9919,
+        "balanced_accuracy": 0.8889,
+        "macro_precision": 0.9958,
+        "macro_recall": 0.8889,
+        "macro_f1": 0.9354,
+        "weighted_f1": 0.9914,
+        "mcc": 0.8782,
+        "cohen_kappa": 0.8709,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.9916,
+            "recall": 1.0,
+            "f1": 0.9958,
+            "support": 237
+          },
+          "UNCERTAIN": {
+            "precision": 1.0,
+            "recall": 0.7778,
+            "f1": 0.875,
+            "support": 9
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 237,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 2,
+            "UNCERTAIN": 7
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.9916,
+        "non_compliant_f1": 0.9958,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0,
+        "uncertainty_count": 7,
+        "uncertainty_rate": 0.0285,
+        "coverage": 0.9715,
+        "selective_accuracy": 0.9916,
+        "selective_risk": 0.0084,
+        "brier_score": 0.0147
+      },
+      "test": {
+        "sample_size": 258,
+        "accuracy": 0.9884,
+        "balanced_accuracy": 0.7857,
+        "macro_precision": 0.9941,
+        "macro_recall": 0.7857,
+        "macro_f1": 0.8607,
+        "weighted_f1": 0.9868,
+        "mcc": 0.7515,
+        "cohen_kappa": 0.7218,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.9882,
+            "recall": 1.0,
+            "f1": 0.9941,
+            "support": 251
+          },
+          "UNCERTAIN": {
+            "precision": 1.0,
+            "recall": 0.5714,
+            "f1": 0.7273,
+            "support": 7
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 251,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 3,
+            "UNCERTAIN": 4
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.9882,
+        "non_compliant_f1": 0.9941,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0,
+        "uncertainty_count": 4,
+        "uncertainty_rate": 0.0155,
+        "coverage": 0.9845,
+        "selective_accuracy": 0.9882,
+        "selective_risk": 0.0118,
+        "brier_score": 0.0135
+      },
+      "human_reference": {
+        "sample_size": 75,
+        "accuracy": 0.8133,
+        "balanced_accuracy": 0.3333,
+        "macro_precision": 0.2711,
+        "macro_recall": 0.3333,
+        "macro_f1": 0.299,
+        "weighted_f1": 0.7296,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.8133,
+            "recall": 1.0,
+            "f1": 0.8971,
+            "support": 61
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 12
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 2,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 61,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 12,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.8133,
+        "non_compliant_f1": 0.8971,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 2,
+        "false_positive_rate": 1.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.8133,
+        "selective_risk": 0.1867,
+        "brier_score": 0.1777
+      },
+      "real_product": {
+        "sample_size": 20,
+        "accuracy": 0.15,
+        "balanced_accuracy": 0.5,
+        "macro_precision": 0.075,
+        "macro_recall": 0.5,
+        "macro_f1": 0.1304,
+        "weighted_f1": 0.0391,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 17
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.15,
+            "recall": 1.0,
+            "f1": 0.2609,
+            "support": 3
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 17,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 3,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.15,
+        "non_compliant_f1": 0.2609,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 17,
+        "false_positive_rate": 1.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.15,
+        "selective_risk": 0.85,
+        "brier_score": 0.0
+      }
+    },
+    "Evidence_Aware_Decision": {
+      "validation": {
+        "sample_size": 246,
+        "accuracy": 0.9634,
+        "balanced_accuracy": 0.5,
+        "macro_precision": 0.4817,
+        "macro_recall": 0.5,
+        "macro_f1": 0.4907,
+        "weighted_f1": 0.9455,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.9634,
+            "recall": 1.0,
+            "f1": 0.9814,
+            "support": 237
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 9
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 237,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 9,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.9634,
+        "non_compliant_f1": 0.9814,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.9634,
+        "selective_risk": 0.0366,
+        "brier_score": 0.0571
+      },
+      "test": {
+        "sample_size": 258,
+        "accuracy": 0.9767,
+        "balanced_accuracy": 0.5714,
+        "macro_precision": 0.9883,
+        "macro_recall": 0.5714,
+        "macro_f1": 0.6191,
+        "weighted_f1": 0.9682,
+        "mcc": 0.3735,
+        "cohen_kappa": 0.2449,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.9767,
+            "recall": 1.0,
+            "f1": 0.9882,
+            "support": 251
+          },
+          "UNCERTAIN": {
+            "precision": 1.0,
+            "recall": 0.1429,
+            "f1": 0.25,
+            "support": 7
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 251,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 6,
+            "UNCERTAIN": 1
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.9767,
+        "non_compliant_f1": 0.9882,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0,
+        "uncertainty_count": 1,
+        "uncertainty_rate": 0.0039,
+        "coverage": 0.9961,
+        "selective_accuracy": 0.9767,
+        "selective_risk": 0.0233,
+        "brier_score": 0.0512
+      },
+      "human_reference": {
+        "sample_size": 75,
+        "accuracy": 0.8133,
+        "balanced_accuracy": 0.3333,
+        "macro_precision": 0.2711,
+        "macro_recall": 0.3333,
+        "macro_f1": 0.299,
+        "weighted_f1": 0.7296,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.8133,
+            "recall": 1.0,
+            "f1": 0.8971,
+            "support": 61
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 12
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 2,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 61,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 12,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.8133,
+        "non_compliant_f1": 0.8971,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 2,
+        "false_positive_rate": 1.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.8133,
+        "selective_risk": 0.1867,
+        "brier_score": 0.1684
+      },
+      "real_product": {
+        "sample_size": 20,
+        "accuracy": 0.15,
+        "balanced_accuracy": 0.5,
+        "macro_precision": 0.075,
+        "macro_recall": 0.5,
+        "macro_f1": 0.1304,
+        "weighted_f1": 0.0391,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 17
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.15,
+            "recall": 1.0,
+            "f1": 0.2609,
+            "support": 3
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 17,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 3,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.15,
+        "non_compliant_f1": 0.2609,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 17,
+        "false_positive_rate": 1.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.15,
+        "selective_risk": 0.85,
+        "brier_score": 0.5205
+      }
+    },
+    "Majority_Baseline": {
+      "validation": {
+        "sample_size": 246,
+        "accuracy": 0.9634,
+        "balanced_accuracy": 0.5,
+        "macro_precision": 0.4817,
+        "macro_recall": 0.5,
+        "macro_f1": 0.4907,
+        "weighted_f1": 0.9455,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.9634,
+            "recall": 1.0,
+            "f1": 0.9814,
+            "support": 237
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 9
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 237,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 9,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.9634,
+        "non_compliant_f1": 0.9814,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.9634,
+        "selective_risk": 0.0366,
+        "brier_score": 0.0
+      },
+      "test": {
+        "sample_size": 258,
+        "accuracy": 0.9729,
+        "balanced_accuracy": 0.5,
+        "macro_precision": 0.4864,
+        "macro_recall": 0.5,
+        "macro_f1": 0.4931,
+        "weighted_f1": 0.9595,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.9729,
+            "recall": 1.0,
+            "f1": 0.9862,
+            "support": 251
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 7
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 251,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 7,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.9729,
+        "non_compliant_f1": 0.9862,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.9729,
+        "selective_risk": 0.0271,
+        "brier_score": 0.0
+      },
+      "human_reference": {
+        "sample_size": 75,
+        "accuracy": 0.8133,
+        "balanced_accuracy": 0.3333,
+        "macro_precision": 0.2711,
+        "macro_recall": 0.3333,
+        "macro_f1": 0.299,
+        "weighted_f1": 0.7296,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.8133,
+            "recall": 1.0,
+            "f1": 0.8971,
+            "support": 61
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 12
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 2,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 61,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 12,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.8133,
+        "non_compliant_f1": 0.8971,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 2,
+        "false_positive_rate": 1.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.8133,
+        "selective_risk": 0.1867,
+        "brier_score": 0.0
+      },
+      "real_product": {
+        "sample_size": 20,
+        "accuracy": 0.15,
+        "balanced_accuracy": 0.5,
+        "macro_precision": 0.075,
+        "macro_recall": 0.5,
+        "macro_f1": 0.1304,
+        "weighted_f1": 0.0391,
+        "mcc": 0.0,
+        "cohen_kappa": 0.0,
+        "per_class": {
+          "COMPLIANT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 17
+          },
+          "NON_COMPLIANT": {
+            "precision": 0.15,
+            "recall": 1.0,
+            "f1": 0.2609,
+            "support": 3
+          },
+          "UNCERTAIN": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        },
+        "confusion_matrix": {
+          "COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 17,
+            "UNCERTAIN": 0
+          },
+          "NON_COMPLIANT": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 3,
+            "UNCERTAIN": 0
+          },
+          "UNCERTAIN": {
+            "COMPLIANT": 0,
+            "NON_COMPLIANT": 0,
+            "UNCERTAIN": 0
+          }
+        },
+        "non_compliant_recall": 1.0,
+        "non_compliant_precision": 0.15,
+        "non_compliant_f1": 0.2609,
+        "false_negative_count": 0,
+        "false_negative_rate": 0.0,
+        "false_positive_count": 17,
+        "false_positive_rate": 1.0,
+        "uncertainty_count": 0,
+        "uncertainty_rate": 0.0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.15,
+        "selective_risk": 0.85,
+        "brier_score": 0.0
+      }
+    }
+  },
+  "real_product_diagnostics": {
+    "total_evaluated": 20,
+    "failures": [
+      {
+        "product_id": "real_prod_01",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7464,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9327,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_02",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7113,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9026,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.52,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_03",
+        "category": "Kitchen & Dining",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.9511,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9511,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_04",
+        "category": "Packaged Goods & Food",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.8079,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9359,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.68,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_05",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7681,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9362,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.6,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_06",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7463,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9526,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.54,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_07",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.9057,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9057,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_08",
+        "category": "Kitchen & Dining",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.8511,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8511,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_09",
+        "category": "Packaged Goods & Food",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7528,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9455,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_10",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.8171,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8941,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.74,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_13",
+        "category": "Packaged Goods & Food",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7279,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8558,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.6,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_14",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7532,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9464,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_15",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7534,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9469,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_16",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7671,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9541,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.58,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_18",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7173,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8547,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.58,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_19",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7333,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8666,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.6,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_20",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7278,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9157,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.54,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      }
+    ],
+    "false_negatives": [],
+    "false_positives": [
+      {
+        "product_id": "real_prod_01",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7464,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9327,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_02",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7113,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9026,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.52,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_03",
+        "category": "Kitchen & Dining",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.9511,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9511,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_04",
+        "category": "Packaged Goods & Food",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.8079,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9359,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.68,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_05",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7681,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9362,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.6,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_06",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7463,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9526,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.54,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_07",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.9057,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9057,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_08",
+        "category": "Kitchen & Dining",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.8511,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8511,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_09",
+        "category": "Packaged Goods & Food",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7528,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9455,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_10",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.8171,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8941,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.74,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_13",
+        "category": "Packaged Goods & Food",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7279,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8558,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.6,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_14",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7532,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9464,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_15",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7534,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9469,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.56,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_16",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7671,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9541,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.58,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_18",
+        "category": "Household & Cleaning",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7173,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8547,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.58,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_19",
+        "category": "Baby Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7333,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.8666,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.6,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      },
+      {
+        "product_id": "real_prod_20",
+        "category": "Beauty & Personal Care",
+        "ground_truth": "COMPLIANT",
+        "predicted": "NON_COMPLIANT",
+        "confidence": 0.7278,
+        "primary_reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT.",
+        "decision_basis": [
+          {
+            "declaration": "D06",
+            "name": "Consumer Care Details",
+            "status": "ABSENT",
+            "confidence": 0.9157,
+            "reason": "Statutory declaration D06 (Consumer Care Details) is ABSENT."
+          },
+          {
+            "declaration": "D01",
+            "name": "Manufacturer / Packer / Importer",
+            "status": "PARTIAL",
+            "confidence": 0.54,
+            "reason": "Statutory declaration D01 (Manufacturer / Packer / Importer) is PARTIAL."
+          }
+        ],
+        "failure_category": "FALSE_POSITIVE",
+        "root_cause_code": "E",
+        "root_cause_desc": "FEATURE_DISTRIBUTION_SHIFT"
+      }
+    ]
+  }
+}

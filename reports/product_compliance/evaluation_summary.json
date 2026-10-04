@@ -1,0 +1,651 @@
+{
+  "timestamp": "2026-09-05T15:01:45Z",
+  "model_name": "RandomForest_SET_A",
+  "feature_set": "SET_A",
+  "abstention_threshold": 0.65,
+  "margin_threshold": 0.2,
+  "partitions": {
+    "weak_test_raw": {
+      "partition": "Weak Test (Raw ML)",
+      "sample_count": 258,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "compliant_f1": 0.0,
+      "non_compliant_f1": 1.0,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 1.0,
+      "non_compliant_fnr": 0.0,
+      "uncertain_rate": 0.0,
+      "selective_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            258,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 0,
+            "pred_nc": 0,
+            "pred_unc": 0
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 0,
+            "true_positive": 258,
+            "pred_unc": 0
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 0,
+            "true_positive": 0
+          }
+        }
+      }
+    },
+    "weak_test_abstained": {
+      "partition": "Weak Test (Final Abstained)",
+      "sample_count": 258,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "compliant_f1": 0.0,
+      "non_compliant_f1": 1.0,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 1.0,
+      "non_compliant_fnr": 0.0,
+      "uncertain_rate": 0.0,
+      "selective_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            258,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 0,
+            "pred_nc": 0,
+            "pred_unc": 0
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 0,
+            "true_positive": 258,
+            "pred_unc": 0
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 0,
+            "true_positive": 0
+          }
+        }
+      }
+    },
+    "human_reference_raw": {
+      "partition": "Human Reference 75 (Raw ML)",
+      "sample_count": 75,
+      "accuracy": 0.72,
+      "balanced_accuracy": 0.2951,
+      "macro_f1": 0.2791,
+      "compliant_f1": 0.0,
+      "non_compliant_f1": 0.8372,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 0.8852,
+      "non_compliant_fnr": 0.1148,
+      "uncertain_rate": 0.0,
+      "selective_accuracy": 0.72,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            7,
+            54,
+            0
+          ],
+          [
+            0,
+            12,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 0,
+            "pred_nc": 2,
+            "pred_unc": 0
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 7,
+            "true_positive": 54,
+            "pred_unc": 0
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 12,
+            "true_positive": 0
+          }
+        }
+      }
+    },
+    "human_reference_abstained": {
+      "partition": "Human Reference 75 (Final Abstained)",
+      "sample_count": 75,
+      "accuracy": 0.48,
+      "balanced_accuracy": 0.1967,
+      "macro_f1": 0.2202,
+      "compliant_f1": 0.0,
+      "non_compliant_f1": 0.6606,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 0.5902,
+      "non_compliant_fnr": 0.0,
+      "uncertain_rate": 0.36,
+      "selective_accuracy": 0.75,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            36,
+            25
+          ],
+          [
+            0,
+            12,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 0,
+            "pred_nc": 0,
+            "pred_unc": 2
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 0,
+            "true_positive": 36,
+            "pred_unc": 25
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 12,
+            "true_positive": 0
+          }
+        }
+      }
+    },
+    "real_packaging_raw": {
+      "partition": "Real Packaging Benchmark (Raw ML)",
+      "sample_count": 20,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "compliant_f1": 1.0,
+      "non_compliant_f1": 1.0,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 1.0,
+      "non_compliant_fnr": 0.0,
+      "uncertain_rate": 0.0,
+      "selective_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            17,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 17,
+            "pred_nc": 0,
+            "pred_unc": 0
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 0,
+            "true_positive": 3,
+            "pred_unc": 0
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 0,
+            "true_positive": 0
+          }
+        }
+      }
+    },
+    "real_packaging_abstained": {
+      "partition": "Real Packaging Benchmark (Final Abstained)",
+      "sample_count": 20,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "compliant_f1": 1.0,
+      "non_compliant_f1": 1.0,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 1.0,
+      "non_compliant_fnr": 0.0,
+      "uncertain_rate": 0.0,
+      "selective_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            17,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 17,
+            "pred_nc": 0,
+            "pred_unc": 0
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 0,
+            "true_positive": 3,
+            "pred_unc": 0
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 0,
+            "true_positive": 0
+          }
+        }
+      }
+    },
+    "yolo_test_raw": {
+      "partition": "YOLO Test Split (Raw ML)",
+      "sample_count": 10,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "compliant_f1": 0.0,
+      "non_compliant_f1": 1.0,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 1.0,
+      "non_compliant_fnr": 0.0,
+      "uncertain_rate": 0.0,
+      "selective_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 0,
+            "pred_nc": 0,
+            "pred_unc": 0
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 0,
+            "true_positive": 10,
+            "pred_unc": 0
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 0,
+            "true_positive": 0
+          }
+        }
+      }
+    },
+    "yolo_test_abstained": {
+      "partition": "YOLO Test Split (Final Abstained)",
+      "sample_count": 10,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "compliant_f1": 0.0,
+      "non_compliant_f1": 1.0,
+      "uncertain_f1": 0.0,
+      "non_compliant_recall": 1.0,
+      "non_compliant_fnr": 0.0,
+      "uncertain_rate": 0.0,
+      "selective_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "COMPLIANT",
+          "NON_COMPLIANT",
+          "UNCERTAIN"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "breakdown": {
+          "COMPLIANT": {
+            "true_positive": 0,
+            "pred_nc": 0,
+            "pred_unc": 0
+          },
+          "NON_COMPLIANT": {
+            "pred_comp": 0,
+            "true_positive": 10,
+            "pred_unc": 0
+          },
+          "UNCERTAIN": {
+            "pred_comp": 0,
+            "pred_nc": 0,
+            "true_positive": 0
+          }
+        }
+      }
+    }
+  },
+  "real_packaging_breakdown": [
+    {
+      "product_id": "real_prod_01",
+      "title": "Himalaya Purifying Neem Face Wash 150ml",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_02",
+      "title": "Johnson's Baby Daily Nourish Moisture Lotion 200ml",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 0.95,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_03",
+      "title": "Milton Thermosteel Flip Lid Vacuum Flask 1000ml",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 0.95,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_04",
+      "title": "Happilo 100% Natural Premium California Almonds 500g",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_05",
+      "title": "Vim Dishwash Gel Lemon 750ml Bottle",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_06",
+      "title": "Minimalist 10% Niacinamide Face Serum 30ml",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_07",
+      "title": "Pampers All Round Protection Baby Diapers (Large, 64 Count)",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 0.95,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_08",
+      "title": "Prestige Deluxe Alpha Stainless Steel Pressure Cooker 3L",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_09",
+      "title": "Organic India Tulsi Green Tea Classic 25 Tea Bags (45g)",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_10",
+      "title": "Lizol Disinfectant Surface Cleaner Citrus 2 Litres",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_11",
+      "title": "Unbranded Generic Cotton Kitchen Towel Set (Pack of 4)",
+      "ground_truth": "NON_COMPLIANT",
+      "raw_prediction": "NON_COMPLIANT",
+      "final_prediction": "NON_COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "Missing mandatory Manufacturer / Packer name and address (D01); Missing mandatory Net Quantity declaration (D03); Missing mandatory Date of Manufacture / Packing (D04); Missing mandatory Consumer Care Contact Details (D06); Missing mandatory Country of Origin (D07)"
+    },
+    {
+      "product_id": "real_prod_12",
+      "title": "Crafted Wooden Coaster Set of 6",
+      "ground_truth": "NON_COMPLIANT",
+      "raw_prediction": "NON_COMPLIANT",
+      "final_prediction": "NON_COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "Missing mandatory Manufacturer / Packer name and address (D01); Missing mandatory Net Quantity declaration (D03); Missing mandatory Date of Manufacture / Packing (D04); Missing mandatory Consumer Care Contact Details (D06)"
+    },
+    {
+      "product_id": "real_prod_13",
+      "title": "Sunfeast Dark Fantasy Choco Fills 300g (Pack of 4)",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_14",
+      "title": "Dettol Original Liquid Handwash Refill Pouch 1500ml",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_15",
+      "title": "Mother Sparsh 99% Pure Water Unscented Baby Wipes (72 Wipes)",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_16",
+      "title": "Biotique Bio Kelp Protein Shampoo 340ml",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_17",
+      "title": "KitchenPro Silicone Spatula & Pastry Brush Set",
+      "ground_truth": "NON_COMPLIANT",
+      "raw_prediction": "NON_COMPLIANT",
+      "final_prediction": "NON_COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "Missing mandatory Net Quantity declaration (D03); Missing mandatory Date of Manufacture / Packing (D04); Missing mandatory Consumer Care Contact Details (D06)"
+    },
+    {
+      "product_id": "real_prod_18",
+      "title": "Godrej aer Pocket Bathroom Air Fragrance Petal Crush Pink 10g",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_19",
+      "title": "Nestle Cerelac Baby Cereal with Milk Wheat Apple 300g",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    },
+    {
+      "product_id": "real_prod_20",
+      "title": "Aroma Magic Sunblock Lotion SPF 30 (100ml)",
+      "ground_truth": "COMPLIANT",
+      "raw_prediction": "COMPLIANT",
+      "final_prediction": "COMPLIANT",
+      "confidence": 1.0,
+      "abstention_applied": false,
+      "decision_basis": "All mandatory statutory declarations verified on packaging"
+    }
+  ]
+}

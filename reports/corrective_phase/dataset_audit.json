@@ -1,0 +1,71 @@
+{
+  "human_reference_75": {
+    "path": "data/processed/pilot_ground_truth_75_v1.jsonl",
+    "sample_count": 75,
+    "sha256": "37dc62a308a67899ee40d782b2163d56b6c472edc47b6f56059048649b877520",
+    "sha256_verified": true,
+    "domain": "CATALOG_METADATA_AND_IMAGES",
+    "provenance": "HUMAN_VERIFIED",
+    "annotation_level": "DECLARATION_D01_D07",
+    "derived_compliance_distribution": {
+      "NON_COMPLIANT": 69,
+      "COMPLIANT": 6
+    },
+    "usable_for_training": false,
+    "usable_for_evaluation": true,
+    "role": "FROZEN_HUMAN_REFERENCE_BENCHMARK"
+  },
+  "flipkart_weak_1663": {
+    "path": "data/processed/flipkart_weak_labels_v1.jsonl",
+    "sample_count": 1663,
+    "domain": "CATALOG_METADATA_ECOM",
+    "provenance": "RULE_DERIVED_WEAK_LABEL",
+    "annotation_level": "DECLARATION_D01_D07_RULE_EXTRACTED",
+    "derived_compliance_distribution": {
+      "NON_COMPLIANT": 1607,
+      "COMPLIANT": 56
+    },
+    "usable_for_training": true,
+    "usable_for_evaluation": true,
+    "role": "WEAK_SUPERVISION_PROTOTYPING"
+  },
+  "yolo_packaging_249": {
+    "path": "data/external/yolo_candidate_dataset",
+    "total_images": 249,
+    "train_count": 219,
+    "val_count": 20,
+    "test_count": 10,
+    "domain": "PHYSICAL_PACKAGING_IMAGES",
+    "provenance": "HUMAN_ANNOTATED_BBOXES",
+    "annotation_level": "OBJECT_REGION_BOUNDING_BOXES",
+    "classes": [
+      "address",
+      "barcode",
+      "brand",
+      "consumer",
+      "details",
+      "mrp details",
+      "origin",
+      "tax",
+      "weight"
+    ],
+    "has_compliance_labels": false,
+    "usable_for_training": true,
+    "usable_for_evaluation": true,
+    "role": "PHYSICAL_PACKAGING_VISUAL_LOCALIZATION_SUPERVISION"
+  },
+  "real_product_benchmark_20": {
+    "path": "real_product_validation",
+    "sample_count": 20,
+    "domain": "REAL_PHYSICAL_CONSUMER_PACKAGING",
+    "provenance": "HUMAN_VERIFIED_GROUND_TRUTH",
+    "annotation_level": "DECLARATION_D01_D07_AND_OBSERVED_TEXT",
+    "compliance_distribution": {
+      "COMPLIANT": 17,
+      "NON_COMPLIANT": 3
+    },
+    "usable_for_training": false,
+    "usable_for_evaluation": true,
+    "role": "INDEPENDENT_PHYSICAL_BENCHMARK_ONLY"
+  }
+}

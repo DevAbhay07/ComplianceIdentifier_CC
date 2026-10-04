@@ -1,0 +1,26 @@
+product_id,status,num_urls,first_url_accessible,content_type,file_size_bytes,width,height,notes
+1e740fc82cdf4a24d9de2f5b48591b22,HTTP_200,3,True,image/jpeg,236482,1100.0,1004.0,3 URLs available
+afc3ebd18df498dd87abb7ad7536b5c7,HTTP_200,2,True,image/jpeg,186307,1000.0,647.0,2 URLs available
+7cb1ea7b2257aeeeba701a8f6e3e0127,HTTP_200,3,True,image/jpeg,104161,319.0,1100.0,3 URLs available
+f2fa99bfaa4aa65a2bd53337e140f949,HTTP_200,2,True,image/jpeg,116949,904.0,1100.0,2 URLs available
+522c84a79fe5ff7fc0903cda2d6038e9,HTTP_200,2,True,image/jpeg,141791,862.0,1100.0,2 URLs available
+3abb24db9bcc19031aee68ddd91497a1,HTTP_200,2,True,image/jpeg,159772,1100.0,1033.0,2 URLs available
+5dbf978ab2cf9d2da6446d3e4595f690,HTTP_200,2,True,image/jpeg,123717,1100.0,1033.0,2 URLs available
+645e2ad7ae592af95b59140d72577a0a,HTTP_200,3,True,image/jpeg,180727,1100.0,1006.0,3 URLs available
+abb8f1593b7de6911d53e1c1488e05d4,HTTP_200,2,True,image/jpeg,102468,1100.0,551.0,2 URLs available
+545f9cd3365242c112089acb0b3a3b46,HTTP_200,2,True,image/jpeg,64070,220.0,1000.0,2 URLs available
+9e822ea8a87e28225d5f814c11acdbbe,HTTP_200,2,True,image/jpeg,96238,900.0,1200.0,2 URLs available
+0abe931bedd044ac2b60b6eff6425234,HTTP_200,2,True,image/jpeg,184086,1100.0,802.0,2 URLs available
+e5d41d5a421fc663e810284a834b465d,HTTP_200,2,True,image/jpeg,175944,1100.0,804.0,2 URLs available
+aa48cf6641bd07f96a17faa18379a351,HTTP_200,4,True,image/webp,41560,1100.0,931.0,4 URLs available
+2f1dc051b009af444dfb1883bbbeda4f,HTTP_200,2,True,image/jpeg,146764,850.0,1100.0,2 URLs available
+1835f47e943ce06311b96ce068dade0f,HTTP_200,3,True,image/jpeg,147303,710.0,1100.0,3 URLs available
+660e91db93e04b564565942f32a22244,HTTP_200,2,True,image/jpeg,127570,831.0,1100.0,2 URLs available
+93643c9c4a543c209f3ace11e940a18d,HTTP_200,1,True,image/jpeg,110207,900.0,1200.0,1 URLs available
+1eb6de7bada34a415da97acba0309044,HTTP_200,3,True,image/jpeg,171652,1100.0,1018.0,3 URLs available
+51b6809d527ea36798bddc2bb8557bc2,HTTP_200,1,True,image/jpeg,116445,1299.0,1500.0,1 URLs available
+c1816b1812ae5f393f1c75a288f4112b,HTTP_200,1,True,image/jpeg,24541,322.0,1072.0,1 URLs available
+e3ae62ed831fd8b4c20e1742c30d35b5,HTTP_404,3,False,,0,,,HTTP Error 404: Not Found
+95feec21a9d076cff084159d61bf9b8e,HTTP_200,4,True,image/jpeg,165807,928.0,1000.0,4 URLs available
+a898bd6978f9f2c6aa940b9fa3352c27,HTTP_200,2,True,image/jpeg,131774,778.0,1100.0,2 URLs available
+63319fdd48db082037bcbc0c2979c02e,HTTP_200,1,True,image/jpeg,124785,288.0,3149.0,1 URLs available

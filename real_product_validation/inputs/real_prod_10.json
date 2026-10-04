@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_10",
+  "title": "Lizol Disinfectant Surface Cleaner Citrus 2 Litres",
+  "category": "Household & Cleaning",
+  "brand": "Lizol",
+  "retail_price": 415.0,
+  "discounted_price": 360.0,
+  "description": "Lizol 10x surface cleaner kills 99.9% germs and leaves a fresh citrus fragrance.",
+  "specifications": {
+    "Type": "Floor Cleaner",
+    "Volume": "2 L",
+    "Fragrance": "Citrus"
+  },
+  "image_path": "real_product_validation/images/real_prod_10.png"
+}

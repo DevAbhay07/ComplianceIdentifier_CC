@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_13",
+  "title": "Sunfeast Dark Fantasy Choco Fills 300g (Pack of 4)",
+  "category": "Packaged Goods & Food",
+  "brand": "Sunfeast",
+  "retail_price": 180.0,
+  "discounted_price": 140.0,
+  "description": "Crispy golden cookie with luscious molten choco cream filling.",
+  "specifications": {
+    "Flavor": "Choco",
+    "Weight": "300 g"
+  },
+  "image_path": "real_product_validation/images/real_prod_13.png"
+}

@@ -1,0 +1,61 @@
+{
+  "model_name": "LogisticRegression",
+  "feature_set": "SET_A",
+  "abstention_threshold": 0.65,
+  "partitions": {
+    "weak_test": {
+      "partition": "Weak Test Partition",
+      "domain": "E-Commerce Catalog Silver",
+      "n_samples": 258,
+      "accuracy_raw": 0.9922,
+      "balanced_accuracy_raw": 0.8571,
+      "macro_f1_raw": 0.9147,
+      "non_compliant_recall": 1.0,
+      "non_compliant_precision": 0.9921,
+      "non_compliant_f1": 0.996,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 0.2857,
+      "false_negatives_count": 0,
+      "false_positives_count": 2,
+      "uncertain_rate": 0.7171,
+      "coverage": 0.2829,
+      "selective_accuracy": 1.0
+    },
+    "human_reference": {
+      "partition": "Human Reference Partition",
+      "domain": "E-Commerce Catalog Human-Verified",
+      "n_samples": 75,
+      "accuracy_raw": 0.8133,
+      "balanced_accuracy_raw": 0.3333,
+      "macro_f1_raw": 0.299,
+      "non_compliant_recall": 1.0,
+      "non_compliant_precision": 0.8133,
+      "non_compliant_f1": 0.8971,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 1.0,
+      "false_negatives_count": 0,
+      "false_positives_count": 14,
+      "uncertain_rate": 0.8,
+      "coverage": 0.2,
+      "selective_accuracy": 0.7333
+    },
+    "real_product_benchmark": {
+      "partition": "Real Product Packaging Benchmark",
+      "domain": "Physical Product Packaging",
+      "n_samples": 20,
+      "accuracy_raw": 0.15,
+      "balanced_accuracy_raw": 0.5,
+      "macro_f1_raw": 0.3333,
+      "non_compliant_recall": 1.0,
+      "non_compliant_precision": 1.0,
+      "non_compliant_f1": 1.0,
+      "false_negative_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negatives_count": 0,
+      "false_positives_count": 0,
+      "uncertain_rate": 0.95,
+      "coverage": 0.05,
+      "selective_accuracy": 1.0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "flipkart_raw_records": 20002,
+  "flipkart_weak_silver_records": 1663,
+  "flipkart_target_provenance": "WEAKLY_DERIVED_SILVER",
+  "flipkart_targets_distribution": {
+    "UNKNOWN": 1663
+  },
+  "yolo_physical_packaging_images": 249,
+  "yolo_raw_annotations_type": "PACKAGING_REGION_BOUNDING_BOXES (9 classes)",
+  "yolo_raw_target_provenance": "YOLO_REGION_ANNOTATION (No pre-existing product compliance labels)",
+  "human_reference_samples": 75,
+  "human_reference_role": "IMMUTABLE_EVALUATION_ONLY (N=75)",
+  "real_packaging_benchmark_samples": 20,
+  "real_packaging_benchmark_role": "IMMUTABLE_EVALUATION_ONLY (N=20)",
+  "audit_decision": "YOLO packaging data contributes physical packaging evidence and visual region features. Training targets for Flipkart are WEAKLY_DERIVED_SILVER."
+}

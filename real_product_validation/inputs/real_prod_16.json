@@ -1,0 +1,14 @@
+{
+  "product_id": "real_prod_16",
+  "title": "Biotique Bio Kelp Protein Shampoo 340ml",
+  "category": "Beauty & Personal Care",
+  "brand": "Biotique",
+  "retail_price": 290.0,
+  "discounted_price": 215.0,
+  "description": "Ayurvedic recipe with pure kelp, natural protein and peppermint oil for hair growth stimulation.",
+  "specifications": {
+    "Quantity": "340 ml",
+    "Hair Type": "All Hair Types"
+  },
+  "image_path": "real_product_validation/images/real_prod_16.png"
+}

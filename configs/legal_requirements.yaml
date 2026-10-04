@@ -1,0 +1,274 @@
+# =============================================================================
+# Legal Requirements Schema
+# Source: Legal Metrology (Packaged Commodities) Rules, 2011
+# Purpose: Structured representation of mandatory declarations required
+#          on retail packaged commodities sold in India
+#
+# This schema is derived from the official legal text and serves as:
+#   1. Foundation for annotation guidelines (human reviewers)
+#   2. Reference for rule engine (deterministic validation)
+#   3. Context for ML feature engineering
+#
+# NOTE: This is a working schema for the NitiMark ML project.
+#       It is NOT a legal interpretation or legal advice.
+#       All rule references point to the PC Rules 2011 text.
+# =============================================================================
+
+schema_version: "1.0.0"
+legal_source: "Legal Metrology (Packaged Commodities) Rules, 2011"
+parent_act: "Legal Metrology Act, 2009"
+notification: "GSR 202(E), 7th March 2011"
+effective_date: "2011-04-01"
+
+# -------------------------------------------------------
+# Applicability (Rule 3)
+# -------------------------------------------------------
+applicability:
+  applies_to: "Retail packages of commodities for sale to ultimate consumer"
+  does_not_apply_to:
+    - "Packages containing quantity > 25 kg or > 25 litres (except cement/fertilizer up to 50 kg)"
+    - "Packages meant for industrial consumers"
+    - "Packages meant for institutional consumers (transport, railways, hotels, hospitals)"
+  exemptions:
+    - rule: "Rule 26(a)"
+      description: "Packages with net weight/measure ≤ 10g or 10ml"
+      note: "MRP and net quantity must still be declared for 10g-20g / 10ml-20ml packages"
+    - rule: "Rule 26(b)"
+      description: "Fast food items packed by restaurants/hotels"
+    - rule: "Rule 26(c)"
+      description: "Scheduled and non-scheduled drug formulations under DPCO"
+    - rule: "Rule 26(d)"
+      description: "Agricultural farm produce in packages above 50 kg"
+
+# -------------------------------------------------------
+# Mandatory Declarations (Rule 6)
+# Every retail package must bear the following declarations
+# -------------------------------------------------------
+mandatory_declarations:
+
+  - id: "D01_MANUFACTURER_NAME_ADDRESS"
+    name: "Name and Address of Manufacturer/Packer/Importer"
+    legal_rule: "Rule 6(1)(a), Rule 10"
+    description: >
+      Every package must bear the name and complete address of the manufacturer.
+      Where the manufacturer is not the packer, both names and addresses are required.
+      For imported packages, the name and address of the importer must be mentioned.
+    requirements:
+      - "Name of manufacturer OR packer OR importer"
+      - "Complete postal address including street, number, city, state or PIN code"
+      - "If brand owner appears as marketer, brand owner is held responsible"
+    what_to_look_for_in_listing:
+      - "Brand name present"
+      - "Manufacturer name in product specifications"
+      - "Seller/manufacturer address"
+      - "Importer details for imported products"
+    verification_difficulty: "MEDIUM"
+    notes: >
+      E-commerce listings often show brand name but may omit full manufacturer
+      address. The product image/packaging typically contains this information.
+
+  - id: "D02_COMMODITY_NAME"
+    name: "Common or Generic Name of Commodity"
+    legal_rule: "Rule 6(1)(b)"
+    description: >
+      The common or generic name of the commodity must be mentioned.
+      For multi-product packages, name and number/quantity of each product required.
+    requirements:
+      - "Common or generic product name (not just brand name)"
+      - "For multi-item packages: name and quantity of each item"
+    what_to_look_for_in_listing:
+      - "Product name/title"
+      - "Product category"
+      - "Generic description vs brand-only naming"
+    verification_difficulty: "LOW"
+
+  - id: "D03_NET_QUANTITY"
+    name: "Net Quantity"
+    legal_rule: "Rule 6(1)(c), Rules 11-13"
+    description: >
+      Net quantity in standard units of weight, measure, or number.
+      Must exclude packaging/wrapper weight. Must use SI units.
+      Must not use words like 'minimum', 'approximately', 'about'.
+    requirements:
+      - "Net quantity in standard SI units (g, kg, ml, L, cm, m, etc.)"
+      - "Number of items if sold by count"
+      - "No qualifying words (minimum, approximately, about, etc.)"
+      - "Wrappers and packaging material excluded from weight"
+    what_to_look_for_in_listing:
+      - "Net weight/volume in product specifications"
+      - "Pack size or quantity"
+      - "Number of items in pack"
+    verification_difficulty: "LOW"
+
+  - id: "D04_MANUFACTURE_DATE"
+    name: "Month and Year of Manufacture/Packing/Import"
+    legal_rule: "Rule 6(1)(d)"
+    description: >
+      The month and year in which the commodity was manufactured, pre-packed,
+      or imported. May be expressed in words, numerals, or both.
+    requirements:
+      - "Month and year of manufacture OR packing OR import"
+      - "Can be words or numerals or both"
+    what_to_look_for_in_listing:
+      - "Date of manufacture in specifications"
+      - "Packaging date"
+      - "Import date for imported products"
+    verification_difficulty: "HIGH"
+    notes: >
+      This is rarely present in e-commerce product listings.
+      Typically only visible on physical packaging. Very difficult
+      to verify from listing data alone.
+    exceptions:
+      - "Bidis and incense sticks (Rule 6 Proviso A(i))"
+      - "Domestic LPG cylinders 14.2kg or 5kg by PSUs (Rule 6 Proviso A(ii))"
+      - "Food products follow PFA/FSSAI rules instead"
+
+  - id: "D05_MRP"
+    name: "Maximum Retail Price (MRP)"
+    legal_rule: "Rule 6(1)(e), Rule 2(m)"
+    description: >
+      The retail sale price (MRP) must be declared in the format:
+      'Maximum/Max. retail price Rs/₹ _____ inclusive of all taxes'
+      or 'MRP Rs/₹ _____ incl. of all taxes'.
+    requirements:
+      - "MRP amount clearly stated"
+      - "Must be inclusive of all taxes"
+      - "Format: 'MRP Rs. _____ inclusive of all taxes' or equivalent"
+      - "Rounding rules: < 50p → round down, 50p-95p → round to 50p"
+    what_to_look_for_in_listing:
+      - "retail_price or discounted_price field"
+      - "MRP in product specifications"
+      - "Price declaration in description"
+    verification_difficulty: "LOW"
+    exceptions:
+      - "Bidis (Rule 6 Proviso C(i))"
+      - "Domestic LPG cylinders under government pricing (Rule 6 Proviso C(ii))"
+
+  - id: "D06_CONSUMER_CARE"
+    name: "Consumer Care / Complaint Contact Details"
+    legal_rule: "Rule 6(2)"
+    description: >
+      Every package must bear the name, address, telephone number,
+      and email address (if available) of the person or office to
+      contact for consumer complaints.
+    requirements:
+      - "Name of contact person or office"
+      - "Address of consumer care"
+      - "Telephone number"
+      - "Email address (if available)"
+    what_to_look_for_in_listing:
+      - "Customer care number in specifications"
+      - "Contact details in description"
+      - "Seller contact information"
+    verification_difficulty: "HIGH"
+    notes: >
+      Rarely present in e-commerce listings. Usually only on packaging.
+
+  - id: "D07_COUNTRY_OF_ORIGIN"
+    name: "Country of Origin (for imported products)"
+    legal_rule: "Rule 6(1)(a) — imported packages"
+    description: >
+      For imported packaged commodities, the country of origin and
+      the name and address of the importer in India must be declared.
+    requirements:
+      - "Country of origin for imported products"
+      - "Name and address of importer in India"
+    what_to_look_for_in_listing:
+      - "Country of origin in specifications"
+      - "Imported by / Importer details"
+      - "Country mention in description"
+    verification_difficulty: "MEDIUM"
+    notes: >
+      May be present in Flipkart product specifications for some products.
+      Critical for imported goods compliance.
+
+# -------------------------------------------------------
+# Additional Display and Formatting Rules
+# -------------------------------------------------------
+display_requirements:
+
+  - id: "F01_PRINCIPAL_DISPLAY_PANEL"
+    name: "Principal Display Panel"
+    legal_rule: "Rule 7, Rule 8"
+    description: >
+      All declarations must appear on the principal display panel.
+      Minimum font size requirements apply based on net quantity.
+    cannot_verify_from_listing: true
+    notes: "Font size and display panel verification requires physical image analysis"
+
+  - id: "F02_LANGUAGE"
+    name: "Language of Declarations"
+    legal_rule: "Rule 9(4)"
+    description: "Declarations must be in Hindi (Devanagari) or English"
+    cannot_verify_from_listing: true
+
+  - id: "F03_NO_STICKER_ALTERATION"
+    name: "No Sticker Alteration of Declarations"
+    legal_rule: "Rule 6(3)"
+    description: >
+      Individual stickers must not be used to alter or make mandatory declarations.
+      Exception: stickers may reduce MRP (but must not cover original MRP).
+    cannot_verify_from_listing: true
+
+  - id: "F04_LEGIBILITY"
+    name: "Legibility and Contrast"
+    legal_rule: "Rule 9(1)"
+    description: >
+      Declarations must be legible and prominent. Price and net quantity
+      numerals must contrast conspicuously with background.
+    cannot_verify_from_listing: true
+
+# -------------------------------------------------------
+# Mapping: Which Declarations Are Verifiable from E-commerce Listings?
+# -------------------------------------------------------
+# This is critical for the ML project: not all legal requirements can be
+# checked from an e-commerce product listing alone.
+verification_feasibility:
+
+  from_listing_metadata:
+    verifiable:
+      - declaration: "D02_COMMODITY_NAME"
+        confidence: "HIGH"
+        source_fields: ["product_name", "product_category_tree"]
+
+      - declaration: "D03_NET_QUANTITY"
+        confidence: "MEDIUM"
+        source_fields: ["product_specifications", "description", "product_name"]
+
+      - declaration: "D05_MRP"
+        confidence: "HIGH"
+        source_fields: ["retail_price", "discounted_price"]
+
+    partially_verifiable:
+      - declaration: "D01_MANUFACTURER_NAME_ADDRESS"
+        confidence: "LOW_TO_MEDIUM"
+        source_fields: ["brand", "product_specifications", "description"]
+        limitation: "Listing usually shows brand, rarely full address"
+
+      - declaration: "D07_COUNTRY_OF_ORIGIN"
+        confidence: "LOW_TO_MEDIUM"
+        source_fields: ["product_specifications", "description"]
+        limitation: "Sometimes present in specs, often missing"
+
+    not_verifiable:
+      - declaration: "D04_MANUFACTURE_DATE"
+        reason: "Almost never present in e-commerce listings"
+
+      - declaration: "D06_CONSUMER_CARE"
+        reason: "Rarely present in listing data; usually only on packaging"
+
+  from_product_images:
+    potentially_verifiable:
+      - "D01_MANUFACTURER_NAME_ADDRESS"
+      - "D02_COMMODITY_NAME"
+      - "D03_NET_QUANTITY"
+      - "D04_MANUFACTURE_DATE"
+      - "D05_MRP"
+      - "D06_CONSUMER_CARE"
+      - "D07_COUNTRY_OF_ORIGIN"
+      - "F01_PRINCIPAL_DISPLAY_PANEL"
+      - "F04_LEGIBILITY"
+    limitation: >
+      Requires high-quality images of the product packaging label.
+      E-commerce product images often show the product front, not the
+      information panel. OCR accuracy depends on image quality.

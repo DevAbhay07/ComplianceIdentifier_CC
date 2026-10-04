@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_09",
+  "title": "Organic India Tulsi Green Tea Classic 25 Tea Bags (45g)",
+  "category": "Packaged Goods & Food",
+  "brand": "Organic India",
+  "retail_price": 210.0,
+  "discounted_price": 185.0,
+  "description": "Certified organic Tulsi green tea with potent antioxidants and stress-relieving adaptogens.",
+  "specifications": {
+    "Form": "Tea Bags",
+    "Quantity": "25 Bags",
+    "Weight": "45 g"
+  },
+  "image_path": "real_product_validation/images/real_prod_09.png"
+}

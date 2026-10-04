@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_17",
+  "title": "KitchenPro Silicone Spatula & Pastry Brush Set",
+  "category": "Kitchen & Dining",
+  "brand": "KitchenPro",
+  "observable_packaging_text": "KitchenPro Baking Essentials\nSet of 2: 1 Spatula + 1 Brush\nImported and Marketed by: Retail Imports Corp, Delhi 110006\nMRP Rs 199.00\nMade in China",
+  "declarations": {
+    "D01": {
+      "label": "PARTIAL",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Retail Imports Corp, Delhi 110006",
+      "note": "Importer name and city PIN only; no full street address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Baking Essentials (Spatula & Brush)",
+      "note": "Product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Set of 2: 1 Spatula + 1 Brush",
+      "note": "Piece count."
+    },
+    "D04": {
+      "label": "CANNOT_DETERMINE",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "No manufacturing/import date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs 199.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "ABSENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "No contact information."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in China",
+      "note": "Origin China declared."
+    }
+  }
+}

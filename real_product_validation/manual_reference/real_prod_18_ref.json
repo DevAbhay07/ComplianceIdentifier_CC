@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_18",
+  "title": "Godrej aer Pocket Bathroom Air Fragrance Petal Crush Pink 10g",
+  "category": "Household & Cleaning",
+  "brand": "Godrej aer",
+  "observable_packaging_text": "Godrej aer pocket bathroom fragrance\nNet Weight: 10 g\nMfd by: Godrej Consumer Products Limited, Pirojshanagar, Eastern Express Highway, Vikhroli (East), Mumbai 400079\nMRP: Rs. 65.00 (incl. of all taxes)\nDate of Mfg: 01/2026 | Best before 2 years\nConsumer Cell: 1800-266-0007 | care@godrejcp.com\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Godrej Consumer Products, Vikhroli (East), Mumbai 400079",
+      "note": "Manufacturer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "bathroom fragrance",
+      "note": "Generic product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "10 g",
+      "note": "Net weight in grams."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Date of Mfg: 01/2026",
+      "note": "Mfg date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 65.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-266-0007, care@godrejcp.com",
+      "note": "Consumer helpline."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin India."
+    }
+  }
+}

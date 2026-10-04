@@ -1,0 +1,31 @@
+{
+  "dataset_name": "Flipkart Weak-Label Dataset (Phase 6)",
+  "version": "1.0.0",
+  "release_tag": "flipkart_weak_labels_v1",
+  "creation_timestamp": "2026-09-05T00:12:39.593604+00:00",
+  "total_records": 1663,
+  "rejected_records": 0,
+  "declarations_covered": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07"
+  ],
+  "label_type": "WEAK_LABEL",
+  "provenance": "AUTOMATED_WEAK_LABEL_PIPELINE_V1",
+  "files": {
+    "jsonl": {
+      "path": "data/processed/flipkart_weak_labels_v1.jsonl",
+      "sha256": "28beec359cd95a88c72c15edc1209d538d392e96e49a8f49441a1b65c02476d4",
+      "record_count": 1663
+    },
+    "csv": {
+      "path": "data/processed/flipkart_weak_labels_v1.csv",
+      "sha256": "5b9e031ff9424cba7fa63233d8e61c628d57b8e8f92fc0594a9442b462b59139",
+      "record_count": 1663
+    }
+  }
+}

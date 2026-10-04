@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_16",
+  "title": "Biotique Bio Kelp Protein Shampoo 340ml",
+  "category": "Beauty & Personal Care",
+  "brand": "Biotique",
+  "observable_packaging_text": "BIOTIQUE ADVANCED AYURVEDA\nBio Kelp Fresh Growth Protein Shampoo\nNet Qty: 340 ml\nMfd by Bio Veda Action Research Co., Khasra No. 439/42, Village Mauja, Paonta Sahib 173025, HP\nMRP Rs. 290.00 (inclusive of all taxes)\nDate of Mfg: 01/2026\nCustomer Care: 1800-103-9825 | contact@biotique.com\nMade in India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Bio Veda Action Research Co., Paonta Sahib 173025, HP",
+      "note": "Manufacturer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Protein Shampoo",
+      "note": "Generic title."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "340 ml",
+      "note": "Volume in ml."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Date of Mfg: 01/2026",
+      "note": "Date of manufacture."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 290.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-103-9825, contact@biotique.com",
+      "note": "Customer care."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in India",
+      "note": "Origin India."
+    }
+  }
+}

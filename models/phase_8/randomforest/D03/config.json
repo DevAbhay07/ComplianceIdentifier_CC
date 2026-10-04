@@ -1,0 +1,22 @@
+{
+  "model_family": "RandomForest",
+  "declaration": "D03",
+  "feature_set": "FEATURE_SET_A",
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 20,
+    "class_weight": "balanced"
+  },
+  "target_mapping": null,
+  "random_seed": 42,
+  "validation_metrics": {
+    "accuracy": 0.8943,
+    "macro_f1": 0.7532,
+    "weighted_f1": 0.8852,
+    "balanced_accuracy": 0.7194
+  },
+  "status": "CANDIDATE",
+  "training_dataset_version": "v1",
+  "feature_pipeline_version": "v1",
+  "training_timestamp": "2026-09-05T00:42:06.708515+00:00"
+}

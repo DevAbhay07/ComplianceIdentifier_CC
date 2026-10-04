@@ -1,0 +1,30 @@
+{
+  "feature_name_leakage": {
+    "passed": true,
+    "total_features": 61,
+    "leaked_features": [],
+    "details": "Zero target-derived names found in feature definitions."
+  },
+  "split_id_overlap": {
+    "passed": true,
+    "train_count": 1159,
+    "val_count": 246,
+    "test_count": 258,
+    "human_ref_count": 75,
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "train_ref_overlap": 0,
+    "details": "Zero partition ID overlap verified across train, val, test, and human reference."
+  },
+  "real_product_isolation": {
+    "passed": true,
+    "real_product_samples": 20,
+    "real_products_in_training": [],
+    "details": "All 20 real packaging benchmark products strictly isolated from training."
+  },
+  "feature_correlation_sanity": {
+    "passed": true,
+    "perfect_correlation_features": [],
+    "details": "No single feature exhibits trivial 1.0 correlation with target (no direct target copies)."
+  }
+}

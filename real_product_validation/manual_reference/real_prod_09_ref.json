@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_09",
+  "title": "Organic India Tulsi Green Tea Classic 25 Tea Bags (45g)",
+  "category": "Packaged Goods & Food",
+  "brand": "Organic India",
+  "observable_packaging_text": "ORGANIC INDIA Tulsi Green Tea\nNet Weight: 45 g (25 Tea Bags x 1.8 g)\nPacked by: Organic India Pvt. Ltd., Plot No. 266, Faizabad Road, Lucknow 226028, UP\nMRP Rs. 210.00 (incl. of all taxes)\nPKD: 01/2026 | Best Before 24 months from Packaging\nContact: care@organicindia.com | Phone: 1800-180-5151\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Organic India Pvt. Ltd., Faizabad Road, Lucknow 226028",
+      "note": "Packer name and address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Tulsi Green Tea",
+      "note": "Commodity title."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "45 g (25 Tea Bags x 1.8 g)",
+      "note": "Weight and composite unit count."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "PKD: 01/2026, Best Before 24 months",
+      "note": "Packing date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 210.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "care@organicindia.com, 1800-180-5151",
+      "note": "Customer service contacts."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin stated."
+    }
+  }
+}

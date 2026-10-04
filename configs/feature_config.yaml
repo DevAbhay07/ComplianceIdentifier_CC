@@ -1,0 +1,140 @@
+# =============================================================================
+# NitiMark Phase 7 — Feature Engineering & ML Dataset Configuration
+# Schema Version: 1.0.0
+# =============================================================================
+
+feature_version: "v1"
+dataset_version: "v1"
+split_seed: 42
+
+# Data Splitting Configuration
+splitting:
+  strategy: "StratifiedGroupSplit"
+  group_column: "product_family_id"
+  duplicate_column: "duplicate_group_id"
+  ratios:
+    train: 0.70
+    validation: 0.15
+    test: 0.15
+
+# Multi-Label Target Configuration
+targets:
+  declaration_targets:
+    - "D01_target"
+    - "D02_target"
+    - "D03_target"
+    - "D04_target"
+    - "D05_target"
+    - "D06_target"
+    - "D07_target"
+  overall_target: "overall_target"
+  valid_states:
+    - "PRESENT"
+    - "ABSENT"
+    - "PARTIAL"
+    - "NOT_APPLICABLE"
+    - "CANNOT_DETERMINE"
+  valid_overall_states:
+    - "COMPLIANT"
+    - "NON_COMPLIANT"
+    - "UNCERTAIN"
+
+# Feature Categorization
+features:
+
+  numeric_features:
+    - "title_length"
+    - "title_word_count"
+    - "desc_length"
+    - "desc_word_count"
+    - "spec_count"
+    - "spec_text_length"
+    - "numeric_token_count"
+    - "measurement_token_count"
+    - "currency_token_count"
+    - "contact_token_count"
+    - "origin_token_count"
+    - "retail_price"
+    - "discounted_price"
+    - "discount_amount"
+    - "discount_percentage"
+    - "image_count"
+
+  binary_structural_features:
+    - "has_description"
+    - "has_specifications"
+    - "has_brand"
+    - "has_image"
+    - "has_price"
+
+  categorical_features:
+    - "category"
+    - "price_tier"
+
+  text_features:
+    - "title_text"
+    - "description_text"
+    - "specifications_text"
+
+  # Excluded fields to prevent target and provenance leakage
+  excluded_fields:
+    - "product_id"
+    - "product_url"
+    - "pid"
+    - "duplicate_group_id"
+    - "product_family_id"
+    - "overall_label"
+    - "overall_confidence"
+    - "overall_reason"
+    - "D01_label"
+    - "D01_confidence"
+    - "D01_evidence"
+    - "D02_label"
+    - "D02_confidence"
+    - "D02_evidence"
+    - "D03_label"
+    - "D03_confidence"
+    - "D03_evidence"
+    - "D04_label"
+    - "D04_confidence"
+    - "D04_evidence"
+    - "D05_label"
+    - "D05_confidence"
+    - "D05_evidence"
+    - "D06_label"
+    - "D06_confidence"
+    - "D06_evidence"
+    - "D07_label"
+    - "D07_confidence"
+    - "D07_evidence"
+    - "label_type"
+    - "rule_engine_version"
+    - "evidence_version"
+    - "extraction_version"
+    - "quality_tier"
+    - "generation_timestamp"
+    - "provenance"
+
+# Feature Sets Definitions
+feature_sets:
+  FEATURE_SET_A:
+    description: "Independent tabular numeric and categorical structural features"
+    include_text_tfidf: false
+  FEATURE_SET_B:
+    description: "Independent tabular features + TF-IDF n-grams (Recommended for Phase 8)"
+    include_text_tfidf: true
+
+# Preprocessing Transformations
+preprocessing:
+  numeric_imputation: "median"
+  numeric_scaling: "StandardScaler"
+  add_missing_indicators: true
+  categorical_encoding: "OneHotEncoder"
+  categorical_handle_unknown: "ignore"
+  tfidf:
+    word_max_features: 300
+    word_ngram_range: [1, 2]
+    word_min_df: 3
+    char_max_features: 200
+    char_ngram_range: [3, 5]
+    char_min_df: 5

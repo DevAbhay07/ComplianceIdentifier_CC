@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_15",
+  "title": "Mother Sparsh 99% Pure Water Unscented Baby Wipes (72 Wipes)",
+  "category": "Baby Care",
+  "brand": "Mother Sparsh",
+  "observable_packaging_text": "Mother Sparsh 99% Pure Water Baby Wipes\nNet Quantity: 72 Wipes (15 cm x 20 cm)\nMfd by: Mother Sparsh Baby Care Pvt. Ltd., Plot 34, Sector 5, Panchkula 134109, Haryana\nMRP: Rs. 299.00 (incl of taxes)\nBatch No: MS991 | Mfg Date: 02/2026 | Exp Date: 01/2028\nCare: 1800-102-4521 / support@mothersparsh.com\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Mother Sparsh Baby Care, Panchkula 134109, Haryana",
+      "note": "Manufacturer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Baby Wipes",
+      "note": "Product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "72 Wipes (15 cm x 20 cm)",
+      "note": "Piece count and dimensions."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Mfg Date: 02/2026 | Exp Date: 01/2028",
+      "note": "Mfg and expiry dates."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 299.00",
+      "note": "MRP stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-102-4521, support@mothersparsh.com",
+      "note": "Care details."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin India."
+    }
+  }
+}

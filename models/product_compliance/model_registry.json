@@ -1,0 +1,55 @@
+{
+  "best_model_id": "RandomForest_SET_A",
+  "best_model_path": "/home/devabhay07/Desktop/MLmodelV2/models/product_compliance/best_product_compliance_model.joblib",
+  "feature_set": "SET_A",
+  "feature_names": [
+    "d01_present",
+    "d01_confidence",
+    "d02_present",
+    "d02_confidence",
+    "d03_present",
+    "d03_confidence",
+    "d04_present",
+    "d04_confidence",
+    "d05_present",
+    "d05_confidence",
+    "d06_present",
+    "d06_confidence",
+    "d07_present",
+    "d07_confidence",
+    "mandatory_declarations_present_count",
+    "all_mandatory_present"
+  ],
+  "feature_count": 16,
+  "experiment_id": "EXPERIMENT_F_UNIFIED_ALL",
+  "validation_metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "mcc": 1.0,
+    "compliant_precision": 1.0,
+    "compliant_recall": 1.0,
+    "compliant_f1": 1.0,
+    "non_compliant_precision": 1.0,
+    "non_compliant_recall": 1.0,
+    "non_compliant_f1": 1.0,
+    "non_compliant_false_negative_rate": 0.0,
+    "abstention_rate": 0.0031,
+    "coverage": 0.9969,
+    "confusion_matrix": [
+      [
+        19,
+        0
+      ],
+      [
+        0,
+        303
+      ]
+    ],
+    "support": {
+      "COMPLIANT": 19,
+      "NON_COMPLIANT": 303
+    }
+  },
+  "timestamp": "2026-09-05T23:25:59.125915+00:00"
+}

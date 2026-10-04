@@ -1,0 +1,22 @@
+{
+  "model_family": "LogisticRegression",
+  "declaration": "D06",
+  "feature_set": "FEATURE_SET_B",
+  "hyperparameters": {
+    "C": 10.0,
+    "class_weight": null,
+    "max_iter": 1000
+  },
+  "target_mapping": null,
+  "random_seed": 42,
+  "validation_metrics": {
+    "accuracy": 0.9634,
+    "macro_f1": 0.7948,
+    "weighted_f1": 0.9657,
+    "balanced_accuracy": 0.8373
+  },
+  "status": "CANDIDATE",
+  "training_dataset_version": "v1",
+  "feature_pipeline_version": "v1",
+  "training_timestamp": "2026-09-05T00:41:49.538644+00:00"
+}

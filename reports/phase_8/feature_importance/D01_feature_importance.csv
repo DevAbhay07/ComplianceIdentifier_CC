@@ -1,0 +1,51 @@
+feature,importance,rank
+has_brand,0.26904895290094616,1
+retail_price,0.07401180126083708,2
+discounted_price,0.06926359708840253,3
+discount_percentage,0.06466555401825125,4
+title_length,0.06269758850130941,5
+discount_amount,0.05769905442635637,6
+title_word_count,0.042330337818828806,7
+category_Kitchen & Dining,0.04145533683319592,8
+image_count,0.03754602493025741,9
+category_Beauty and Personal Care,0.0329423618149558,10
+numeric_token_count,0.030433225870357124,11
+category_Baby Care,0.01907591463920799,12
+category_Footwear,0.016696514000526737,13
+measurement_token_count,0.01545473021694081,14
+category_Clothing,0.014527108845015367,15
+price_tier_MID_RANGE,0.01257723113086661,16
+category_Home Furnishing,0.011623150176397368,17
+category_Pet Supplies,0.010245743690745624,18
+price_tier_PREMIUM,0.007669643824532754,19
+category_Sports & Fitness,0.007241863769331056,20
+category_Health & Personal Care Appliances,0.006661617213728386,21
+price_tier_LUXURY,0.006615568678282804,22
+category_Toys & School Supplies,0.006271300295765411,23
+category_Automotive,0.004768189184591044,24
+category_Home & Kitchen,0.004486621881786262,25
+category_Computers,0.0038266299970828193,26
+price_tier_BUDGET,0.0037955336228748526,27
+category_Cameras & Accessories,0.0036002248682578124,28
+category_Watches,0.0028054475050950404,29
+category_Mobiles & Accessories,0.002748251542546819,30
+category_Pens & Stationery,0.0027430202038300866,31
+"category_Bags, Wallets & Belts",0.0025546107731683693,32
+category_Tools & Hardware,0.0024500225977915195,33
+category_Indistar Self Design Viscose Women's Stole,0.00229091817547525,34
+category_Jewellery,0.0022371348616374654,35
+origin_token_count,0.00214927716714573,36
+category_Synergy SFJB0105 Grocery Bag (Blue),0.0021171977920653932,37
+category_SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...,0.001978261953706909,38
+"category_Kalpaveda Copper Bowl (Gold, Pack of 1)",0.0014463305308830552,39
+"category_Ocean GP/Pyramid Glass (300 ml, Clear, Pack of 12)",0.001376963668232799,40
+category_Siyas Collection Lac Cubic Zirconia Bangle Set (...,0.0012024069246583929,41
+category_Dressberry Gold Synthetic Clutch,0.0011173931738536185,42
+"category_Prime Printed 8 Seater Table Cover (Multicolor, ...",0.0011039629772497015,43
+category_Shonaya Printed Bhagalpuri Art Silk Sari,0.00109695140221242,44
+category_Koie Battery - For Samsung 7562 Premium Quality...,0.0010903192074965928,45
+"category_Speedwav 186136 Manual Rear View Mirror (Right, ...",0.0009815800942452743,46
+category_Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2),0.0009678809075873071,47
+category_Dressberry Black Synthetic Clutch,0.0009565337565642492,48
+category_Mast & Harbour Gold Synthetic Clutch,0.0009344272374791784,49
+category_Remax Rm-10000 Remax Vanguard 10000mah 10000 mAh...,0.0008635643558253461,50

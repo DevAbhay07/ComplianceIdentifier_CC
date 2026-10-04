@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_11",
+  "title": "Unbranded Generic Cotton Kitchen Towel Set (Pack of 4)",
+  "category": "Kitchen & Dining",
+  "brand": "",
+  "observable_packaging_text": "Kitchen Towel Set 100% Cotton\nPack of 4\nMRP Rs 199",
+  "declarations": {
+    "D01": {
+      "label": "ABSENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "No manufacturer name or physical address on packaging."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Kitchen Towel Set",
+      "note": "Generic description present."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Pack of 4",
+      "note": "Count declared."
+    },
+    "D04": {
+      "label": "CANNOT_DETERMINE",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "No date stamps on generic wrap."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs 199",
+      "note": "Retail price stated."
+    },
+    "D06": {
+      "label": "ABSENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "No customer care details present."
+    },
+    "D07": {
+      "label": "CANNOT_DETERMINE",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "No origin declared."
+    }
+  }
+}

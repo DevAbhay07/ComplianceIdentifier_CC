@@ -1,0 +1,1416 @@
+{
+  "Train": {
+    "D01": {
+      "accuracy": 0.9974,
+      "balanced_accuracy": 0.9985,
+      "macro_precision": 0.9933,
+      "macro_recall": 0.9985,
+      "macro_f1": 0.9959,
+      "weighted_precision": 0.9974,
+      "weighted_recall": 0.9974,
+      "weighted_f1": 0.9974,
+      "mcc": 0.9953,
+      "cohen_kappa": 0.9953,
+      "roc_auc_ovr": 1.0,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.9973,
+          "recall": 1.0,
+          "f1": 0.9987,
+          "support": 376
+        },
+        "PARTIAL": {
+          "precision": 1.0,
+          "recall": 0.9955,
+          "f1": 0.9978,
+          "support": 671
+        },
+        "PRESENT": {
+          "precision": 0.9825,
+          "recall": 1.0,
+          "f1": 0.9912,
+          "support": 112
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 376,
+          "True_PARTIAL": 1,
+          "True_PRESENT": 0
+        },
+        "Pred_PARTIAL": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 668,
+          "True_PRESENT": 0
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 2,
+          "True_PRESENT": 112
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PARTIAL",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.9036,
+      "mean_margin": 0.8237,
+      "mean_entropy": 0.2708,
+      "uncertainty_rate_pct": 1.12,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 1159
+    },
+    "D02": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1159
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 1159
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 1159
+    },
+    "D03": {
+      "accuracy": 0.9853,
+      "balanced_accuracy": 0.9912,
+      "macro_precision": 0.9593,
+      "macro_recall": 0.9912,
+      "macro_f1": 0.9744,
+      "weighted_precision": 0.9865,
+      "weighted_recall": 0.9853,
+      "weighted_f1": 0.9856,
+      "mcc": 0.95,
+      "cohen_kappa": 0.9488,
+      "roc_auc_ovr": 1.0,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.9187,
+          "recall": 1.0,
+          "f1": 0.9576,
+          "support": 192
+        },
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 0.9824,
+          "f1": 0.9911,
+          "support": 967
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 192,
+          "True_PRESENT": 17
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_PRESENT": 950
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.8215,
+      "mean_margin": 0.643,
+      "mean_entropy": 0.602,
+      "uncertainty_rate_pct": 5.52,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 1159
+    },
+    "D04": {
+      "accuracy": 0.9965,
+      "balanced_accuracy": 0.5,
+      "macro_precision": 0.4983,
+      "macro_recall": 0.5,
+      "macro_f1": 0.4991,
+      "weighted_precision": 0.9931,
+      "weighted_recall": 0.9965,
+      "weighted_f1": 0.9948,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 0.9965,
+          "recall": 1.0,
+          "f1": 0.9983,
+          "support": 1155
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 1155,
+          "True_PRESENT": 4
+        },
+        "Pred_PRESENT": {
+          "True_CANNOT_DETERMINE": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE",
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 1159
+    },
+    "D05": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1159
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 1159
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 1159
+    },
+    "D06": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": 1.0,
+      "cohen_kappa": 1.0,
+      "roc_auc_ovr": 1.0,
+      "per_class": {
+        "ABSENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1114
+        },
+        "PARTIAL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        },
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 43
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 1114,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 0
+        },
+        "Pred_PARTIAL": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 2,
+          "True_PRESENT": 0
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 43
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PARTIAL",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.9218,
+      "mean_margin": 0.8564,
+      "mean_entropy": 0.2484,
+      "uncertainty_rate_pct": 0.17,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "total_samples": 1159
+    },
+    "D07": {
+      "accuracy": 0.9957,
+      "balanced_accuracy": 0.5,
+      "macro_precision": 0.4978,
+      "macro_recall": 0.5,
+      "macro_f1": 0.4989,
+      "weighted_precision": 0.9914,
+      "weighted_recall": 0.9957,
+      "weighted_f1": 0.9935,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 0.9957,
+          "recall": 1.0,
+          "f1": 0.9978,
+          "support": 1154
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 1154,
+          "True_PRESENT": 5
+        },
+        "Pred_PRESENT": {
+          "True_CANNOT_DETERMINE": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE",
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 1159
+    }
+  },
+  "Validation": {
+    "D01": {
+      "accuracy": 0.935,
+      "balanced_accuracy": 0.8684,
+      "macro_precision": 0.8684,
+      "macro_recall": 0.8684,
+      "macro_f1": 0.8684,
+      "weighted_precision": 0.935,
+      "weighted_recall": 0.935,
+      "weighted_f1": 0.935,
+      "mcc": 0.8862,
+      "cohen_kappa": 0.8862,
+      "roc_auc_ovr": 0.9612,
+      "per_class": {
+        "ABSENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 92
+        },
+        "PARTIAL": {
+          "precision": 0.9385,
+          "recall": 0.9385,
+          "f1": 0.9385,
+          "support": 130
+        },
+        "PRESENT": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "support": 24
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 92,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 0
+        },
+        "Pred_PARTIAL": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 122,
+          "True_PRESENT": 8
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 8,
+          "True_PRESENT": 16
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PARTIAL",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.7996,
+      "mean_margin": 0.6428,
+      "mean_entropy": 0.4584,
+      "uncertainty_rate_pct": 14.63,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 246
+    },
+    "D02": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 246
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 246
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 246
+    },
+    "D03": {
+      "accuracy": 0.8943,
+      "balanced_accuracy": 0.7194,
+      "macro_precision": 0.8114,
+      "macro_recall": 0.7194,
+      "macro_f1": 0.7532,
+      "weighted_precision": 0.8843,
+      "weighted_recall": 0.8943,
+      "weighted_f1": 0.8852,
+      "mcc": 0.5228,
+      "cohen_kappa": 0.5092,
+      "roc_auc_ovr": 0.8296,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.7083,
+          "recall": 0.4722,
+          "f1": 0.5667,
+          "support": 36
+        },
+        "PRESENT": {
+          "precision": 0.9144,
+          "recall": 0.9667,
+          "f1": 0.9398,
+          "support": 210
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 17,
+          "True_PRESENT": 7
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 19,
+          "True_PRESENT": 203
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.7762,
+      "mean_margin": 0.5524,
+      "mean_entropy": 0.671,
+      "uncertainty_rate_pct": 15.45,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 246
+    },
+    "D04": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 246
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 246
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 246
+    },
+    "D05": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 246
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 246
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 246
+    },
+    "D06": {
+      "accuracy": 0.9878,
+      "balanced_accuracy": 0.85,
+      "macro_precision": 0.9937,
+      "macro_recall": 0.85,
+      "macro_f1": 0.9086,
+      "weighted_precision": 0.988,
+      "weighted_recall": 0.9878,
+      "weighted_f1": 0.9868,
+      "mcc": 0.8314,
+      "cohen_kappa": 0.8174,
+      "roc_auc_ovr": 0.8968,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.9874,
+          "recall": 1.0,
+          "f1": 0.9937,
+          "support": 236
+        },
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1": 0.8235,
+          "support": 10
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 236,
+          "True_PRESENT": 3
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_PRESENT": 7
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.9035,
+      "mean_margin": 0.8227,
+      "mean_entropy": 0.28,
+      "uncertainty_rate_pct": 1.22,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "total_samples": 246
+    },
+    "D07": {
+      "accuracy": 0.9959,
+      "balanced_accuracy": 0.5,
+      "macro_precision": 0.498,
+      "macro_recall": 0.5,
+      "macro_f1": 0.499,
+      "weighted_precision": 0.9919,
+      "weighted_recall": 0.9959,
+      "weighted_f1": 0.9939,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 0.9959,
+          "recall": 1.0,
+          "f1": 0.998,
+          "support": 245
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 245,
+          "True_PRESENT": 1
+        },
+        "Pred_PRESENT": {
+          "True_CANNOT_DETERMINE": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE",
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 246
+    }
+  },
+  "Test": {
+    "D01": {
+      "accuracy": 0.907,
+      "balanced_accuracy": 0.8215,
+      "macro_precision": 0.8303,
+      "macro_recall": 0.8215,
+      "macro_f1": 0.8256,
+      "weighted_precision": 0.9046,
+      "weighted_recall": 0.907,
+      "weighted_f1": 0.9057,
+      "mcc": 0.8415,
+      "cohen_kappa": 0.8414,
+      "roc_auc_ovr": 0.9511,
+      "per_class": {
+        "ABSENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 103
+        },
+        "PARTIAL": {
+          "precision": 0.8984,
+          "recall": 0.9127,
+          "f1": 0.9055,
+          "support": 126
+        },
+        "PRESENT": {
+          "precision": 0.5926,
+          "recall": 0.5517,
+          "f1": 0.5714,
+          "support": 29
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 103,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 0
+        },
+        "Pred_PARTIAL": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 115,
+          "True_PRESENT": 13
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 11,
+          "True_PRESENT": 16
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PARTIAL",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.7833,
+      "mean_margin": 0.6101,
+      "mean_entropy": 0.4848,
+      "uncertainty_rate_pct": 16.67,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 258
+    },
+    "D02": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 258
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 258
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 258
+    },
+    "D03": {
+      "accuracy": 0.7946,
+      "balanced_accuracy": 0.674,
+      "macro_precision": 0.6557,
+      "macro_recall": 0.674,
+      "macro_f1": 0.6636,
+      "weighted_precision": 0.8072,
+      "weighted_recall": 0.7946,
+      "weighted_f1": 0.8003,
+      "mcc": 0.3292,
+      "cohen_kappa": 0.3279,
+      "roc_auc_ovr": 0.8165,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.4231,
+          "recall": 0.4889,
+          "f1": 0.4536,
+          "support": 45
+        },
+        "PRESENT": {
+          "precision": 0.8883,
+          "recall": 0.8592,
+          "f1": 0.8735,
+          "support": 213
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 22,
+          "True_PRESENT": 30
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 23,
+          "True_PRESENT": 183
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.7645,
+      "mean_margin": 0.5289,
+      "mean_entropy": 0.6892,
+      "uncertainty_rate_pct": 18.22,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 258
+    },
+    "D04": {
+      "accuracy": 0.9961,
+      "balanced_accuracy": 0.5,
+      "macro_precision": 0.4981,
+      "macro_recall": 0.5,
+      "macro_f1": 0.499,
+      "weighted_precision": 0.9923,
+      "weighted_recall": 0.9961,
+      "weighted_f1": 0.9942,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 0.9961,
+          "recall": 1.0,
+          "f1": 0.9981,
+          "support": 257
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 257,
+          "True_PRESENT": 1
+        },
+        "Pred_PRESENT": {
+          "True_CANNOT_DETERMINE": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE",
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 258
+    },
+    "D05": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 258
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 258
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 258
+    },
+    "D06": {
+      "accuracy": 0.9884,
+      "balanced_accuracy": 0.8333,
+      "macro_precision": 0.994,
+      "macro_recall": 0.8333,
+      "macro_f1": 0.897,
+      "weighted_precision": 0.9885,
+      "weighted_recall": 0.9884,
+      "weighted_f1": 0.9872,
+      "mcc": 0.8116,
+      "cohen_kappa": 0.7943,
+      "roc_auc_ovr": 0.938,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.9881,
+          "recall": 1.0,
+          "f1": 0.994,
+          "support": 249
+        },
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 9
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 249,
+          "True_PRESENT": 3
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_PRESENT": 6
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.9107,
+      "mean_margin": 0.8357,
+      "mean_entropy": 0.268,
+      "uncertainty_rate_pct": 1.55,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "total_samples": 258
+    },
+    "D07": {
+      "accuracy": 0.9922,
+      "balanced_accuracy": 0.5,
+      "macro_precision": 0.4961,
+      "macro_recall": 0.5,
+      "macro_f1": 0.4981,
+      "weighted_precision": 0.9846,
+      "weighted_recall": 0.9922,
+      "weighted_f1": 0.9884,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 0.9922,
+          "recall": 1.0,
+          "f1": 0.9961,
+          "support": 256
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 256,
+          "True_PRESENT": 2
+        },
+        "Pred_PRESENT": {
+          "True_CANNOT_DETERMINE": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE",
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 258
+    }
+  },
+  "Human_Reference": {
+    "D01": {
+      "accuracy": 0.4,
+      "balanced_accuracy": 0.4728,
+      "macro_precision": 0.3274,
+      "macro_recall": 0.4728,
+      "macro_f1": 0.3013,
+      "weighted_precision": 0.4662,
+      "weighted_recall": 0.4,
+      "weighted_f1": 0.3987,
+      "mcc": 0.1205,
+      "cohen_kappa": 0.1,
+      "roc_auc_ovr": 0.5907,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.1212,
+          "recall": 0.8,
+          "f1": 0.2105,
+          "support": 5
+        },
+        "PARTIAL": {
+          "precision": 0.6944,
+          "recall": 0.5814,
+          "f1": 0.6329,
+          "support": 43
+        },
+        "PRESENT": {
+          "precision": 0.1667,
+          "recall": 0.037,
+          "f1": 0.0606,
+          "support": 27
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 4,
+          "True_PARTIAL": 14,
+          "True_PRESENT": 15
+        },
+        "Pred_PARTIAL": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 25,
+          "True_PRESENT": 11
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 1,
+          "True_PARTIAL": 4,
+          "True_PRESENT": 1
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PARTIAL",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.7741,
+      "mean_margin": 0.6016,
+      "mean_entropy": 0.4872,
+      "uncertainty_rate_pct": 13.33,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 75
+    },
+    "D02": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 75
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 75
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 75
+    },
+    "D03": {
+      "accuracy": 0.7733,
+      "balanced_accuracy": 0.3477,
+      "macro_precision": 0.375,
+      "macro_recall": 0.3477,
+      "macro_f1": 0.3317,
+      "weighted_precision": 0.6806,
+      "weighted_recall": 0.7733,
+      "weighted_f1": 0.7062,
+      "mcc": 0.0684,
+      "cohen_kappa": 0.0471,
+      "roc_auc_ovr": 0.7309,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.3333,
+          "recall": 0.0769,
+          "f1": 0.125,
+          "support": 13
+        },
+        "PARTIAL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "PRESENT": {
+          "precision": 0.7917,
+          "recall": 0.9661,
+          "f1": 0.8702,
+          "support": 59
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 1,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 2
+        },
+        "Pred_PARTIAL": {
+          "True_ABSENT": 0,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 0
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 12,
+          "True_PARTIAL": 3,
+          "True_PRESENT": 57
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "PARTIAL",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.823,
+      "mean_margin": 0.6461,
+      "mean_entropy": 0.5849,
+      "uncertainty_rate_pct": 8.0,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "total_samples": 75
+    },
+    "D04": {
+      "accuracy": 0.5733,
+      "balanced_accuracy": 0.5,
+      "macro_precision": 0.2867,
+      "macro_recall": 0.5,
+      "macro_f1": 0.3644,
+      "weighted_precision": 0.3287,
+      "weighted_recall": 0.5733,
+      "weighted_f1": 0.4179,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 0.5733,
+          "recall": 1.0,
+          "f1": 0.7288,
+          "support": 43
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 32
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 43,
+          "True_PRESENT": 32
+        },
+        "Pred_PRESENT": {
+          "True_CANNOT_DETERMINE": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE",
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 75
+    },
+    "D05": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": "NOT APPLICABLE (Single Class)",
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "PRESENT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 75
+        }
+      },
+      "confusion_matrix": {
+        "Pred_PRESENT": {
+          "True_PRESENT": 75
+        }
+      },
+      "labels": [
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 75
+    },
+    "D06": {
+      "accuracy": 0.8267,
+      "balanced_accuracy": 0.25,
+      "macro_precision": 0.2067,
+      "macro_recall": 0.25,
+      "macro_f1": 0.2263,
+      "weighted_precision": 0.6834,
+      "weighted_recall": 0.8267,
+      "weighted_f1": 0.7482,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": 0.5154,
+      "per_class": {
+        "ABSENT": {
+          "precision": 0.8267,
+          "recall": 1.0,
+          "f1": 0.9051,
+          "support": 62
+        },
+        "CANNOT_DETERMINE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2
+        },
+        "PARTIAL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 8
+        }
+      },
+      "confusion_matrix": {
+        "Pred_ABSENT": {
+          "True_ABSENT": 62,
+          "True_CANNOT_DETERMINE": 2,
+          "True_PARTIAL": 3,
+          "True_PRESENT": 8
+        },
+        "Pred_CANNOT_DETERMINE": {
+          "True_ABSENT": 0,
+          "True_CANNOT_DETERMINE": 0,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 0
+        },
+        "Pred_PARTIAL": {
+          "True_ABSENT": 0,
+          "True_CANNOT_DETERMINE": 0,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 0
+        },
+        "Pred_PRESENT": {
+          "True_ABSENT": 0,
+          "True_CANNOT_DETERMINE": 0,
+          "True_PARTIAL": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "ABSENT",
+        "CANNOT_DETERMINE",
+        "PARTIAL",
+        "PRESENT"
+      ],
+      "mean_confidence": 0.9292,
+      "mean_margin": 0.8758,
+      "mean_entropy": 0.2411,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "total_samples": 75
+    },
+    "D07": {
+      "accuracy": 0.5733,
+      "balanced_accuracy": 0.5,
+      "macro_precision": 0.2867,
+      "macro_recall": 0.5,
+      "macro_f1": 0.3644,
+      "weighted_precision": 0.3287,
+      "weighted_recall": 0.5733,
+      "weighted_f1": 0.4179,
+      "mcc": "NOT APPLICABLE (Single Class)",
+      "cohen_kappa": 0.0,
+      "roc_auc_ovr": "NOT APPLICABLE",
+      "per_class": {
+        "CANNOT_DETERMINE": {
+          "precision": 0.5733,
+          "recall": 1.0,
+          "f1": 0.7288,
+          "support": 43
+        },
+        "PRESENT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 32
+        }
+      },
+      "confusion_matrix": {
+        "Pred_CANNOT_DETERMINE": {
+          "True_CANNOT_DETERMINE": 43,
+          "True_PRESENT": 32
+        },
+        "Pred_PRESENT": {
+          "True_CANNOT_DETERMINE": 0,
+          "True_PRESENT": 0
+        }
+      },
+      "labels": [
+        "CANNOT_DETERMINE",
+        "PRESENT"
+      ],
+      "mean_confidence": 1.0,
+      "mean_margin": 1.0,
+      "mean_entropy": 0.0,
+      "uncertainty_rate_pct": 0.0,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "total_samples": 75
+    }
+  }
+}

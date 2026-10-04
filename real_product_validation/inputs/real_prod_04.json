@@ -1,0 +1,15 @@
+{
+  "product_id": "real_prod_04",
+  "title": "Happilo 100% Natural Premium California Almonds 500g",
+  "category": "Packaged Goods & Food",
+  "brand": "Happilo",
+  "retail_price": 499.0,
+  "discounted_price": 389.0,
+  "description": "Happilo Premium California Almonds raw, crunchy, rich in protein, magnesium and vitamin E.",
+  "specifications": {
+    "Type": "Almonds",
+    "Weight": "500 g",
+    "Container": "Pouch"
+  },
+  "image_path": "real_product_validation/images/real_prod_04.png"
+}

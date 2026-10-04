@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_01",
+  "title": "Himalaya Purifying Neem Face Wash 150ml",
+  "category": "Beauty & Personal Care",
+  "brand": "Himalaya",
+  "observable_packaging_text": "Himalaya SINCE 1930\nPurifying Neem Face Wash\nNet Vol.: 150 ml\nMfd by: The Himalaya Drug Company, Makali, Bengaluru 562162, Karnataka, India.\nBatch No: HN882 | Mfd Date: 11/2025 | Exp: 10/2027\nMRP Rs. 195.00 (Incl. of all taxes)\nFor consumer feedback: Call 1800-208-1930 or email care@himalayawellness.com\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "The Himalaya Drug Company, Makali, Bengaluru 562162",
+      "note": "Full manufacturer name and physical address present."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Purifying Neem Face Wash",
+      "note": "Generic name explicitly stated."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "150 ml",
+      "note": "Net volume in standard metric units."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Mfd Date: 11/2025 | Exp: 10/2027",
+      "note": "Clear manufacturing and expiry dates."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 195.00 (Incl. of all taxes)",
+      "note": "MRP and tax inclusivity statement present."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Call 1800-208-1930, care@himalayawellness.com",
+      "note": "Toll-free phone and customer email present."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Explicit origin declaration."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_20",
+  "title": "Aroma Magic Sunblock Lotion SPF 30 (100ml)",
+  "category": "Beauty & Personal Care",
+  "brand": "Aroma Magic",
+  "observable_packaging_text": "Blossom Kochhar Aroma Magic Sunblock Lotion SPF 30 PA++\nNet Vol: 100 ml\nMfd by: Blossom Kochhar Beauty Products Pvt. Ltd., Plot No. 90A, Khasra 132, Raipur Industrial Area, Bhagwanpur, Roorkee 247661, Uttarakhand\nMRP Rs. 220.00 (incl. of all taxes)\nManufacturing Date: 01/2026 | Expiry: 36 Months from Mfg\nCustomer Helpline: +91-11-41641313 | contactus@aromamagic.com\nMade in India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Blossom Kochhar, Raipur Industrial Area, Roorkee 247661",
+      "note": "Full manufacturer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Sunblock Lotion",
+      "note": "Generic name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "100 ml",
+      "note": "Metric volume."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Manufacturing Date: 01/2026",
+      "note": "Date of manufacture."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 220.00",
+      "note": "Retail price."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "+91-11-41641313, contactus@aromamagic.com",
+      "note": "Helpline and email."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in India",
+      "note": "Origin India."
+    }
+  }
+}

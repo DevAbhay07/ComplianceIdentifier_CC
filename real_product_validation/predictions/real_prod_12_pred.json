@@ -1,0 +1,198 @@
+{
+  "project": "NitiMark-ML",
+  "phase": "phase_9_5",
+  "status": "SUCCESS",
+  "product_id": "real_prod_12",
+  "title": "Crafted Wooden Coaster Set of 6",
+  "category": "Household & Cleaning",
+  "brand": "ArtisanWood",
+  "vision_ocr": {
+    "status": "SUCCESS",
+    "provider": "packaging_evidence_ocr",
+    "model": "deterministic-v1",
+    "latency_sec": 0.0101,
+    "extracted_text_preview": "ArtisanWood Handcrafted Coasters\nSet of 6 Pieces\nMkt by: ArtisanWood Crafts\nMRP Rs. 299.00\nMade in India..."
+  },
+  "extracted_evidence": {
+    "D01": {
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "evidence_detected": false,
+      "evidence_text": "No manufacturer name/address markers detected",
+      "source": "OCR_AND_METADATA"
+    },
+    "D02": {
+      "declaration_name": "Generic or Common Name of Commodity",
+      "evidence_detected": true,
+      "evidence_text": "Crafted Wooden Coaster Set of 6",
+      "source": "METADATA_TITLE"
+    },
+    "D03": {
+      "declaration_name": "Net Quantity in Standard Units",
+      "evidence_detected": false,
+      "evidence_text": "No net quantity units found",
+      "source": "COMBINED_TEXT"
+    },
+    "D04": {
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "evidence_detected": false,
+      "evidence_text": "No date markers detected",
+      "source": "COMBINED_TEXT"
+    },
+    "D05": {
+      "declaration_name": "Maximum Retail Price (MRP) & Tax Inclusivity",
+      "evidence_detected": true,
+      "evidence_text": "MRP Rs. 299.00",
+      "source": "COMBINED_TEXT"
+    },
+    "D06": {
+      "declaration_name": "Consumer Care Details (Phone / Email / Address)",
+      "evidence_detected": false,
+      "evidence_text": "No customer care contacts detected",
+      "source": "COMBINED_TEXT"
+    },
+    "D07": {
+      "declaration_name": "Country of Origin",
+      "evidence_detected": true,
+      "evidence_text": "India",
+      "source": "COMBINED_TEXT"
+    }
+  },
+  "declarations": {
+    "D01": {
+      "declaration_id": "D01",
+      "declaration_name": "Name & Address of Manufacturer / Packer / Importer",
+      "prediction": "PARTIAL",
+      "confidence": 0.74,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.08,
+        "PARTIAL": 0.74,
+        "PRESENT": 0.18
+      },
+      "margin": 0.56,
+      "entropy": 0.6677,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D02": {
+      "declaration_id": "D02",
+      "declaration_name": "Generic or Common Name of Commodity",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D03": {
+      "declaration_id": "D03",
+      "declaration_name": "Net Quantity in Standard Units",
+      "prediction": "PRESENT",
+      "confidence": 0.8551,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.1449,
+        "PRESENT": 0.8551
+      },
+      "margin": 0.7102,
+      "entropy": 0.5969,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_A",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D04": {
+      "declaration_id": "D04",
+      "declaration_name": "Date of Manufacture / Packing / Expiry",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D05": {
+      "declaration_id": "D05",
+      "declaration_name": "Maximum Retail Price (MRP)",
+      "prediction": "PRESENT",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "PRESENT": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    },
+    "D06": {
+      "declaration_id": "D06",
+      "declaration_name": "Consumer Care Contact Details",
+      "prediction": "ABSENT",
+      "confidence": 0.9372,
+      "decision": "PREDICT",
+      "probabilities": {
+        "ABSENT": 0.9372,
+        "PARTIAL": 0.0,
+        "PRESENT": 0.0628
+      },
+      "margin": 0.8744,
+      "entropy": 0.2135,
+      "uncertainty_reason": null,
+      "model_family": "RandomForest",
+      "model_type": "RandomForestClassifier",
+      "feature_set": "FEATURE_SET_B",
+      "is_baseline": false,
+      "model_version": "phase_8_v1"
+    },
+    "D07": {
+      "declaration_id": "D07",
+      "declaration_name": "Country of Origin",
+      "prediction": "CANNOT_DETERMINE",
+      "confidence": 1.0,
+      "decision": "PREDICT",
+      "probabilities": {
+        "CANNOT_DETERMINE": 1.0
+      },
+      "margin": 1.0,
+      "entropy": 0.0,
+      "uncertainty_reason": null,
+      "model_family": "MajorityBaseline",
+      "model_type": "MAJORITY_BASELINE",
+      "feature_set": "NONE",
+      "is_baseline": true,
+      "model_version": "phase_8_v1"
+    }
+  },
+  "latencies_sec": {
+    "total_pipeline": 0.1337,
+    "ocr": 0.0101
+  },
+  "disclaimer": "NOTICE: Statistical ML predictions based on extracted packaging evidence. Do NOT constitute statutory legal certification."
+}

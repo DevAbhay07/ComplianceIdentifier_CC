@@ -1,0 +1,8 @@
+declaration,name,PRESENT,ABSENT,PARTIAL,NOT_APPLICABLE,CANNOT_DETERMINE
+D01,Manufacturer/Packer/Importer Name & Address,63,5,7,0,0
+D02,Common/Generic Name of Commodity,75,0,0,0,0
+D03,Net Quantity,66,7,2,0,0
+D04,Month/Year of Manufacture,68,0,0,0,7
+D05,MRP,75,0,0,0,0
+D06,Consumer Care Details,44,29,0,0,2
+D07,Country of Origin,68,0,0,0,7

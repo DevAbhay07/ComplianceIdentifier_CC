@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_12",
+  "title": "Crafted Wooden Coaster Set of 6",
+  "category": "Household & Cleaning",
+  "brand": "ArtisanWood",
+  "observable_packaging_text": "ArtisanWood Handcrafted Coasters\nSet of 6 Pieces\nMkt by: ArtisanWood Crafts\nMRP Rs. 299.00\nMade in India",
+  "declarations": {
+    "D01": {
+      "label": "PARTIAL",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "ArtisanWood Crafts",
+      "note": "Brand/marketer name only; no physical street address or PIN code."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Handcrafted Coasters",
+      "note": "Product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Set of 6 Pieces",
+      "note": "Unit count."
+    },
+    "D04": {
+      "label": "CANNOT_DETERMINE",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "Date not stated."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP Rs. 299.00",
+      "note": "Price stated."
+    },
+    "D06": {
+      "label": "ABSENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "",
+      "note": "No customer contact details."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Made in India",
+      "note": "Origin India."
+    }
+  }
+}

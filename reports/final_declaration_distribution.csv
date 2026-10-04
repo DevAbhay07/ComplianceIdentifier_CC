@@ -1,0 +1,8 @@
+declaration_id,declaration_name,PRESENT_count,PRESENT_pct,ABSENT_count,ABSENT_pct,PARTIAL_count,PARTIAL_pct,CANNOT_DETERMINE_count,CANNOT_DETERMINE_pct,NOT_APPLICABLE_count,NOT_APPLICABLE_pct
+D01,Manufacturer/Packer/Importer Name & Address,27,36.0,5,6.67,43,57.33,0,0.0,0,0.0
+D02,Common/Generic Name of Commodity,75,100.0,0,0.0,0,0.0,0,0.0,0,0.0
+D03,Net Quantity,59,78.67,13,17.33,3,4.0,0,0.0,0,0.0
+D04,Month/Year of Manufacture/Packing,32,42.67,0,0.0,0,0.0,43,57.33,0,0.0
+D05,MRP (Retail Price),75,100.0,0,0.0,0,0.0,0,0.0,0,0.0
+D06,Consumer Care Details,8,10.67,62,82.67,3,4.0,2,2.67,0,0.0
+D07,Country of Origin,32,42.67,0,0.0,0,0.0,43,57.33,0,0.0

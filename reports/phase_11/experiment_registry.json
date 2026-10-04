@@ -1,0 +1,324 @@
+{
+  "phase": "Phase 11",
+  "timestamp": "2026-09-05 16:10:05",
+  "best_model": {
+    "experiment_id": "RandomForest_SET_C",
+    "feature_set": "SET_C",
+    "validation_macro_f1": 0.9354,
+    "model_path": "models/phase_11/best_product_compliance_model.joblib"
+  },
+  "experiments": [
+    {
+      "experiment_id": "LogisticRegression_SET_A",
+      "model_name": "LogisticRegression",
+      "feature_set": "SET_A",
+      "feature_dimensions": 202,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 0.046,
+      "model_artifact_path": "models/phase_11/LogisticRegression_SET_A.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.5734,
+        "weighted_f1": 0.8868,
+        "accuracy": 0.8415,
+        "balanced_accuracy": 0.7574,
+        "mcc": 0.2568,
+        "non_compliant_precision": 0.9853,
+        "non_compliant_recall": 0.8481,
+        "non_compliant_f1": 0.9116
+      },
+      "test_metrics": {
+        "macro_f1": 0.5455,
+        "accuracy": 0.876,
+        "non_compliant_recall": 0.8884
+      }
+    },
+    {
+      "experiment_id": "RandomForest_SET_A",
+      "model_name": "RandomForest",
+      "feature_set": "SET_A",
+      "feature_dimensions": 202,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 0.3414,
+      "model_artifact_path": "models/phase_11/RandomForest_SET_A.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.7145,
+        "weighted_f1": 0.9554,
+        "accuracy": 0.9512,
+        "balanced_accuracy": 0.7609,
+        "mcc": 0.4379,
+        "non_compliant_precision": 0.9828,
+        "non_compliant_recall": 0.9662,
+        "non_compliant_f1": 0.9745
+      },
+      "test_metrics": {
+        "macro_f1": 0.6329,
+        "accuracy": 0.9612,
+        "non_compliant_recall": 0.9801
+      }
+    },
+    {
+      "experiment_id": "XGBoost_SET_A",
+      "model_name": "XGBoost",
+      "feature_set": "SET_A",
+      "feature_dimensions": 202,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 1.3869,
+      "model_artifact_path": "models/phase_11/XGBoost_SET_A.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.7416,
+        "weighted_f1": 0.9655,
+        "accuracy": 0.9675,
+        "balanced_accuracy": 0.7159,
+        "mcc": 0.4875,
+        "non_compliant_precision": 0.9791,
+        "non_compliant_recall": 0.9873,
+        "non_compliant_f1": 0.9832
+      },
+      "test_metrics": {
+        "macro_f1": 0.6449,
+        "accuracy": 0.9651,
+        "non_compliant_recall": 0.9841
+      }
+    },
+    {
+      "experiment_id": "LogisticRegression_SET_B",
+      "model_name": "LogisticRegression",
+      "feature_set": "SET_B",
+      "feature_dimensions": 702,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 1.5205,
+      "model_artifact_path": "models/phase_11/LogisticRegression_SET_B.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.8404,
+        "weighted_f1": 0.9745,
+        "accuracy": 0.9715,
+        "balanced_accuracy": 0.9318,
+        "mcc": 0.6998,
+        "non_compliant_precision": 0.9957,
+        "non_compliant_recall": 0.9747,
+        "non_compliant_f1": 0.9851
+      },
+      "test_metrics": {
+        "macro_f1": 0.7541,
+        "accuracy": 0.9651,
+        "non_compliant_recall": 0.9721
+      }
+    },
+    {
+      "experiment_id": "RandomForest_SET_B",
+      "model_name": "RandomForest",
+      "feature_set": "SET_B",
+      "feature_dimensions": 702,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 0.5121,
+      "model_artifact_path": "models/phase_11/RandomForest_SET_B.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.9086,
+        "weighted_f1": 0.9875,
+        "accuracy": 0.9878,
+        "balanced_accuracy": 0.8868,
+        "mcc": 0.8188,
+        "non_compliant_precision": 0.9916,
+        "non_compliant_recall": 0.9958,
+        "non_compliant_f1": 0.9937
+      },
+      "test_metrics": {
+        "macro_f1": 0.796,
+        "accuracy": 0.9845,
+        "non_compliant_recall": 1.0
+      }
+    },
+    {
+      "experiment_id": "XGBoost_SET_B",
+      "model_name": "XGBoost",
+      "feature_set": "SET_B",
+      "feature_dimensions": 702,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 12.2198,
+      "model_artifact_path": "models/phase_11/XGBoost_SET_B.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.8477,
+        "weighted_f1": 0.9791,
+        "accuracy": 0.9797,
+        "balanced_accuracy": 0.8291,
+        "mcc": 0.6967,
+        "non_compliant_precision": 0.9874,
+        "non_compliant_recall": 0.9916,
+        "non_compliant_f1": 0.9895
+      },
+      "test_metrics": {
+        "macro_f1": 0.8294,
+        "accuracy": 0.9845,
+        "non_compliant_recall": 0.996
+      }
+    },
+    {
+      "experiment_id": "LogisticRegression_SET_C",
+      "model_name": "LogisticRegression",
+      "feature_set": "SET_C",
+      "feature_dimensions": 712,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 42.6226,
+      "model_artifact_path": "models/phase_11/LogisticRegression_SET_C.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.8404,
+        "weighted_f1": 0.9745,
+        "accuracy": 0.9715,
+        "balanced_accuracy": 0.9318,
+        "mcc": 0.6998,
+        "non_compliant_precision": 0.9957,
+        "non_compliant_recall": 0.9747,
+        "non_compliant_f1": 0.9851
+      },
+      "test_metrics": {
+        "macro_f1": 0.7766,
+        "accuracy": 0.9651,
+        "non_compliant_recall": 0.9681
+      }
+    },
+    {
+      "experiment_id": "RandomForest_SET_C",
+      "model_name": "RandomForest",
+      "feature_set": "SET_C",
+      "feature_dimensions": 712,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 0.5887,
+      "model_artifact_path": "models/phase_11/RandomForest_SET_C.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.9354,
+        "weighted_f1": 0.9914,
+        "accuracy": 0.9919,
+        "balanced_accuracy": 0.8889,
+        "mcc": 0.8782,
+        "non_compliant_precision": 0.9916,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9958
+      },
+      "test_metrics": {
+        "macro_f1": 0.796,
+        "accuracy": 0.9845,
+        "non_compliant_recall": 1.0
+      }
+    },
+    {
+      "experiment_id": "XGBoost_SET_C",
+      "model_name": "XGBoost",
+      "feature_set": "SET_C",
+      "feature_dimensions": 712,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 6.1149,
+      "model_artifact_path": "models/phase_11/XGBoost_SET_C.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.8477,
+        "weighted_f1": 0.9791,
+        "accuracy": 0.9797,
+        "balanced_accuracy": 0.8291,
+        "mcc": 0.6967,
+        "non_compliant_precision": 0.9874,
+        "non_compliant_recall": 0.9916,
+        "non_compliant_f1": 0.9895
+      },
+      "test_metrics": {
+        "macro_f1": 0.8294,
+        "accuracy": 0.9845,
+        "non_compliant_recall": 0.996
+      }
+    },
+    {
+      "experiment_id": "LogisticRegression_SET_D",
+      "model_name": "LogisticRegression",
+      "feature_set": "SET_D",
+      "feature_dimensions": 741,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 41.373,
+      "model_artifact_path": "models/phase_11/LogisticRegression_SET_D.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.8248,
+        "weighted_f1": 0.9713,
+        "accuracy": 0.9675,
+        "balanced_accuracy": 0.9297,
+        "mcc": 0.6742,
+        "non_compliant_precision": 0.9957,
+        "non_compliant_recall": 0.9705,
+        "non_compliant_f1": 0.9829
+      },
+      "test_metrics": {
+        "macro_f1": 0.7766,
+        "accuracy": 0.9651,
+        "non_compliant_recall": 0.9681
+      }
+    },
+    {
+      "experiment_id": "RandomForest_SET_D",
+      "model_name": "RandomForest",
+      "feature_set": "SET_D",
+      "feature_dimensions": 741,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 0.6232,
+      "model_artifact_path": "models/phase_11/RandomForest_SET_D.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.9354,
+        "weighted_f1": 0.9914,
+        "accuracy": 0.9919,
+        "balanced_accuracy": 0.8889,
+        "mcc": 0.8782,
+        "non_compliant_precision": 0.9916,
+        "non_compliant_recall": 1.0,
+        "non_compliant_f1": 0.9958
+      },
+      "test_metrics": {
+        "macro_f1": 0.796,
+        "accuracy": 0.9845,
+        "non_compliant_recall": 1.0
+      }
+    },
+    {
+      "experiment_id": "XGBoost_SET_D",
+      "model_name": "XGBoost",
+      "feature_set": "SET_D",
+      "feature_dimensions": 741,
+      "train_samples": 1159,
+      "val_samples": 246,
+      "test_samples": 258,
+      "train_time_sec": 6.752,
+      "model_artifact_path": "models/phase_11/XGBoost_SET_D.joblib",
+      "validation_metrics": {
+        "macro_f1": 0.8477,
+        "weighted_f1": 0.9791,
+        "accuracy": 0.9797,
+        "balanced_accuracy": 0.8291,
+        "mcc": 0.6967,
+        "non_compliant_precision": 0.9874,
+        "non_compliant_recall": 0.9916,
+        "non_compliant_f1": 0.9895
+      },
+      "test_metrics": {
+        "macro_f1": 0.8294,
+        "accuracy": 0.9845,
+        "non_compliant_recall": 0.996
+      }
+    }
+  ]
+}

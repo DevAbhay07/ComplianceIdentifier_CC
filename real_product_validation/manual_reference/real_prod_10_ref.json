@@ -1,0 +1,51 @@
+{
+  "product_id": "real_prod_10",
+  "title": "Lizol Disinfectant Surface Cleaner Citrus 2 Litres",
+  "category": "Household & Cleaning",
+  "brand": "Lizol",
+  "observable_packaging_text": "Lizol Surface Cleaner Citrus\nNet Volume: 2 L (2000 ml)\nMfd by: Reckitt Benckiser (India) Pvt. Ltd., DLF Cyber Park, Sector 20, Gurugram 122016, Haryana\nMRP: Rs. 415.00 (inclusive of taxes)\nManufacturing Date: 12/2025\nCustomer Support: 1800-102-7245 | consumercare_in@reckitt.com\nCountry of Origin: India",
+  "declarations": {
+    "D01": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Reckitt Benckiser, Gurugram 122016, Haryana",
+      "note": "Manufacturer name/address."
+    },
+    "D02": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Surface Cleaner",
+      "note": "Generic product name."
+    },
+    "D03": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "2 L (2000 ml)",
+      "note": "Volume in liters and ml."
+    },
+    "D04": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Manufacturing Date: 12/2025",
+      "note": "Manufacturing date."
+    },
+    "D05": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "MRP: Rs. 415.00",
+      "note": "Price stated."
+    },
+    "D06": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "1800-102-7245, consumercare_in@reckitt.com",
+      "note": "Customer care."
+    },
+    "D07": {
+      "label": "PRESENT",
+      "source": "PACKAGING_LABEL",
+      "evidence_text": "Country of Origin: India",
+      "note": "Origin India."
+    }
+  }
+}
